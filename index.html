@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Japanese</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="picnic.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+
+    <div class="modal datasets">
+      <input id="datasets" type="checkbox" checked />
+      <label for="datasets" class="overlay"></label>
+      <article>
+        <header>
+          <h2>Datasets</h2>
+          <label for="datasets" class="close">&times;</label>
+        </header>
+        <section class="content"></section>
+        <footer>
+          <label for="create" class="button">Create dataset</label>
+          <label for="datasets" class="button dangerous">Close</label>
+        </footer>
+      </article>
+    </div>
+
+    <div class="modal create">
+      <input id="create" type="checkbox" />
+      <label for="create" class="overlay"></label>
+      <article>
+        <header>
+          <h2>Create dataset [not yet, WIP]</h2>
+          <label for="create" class="close">&times;</label>
+        </header>
+        <section class="content">
+          <div class="flex one two-600">
+            <label>
+              Title:
+              <input name="title" placeholder="Japanese Kanji N5">
+            </label>
+            <label>
+              Author url:
+              <input type="url" name="author" placeholder="https://authorname.com/">
+            </label>
+            <label class="full">
+              Google Sheets url:
+              <input type="url" name="sheet" placeholder="https://authorname.com/">
+            </label>
+            <label class="full">
+              <input type="checkbox" name="tos"><span class="checkable"></span>
+              I agree with the <a href="/tos" target="_blank">Terms of Service</a>
+            </label>
+          </div>
+        </section>
+        <footer>
+          <input type="submit" class="button" value="Add dataset">
+          <a class="pseudo button" href="">Instructions</a>
+          <label for="create" class="button dangerous">Cancel</label>
+        </footer>
+      </article>
+    </div>
+
+
+    <nav>
+      <div class="brand">
+        ⚓ Anchor
+      </div>
+
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button">datasets</label>
+      <div class="menu">
+        <label for="datasets" class="button">Vocabulary N5 ▼</label>
+      </div>
+    </nav>
+
+    <div class="hero"><div class="slide"></div></div>
+
+    <div class="list">
+      <div onclick="this.parentNode.classList.toggle('active')" class="context">
+        <div class="show">Show dataset</div>
+        <div class="hide">Hide dataset</div>
+        <div class="keyboard">▲ ▼ ◄ ► [esc]</div>
+      </div>
+      <table></table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/umbrella/2.6.7/umbrella.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+    <script src="touch.js"></script>
+    <script src="store.js"></script>
+    <script src="memory.js"></script>
+    <script src="flash.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/umbrella/2.6.7/umbrella.min.js"></script> -->
+    <script>
+
+      var card = new FlashCard('.hero', { out: 300, confirm: 'Clear all data?' });
+
+      // card.open = () => display();
+      card.open = () => display();
+      card.down = card.flip;
+      card.up = () => card.close().then(memory.skip).then(card.open);
+      card.left = () => card.close().then(memory.mistake).then(card.open);
+      card.right = () => card.close().then(memory.correct).then(card.open);
+      card.reset = () => {
+        store.clear();
+        setTimeout(() => {
+          window.location.href = window.location;
+        }, 100);
+      }
+
+      function hiragana(word){
+        if (word.hiragana) return word.hiragana;
+        var onyomi = word.onyomi.split(/\s+/).filter(n => n).slice(0, 2);
+        var kunyomi = word.kunyomi.split(/\s+/).filter(n => n).slice(0, 2);
+        return onyomi.concat(kunyomi).join(' 、 ');
+      }
+
+      function process(word){
+        return {
+          id: word.id,
+          titletopleft: 'Number of the card being displayed',
+          topleft: '#' + word.id.split(':')[1],
+          titletopright: 'Current score for this word, ~' +
+            Math.floor(100 - 100 * word.chance) + '%',
+          topright: '★'.repeat(5 - Math.floor(5 * word.chance)) || '☹',
+          bottomright: word.tries.slice(-5).map(tried => `<span title="${
+            tried.type
+          } answer ${moment(tried.time).fromNow()}" class="circle ${tried.type}"></span>`).join(''),
+          titlebottomleft: 'Time from the last try at this card',
+          bottomleft: word.tries.slice(-1).map(tried => moment ?
+            moment(tried.time).fromNow() : '').join(''),
+          top: word.kanji ? hiragana(word) : '',
+          middle: word.kanji || word.hiragana,
+          bottom: word.english
+        };
+      }
+
+      var sortA = (a, b) => parseInt(a.topleft.replace(/\#/, '')) -
+        parseInt(b.topleft.replace(/\#/, ''));
+      var sortB = (a, b) => b.bottomright.length - a.bottomright.length;
+
+      var display = (initial) => memory.pick().then(word => {
+        word = initial && initial.id ? initial : word;
+        memory.word = word;
+        card.load(process(word));
+
+        memory.retrieve().then(data => {
+          var table = document.querySelector('table');
+          table.innerHTML = `
+            <tr>
+              <th>Word</th>
+              <th>Meaning</th>
+              <th>Help</th>
+              <th class="col-recent">Recent</th>
+              <th class="actions">Actions</th>
+            </tr>
+            ${data.map(word => process(word)).sort(sortA).sort(sortB).map(w => `
+              <tr class="${w.id === word.id ? 'important' : ''}">
+                <td data-name="Word">${w.middle}</td>
+                <td data-name="Meaning">${w.bottom}</td>
+                <td data-name="Help">${w.top}</td>
+                <td data-name="Recent" class="recent">${w.bottomright}</td>
+                <td data-name="Actions" class="actions">
+                  <a href="#" title="Reset data" data-id="${w.id}" class="pseudo button reload">↻</a>
+                  ${w.id === word.id ? '' : `
+                    <a href="#" title="Show slide" data-id="${w.id}" class="pseudo button play">►</a>
+                  `}
+                </td>
+              </tr>
+            `).join('')}
+          `;
+
+          u('.button.reload').on('click', e => {
+            var id = e.target.getAttribute('data-id');
+            memory.retrieve().then(data => {
+              var word = data.find(w => w.id === id);
+              word.tries = [];
+              memory.store(word).then(() => display(word));
+            })
+          });
+
+          u('.button.play').on('click', e => {
+            var id = e.target.getAttribute('data-id');
+            memory.retrieve().then(data => {
+              var word = data.find(w => w.id === id);
+              display(word);
+            })
+          });
+        });
+      });
+
+      memory.load('sets/vocab5.json').then(display);
+      u('title').html('⚓ Vocabulary N5');
+
+      var datasets = [{
+        title: 'Vocabulary N5',
+        url: 'sets/vocab5.json',
+        author: 'http://www.tanos.co.uk/',
+        active: true
+      }, {
+        title: 'Kanji N5',
+        url: 'sets/kanji5.json',
+        author: 'http://www.tanos.co.uk/',
+        active: false
+      }];
+
+      u('.modal.datasets .content').html('').append((set, i) => `
+        <div class="card ${set.active ? 'active' : ''}">
+          <header>
+            <h3>${set.title}</h3>
+          </header>
+          <footer>
+            <a class="button set" href="${set.url}">Study</a>
+            <a class="pseudo button showlist" href="${set.url}" target="_blank">Show list</a>
+            <a class="pseudo button showlist" href="${set.url}" target="_blank">Download progress [WIP]</a>
+
+            <a class="pseudo button author" href="${set.author}" target="_blank">Author</a>
+            <div style="clear: both"></div>
+          </footer>
+        </div>
+      `, datasets);
+
+      u('.set').on('click', e => {
+        e.preventDefault();
+        var card = u(e.currentTarget).closest('.card');
+        var title = card.find('h3').text();
+
+        u('title').html('⚓ ' + title);
+        u('nav .menu .button').html(title + ' ▼');
+        u('.modal.datasets .card').removeClass('active');
+        card.addClass('active');
+
+        memory.load(u(e.currentTarget).attr('href')).then(display);
+
+        // Hide modal
+        u('#datasets').first().checked = false;
+      });
+    </script>
+  </body>
+</html>

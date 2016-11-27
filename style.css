@@ -1,0 +1,366 @@
+body {
+  position: relative;
+  background: #333;
+  background-image: url('fuji.jpg'), linear-gradient(
+    178deg,
+    #D0E2EC 0%,
+    #D0E2EC 10%,
+    #D5C9C0 30%,
+
+    #C9ABA9 50%,
+    #9193AA 60%,
+    #2D5384 80%,
+    #1E4272 85%,
+    #001032 100%
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.hero {
+  padding: 70px 10px;
+  position: relative;
+  overflow-x: hidden;
+
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal .card {
+  border: none;
+  background: #eee;
+  transition: all .3s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+}
+
+.modal .pseudo.button {
+  background: rgba(0, 0, 0, .1);
+}
+
+.modal .overlay ~ * {
+  z-index: 100000;
+}
+
+.modal .author {
+  float: right;
+}
+
+.modal .active {
+  background: #0074d9;
+  color: #fff;
+  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, .2);
+}
+
+.modal .active .set {
+  display: none;
+}
+
+.modal .active .pseudo.button {
+  color: #fff;
+}
+
+.modal .content .card:last-child {
+  margin-bottom: 0;
+}
+
+
+.list {
+  position: relative;
+  display: block;
+  width: calc(100% - 60px);
+  max-height: 60px;
+  overflow: hidden;
+  max-width: 900px;
+  overflow-x: auto;
+  margin: -60px auto 0;
+  background: #fff;
+  padding: 0;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 .2em rgba(17,17,17,0.2);
+  transition: all .6s ease .3s;
+}
+
+.list .context {
+  height: 60px;
+  padding: 0 30px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.list .context:hover {
+  background: #bef;
+}
+.list .context .keyboard {
+  float: right;
+}
+.list .context .show,
+.list .context .hide {
+  float: left;
+}
+.list .context .hide {
+  display: none;
+}
+.list.active .context .show {
+  display: none;
+}
+.list.active .context .hide {
+  display: inherit;
+}
+
+.list table {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  color: #333;
+}
+
+.list.active {
+  max-height: 100000px;
+  margin-top: calc(-100vh + 120px);
+  margin-bottom: 50vh;
+  border-radius: 8px;
+}
+
+.list td,
+.list th {
+  padding-right: 0
+}
+
+tr.important {
+  border: 5px solid #0074d9;
+}
+
+th.actions,
+td.actions {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .list.active table {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  .list {
+    border-radius: 0;
+    width: 100%;
+  }
+  .list.active {
+    margin-top: calc(-100vh + 60px);
+  }
+
+  .list.active tr:first-child {
+    display: none;
+  }
+  .list.active tr {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #aaa;
+    background: #fff;
+    border-radius: 8px;
+  }
+  .list.active tr.important {
+    border: 5px solid #0074d9;
+  }
+  .list .pseudo.button {
+    margin: 0;
+    padding: 0 15px;
+  }
+  .list.active td {
+    display: block;
+    width: 50%;
+    min-width: 200px;
+  }
+  .list.active td::before {
+    content: attr(data-name) ": ";
+    font-weight: bold;
+  }
+  .list.active .recent,
+  .list.active th {
+    display: none;
+  }
+
+  .list.active .actions {
+    text-align: left;
+  }
+}
+
+
+
+.slide {
+  width: auto;
+  margin: 0;
+  min-width: 300px;
+  min-height: 300px;
+  height: calc(100vh - 145px);
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
+  box-shadow: .1em .1em .2em rgba(17,17,17,0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #fff;
+  padding: 50px 30px;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 8px;
+  opacity: 1;
+  transition: all .3s ease;
+}
+
+.slide.clickable {
+  cursor: pointer;
+}
+
+.slide.in {
+  opacity: 0;
+}
+
+.slide.out {
+  opacity: 0;
+  color: #fff;
+  transition: transform .6s ease, opacity .6s ease, background-color 0s, color 0s;
+  transform: translateY(-200px) scale(.6);
+}
+
+
+.slide.left {
+  background: #f33;
+  transform: translateX(-200px) rotateZ(-8deg) scale(.6);
+}
+
+.slide.right {
+  background: #3c3;
+  transform: translateX(200px) rotateZ(8deg) scale(.6);
+}
+
+.slide.up {
+  background: #333;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #ccc;
+  margin: 0 5px;
+}
+
+.circle.good {
+  background: #3c3;
+}
+
+.circle.bad {
+  background: #f33;
+}
+
+
+.instructions {
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+
+
+@media all and (min-width: 600px) {
+  .hero {
+    padding: 90px 30px 0;
+  }
+
+  .slide {
+    height: calc(100vh - 180px);
+    padding: 2em 3em;
+    min-width: 360px;
+    min-height: 360px;
+  }
+}
+
+
+
+@media all and (min-width: 900px) {
+
+  .modal .content {
+    min-width: 700px;
+  }
+
+  .slide {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+    white-space: nowrap;
+  }
+
+  .slide.out {
+    transform: translate(-50%, calc(-50% - 400px)) scale(.6);
+  }
+
+  .slide.right {
+    transform: translate(calc(-50% + 400px), -50%) rotateZ(8deg) scale(.6);
+  }
+
+  .slide.left {
+    transform: translate(calc(-50% - 400px), -50%) rotateZ(-8deg) scale(.6);
+  }
+}
+
+
+.corner {
+  position: absolute;
+  font-size: .75em;
+  margin: 10px 15px;
+  opacity: 0.4;
+  transition: all .3s ease;
+}
+
+.corner:hover {
+  opacity: 1;
+}
+
+.corner.top {
+  top: 0px;
+}
+.corner.bottom {
+  bottom: 0px;
+}
+.corner.left {
+  left: 0px;
+}
+.corner.right {
+  right: 0px;
+}
+
+
+.content.middle {
+  font-size: 3em;
+}
+
+.content.top,
+.content.bottom {
+  opacity: 0;
+}
+
+.flipped .content.top,
+.flipped .content.bottom {
+  opacity: 1;
+}
+
+
+
+
+.button.active {
+  background: #0074d9;
+  color: #fff;
+}
