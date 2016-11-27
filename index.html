@@ -75,7 +75,8 @@
       <input id="bmenub" type="checkbox" class="show">
       <label for="bmenub" class="burger pseudo button">datasets</label>
       <div class="menu">
-        <label for="datasets" class="button">Datasets ▼</label>
+        <a href="/about" class="pseudo button">About</a>
+        <label for="datasets" class="button change">Datasets ▼</label>
       </div>
     </nav>
 
@@ -211,7 +212,7 @@
 
         var card = u(`.modal .card[data-id="${set.sheet}"]`);
         u('title').html('⚓ ' + set.title);
-        u('nav .menu .button').html(set.title + ' ▼');
+        u('nav .menu .change').html(set.title + ' ▼');
         u('.modal.datasets .card').removeClass('active');
         card.addClass('active');
 
