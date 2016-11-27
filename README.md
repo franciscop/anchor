@@ -13,6 +13,8 @@ Learn with spaced repetition. Algorithm improved constantly. Use a simple Google
 | hola       | hello         |             |
 | adiós      | bye           |             |
 
+The first word will be the one shown by default and the second one the one displayed below (and the one to guess). The third one is the pronuntiation or an extra note you wanna write.
+
 3. **Important**: publish it. File > Publish to the web... > **Publish**
 
 4. Copy the url and paste it in the "Sheet url"
