@@ -36,10 +36,46 @@ var memory = {
   }),
 
   load: (url, name) => new Promise((resolve, reject) => {
-      memory.name = name || (url.split('/').pop() || '').replace(/\.json$/, '');
-      fetch(url).then(res => res.json()).then(data => memory.dataset(data, name)).then(resolve);
+    memory.name = name || (url.split('/').pop() || '').replace(/\.json$/, '');
+    fetch(url).then(res => res.json()).then(data => memory.dataset(data, name)).then(resolve);
+  }),
+
+  // From here: https://developers.google.com/gdata/samples/spreadsheet_sample
+  // and here: https://github.com/franciscop/drive-db
+  sheet: set => new Promise((resolve, reject) => {
+
+    if (!set || !set.sheet) return reject();
+
+    var parse = raw => raw.feed.entry.map(row => {
+
+      var entry = {};
+
+      // Loop through all of the fields (only some are valid)
+      for (var field in row) {
+
+        // Match only those field names that are valid
+        if (field.match(/gsx\$[0-9a-zA-Z]+/)) {
+
+          // Get the field real name
+          var name = field.match(/gsx\$([0-9a-zA-Z]+)/)[1];
+
+          // Store it and its value
+          entry[name] = row[field].$t;
+        }
+      }
+
+      return entry;
+    });
+
+    window.onloadsheet = function (data) {
+      memory.name = set.title;
+      memory.dataset(parse(data)).then(resolve);
     }
-  ),
+
+    var script = document.createElement('script');
+    script.src = "https://spreadsheets.google.com/feeds/list/" + set.sheet + "/od6/public/values?alt=json-in-script&callback=onloadsheet";
+    document.body.appendChild(script);
+  }),
 
   init: (name, data) => new Promise((resolve, reject) => {
     memory.name = name;

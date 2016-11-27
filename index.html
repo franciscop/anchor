@@ -132,9 +132,9 @@
           titlebottomleft: 'Time from the last try at this card',
           bottomleft: word.tries.slice(-1).map(tried => moment ?
             moment(tried.time).fromNow() : '').join(''),
-          top: word.kanji ? hiragana(word) : '',
-          middle: word.kanji || word.hiragana,
-          bottom: word.english
+          top: word.extra || '',
+          middle: word.word,
+          bottom: word.meaning
         };
       }
 
@@ -192,20 +192,21 @@
         });
       });
 
-      memory.load('sets/vocab5.json').then(display);
-      u('title').html('⚓ Vocabulary N5');
-
       var datasets = [{
-        title: 'Vocabulary N5',
-        url: 'sets/vocab5.json',
+        title: 'Japanese Vocabulary N5',
+        sheet: '1z7cU-Sp6RG2HtnCy_GmANrxSGKvBUxk2Z0seLE29lew',
         author: 'http://www.tanos.co.uk/',
         active: true
-      }, {
-        title: 'Kanji N5',
-        url: 'sets/kanji5.json',
+      },{
+        title: 'Japanese Kanji N5',
+        sheet: '1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk',
         author: 'http://www.tanos.co.uk/',
         active: false
       }];
+
+      memory.sheet(datasets[0]).then(display);
+      u('title').html('⚓ ' + datasets[0].title);
+
 
       u('.modal.datasets .content').html('').append((set, i) => `
         <div class="card ${set.active ? 'active' : ''}">
@@ -213,9 +214,9 @@
             <h3>${set.title}</h3>
           </header>
           <footer>
-            <a class="button set" href="${set.url}">Study</a>
-            <a class="pseudo button showlist" href="${set.url}" target="_blank">Show list</a>
-            <a class="pseudo button showlist" href="${set.url}" target="_blank">Download progress [WIP]</a>
+            <a class="button set" data-sheet="${set.sheet}" href="#">Study</a>
+            <a class="pseudo button showlist" href="https://docs.google.com/spreadsheets/d/${set.sheet}" target="_blank">Show list</a>
+            <!-- <a class="pseudo button showlist" href="https://docs.google.com/spreadsheets/d/${set.sheet}" target="_blank">Download progress</a> -->
 
             <a class="pseudo button author" href="${set.author}" target="_blank">Author</a>
             <div style="clear: both"></div>
@@ -233,7 +234,10 @@
         u('.modal.datasets .card').removeClass('active');
         card.addClass('active');
 
-        memory.load(u(e.currentTarget).attr('href')).then(display);
+        var sheet = u(e.currentTarget).attr('data-sheet');
+        var set = datasets.find(data => data.sheet === sheet);
+        memory.sheet(set).then(display);
+        // memory.load(u(e.currentTarget).attr('href')).then(display);
 
         // Hide modal
         u('#datasets').first().checked = false;

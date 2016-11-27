@@ -1,3347 +1,3347 @@
 [
   {
-    "kanji": "会う",
-    "hiragana": "あう",
-    "english": "to meet"
+    "word": "会う",
+    "extra": "あう",
+    "meaning": "to meet"
   },
   {
-    "kanji": "青",
-    "hiragana": "あお",
-    "english": "blue"
+    "word": "青",
+    "extra": "あお",
+    "meaning": "blue"
   },
   {
-    "kanji": "青い",
-    "hiragana": "あおい",
-    "english": "blue"
+    "word": "青い",
+    "extra": "あおい",
+    "meaning": "blue"
   },
   {
-    "kanji": "赤",
-    "hiragana": "あか",
-    "english": "red"
+    "word": "赤",
+    "extra": "あか",
+    "meaning": "red"
   },
   {
-    "kanji": "赤い",
-    "hiragana": "あかい",
-    "english": "red"
+    "word": "赤い",
+    "extra": "あかい",
+    "meaning": "red"
   },
   {
-    "kanji": "明い",
-    "hiragana": "あかるい",
-    "english": "bright"
+    "word": "明い",
+    "extra": "あかるい",
+    "meaning": "bright"
   },
   {
-    "kanji": "秋",
-    "hiragana": "あき",
-    "english": "autumn"
+    "word": "秋",
+    "extra": "あき",
+    "meaning": "autumn"
   },
   {
-    "kanji": "開く",
-    "hiragana": "あく",
-    "english": "to open, to become open"
+    "word": "開く",
+    "extra": "あく",
+    "meaning": "to open, to become open"
   },
   {
-    "kanji": "開ける",
-    "hiragana": "あける",
-    "english": "to open"
+    "word": "開ける",
+    "extra": "あける",
+    "meaning": "to open"
   },
   {
-    "kanji": "上げる",
-    "hiragana": "あげる",
-    "english": "to give"
+    "word": "上げる",
+    "extra": "あげる",
+    "meaning": "to give"
   },
   {
-    "kanji": "朝",
-    "hiragana": "あさ",
-    "english": "morning"
+    "word": "朝",
+    "extra": "あさ",
+    "meaning": "morning"
   },
   {
-    "kanji": "朝御飯",
-    "hiragana": "あさごはん",
-    "english": "breakfast"
+    "word": "朝御飯",
+    "extra": "あさごはん",
+    "meaning": "breakfast"
   },
   {
-    "kanji": "",
-    "hiragana": "あさって",
-    "english": "day after tomorrow"
+    "word": "",
+    "extra": "あさって",
+    "meaning": "day after tomorrow"
   },
   {
-    "kanji": "足",
-    "hiragana": "あし",
-    "english": "foot, leg"
+    "word": "足",
+    "extra": "あし",
+    "meaning": "foot, leg"
   },
   {
-    "kanji": "明日",
-    "hiragana": "あした",
-    "english": "tomorrow"
+    "word": "明日",
+    "extra": "あした",
+    "meaning": "tomorrow"
   },
   {
-    "kanji": "",
-    "hiragana": "あそこ",
-    "english": "over there"
+    "word": "",
+    "extra": "あそこ",
+    "meaning": "over there"
   },
   {
-    "kanji": "遊ぶ",
-    "hiragana": "あそぶ",
-    "english": "to play, to make a visit"
+    "word": "遊ぶ",
+    "extra": "あそぶ",
+    "meaning": "to play, to make a visit"
   },
   {
-    "kanji": "暖かい",
-    "hiragana": "あたたかい",
-    "english": "warm"
+    "word": "暖かい",
+    "extra": "あたたかい",
+    "meaning": "warm"
   },
   {
-    "kanji": "頭",
-    "hiragana": "あたま",
-    "english": "head"
+    "word": "頭",
+    "extra": "あたま",
+    "meaning": "head"
   },
   {
-    "kanji": "新しい",
-    "hiragana": "あたらしい",
-    "english": "new"
+    "word": "新しい",
+    "extra": "あたらしい",
+    "meaning": "new"
   },
   {
-    "kanji": "",
-    "hiragana": "あちら",
-    "english": "there"
+    "word": "",
+    "extra": "あちら",
+    "meaning": "there"
   },
   {
-    "kanji": "暑い",
-    "hiragana": "あつい",
-    "english": "hot"
+    "word": "暑い",
+    "extra": "あつい",
+    "meaning": "hot"
   },
   {
-    "kanji": "熱い",
-    "hiragana": "あつい",
-    "english": "hot to the touch"
+    "word": "熱い",
+    "extra": "あつい",
+    "meaning": "hot to the touch"
   },
   {
-    "kanji": "厚い",
-    "hiragana": "あつい",
-    "english": "kind, deep, thick"
+    "word": "厚い",
+    "extra": "あつい",
+    "meaning": "kind, deep, thick"
   },
   {
-    "kanji": "",
-    "hiragana": "あっち",
-    "english": "over there"
+    "word": "",
+    "extra": "あっち",
+    "meaning": "over there"
   },
   {
-    "kanji": "後",
-    "hiragana": "あと",
-    "english": "afterwards"
+    "word": "後",
+    "extra": "あと",
+    "meaning": "afterwards"
   },
   {
-    "kanji": "",
-    "hiragana": "あなた",
-    "english": "you"
+    "word": "",
+    "extra": "あなた",
+    "meaning": "you"
   },
   {
-    "kanji": "兄",
-    "hiragana": "あに",
-    "english": "(humble) older brother"
+    "word": "兄",
+    "extra": "あに",
+    "meaning": "(humble) older brother"
   },
   {
-    "kanji": "姉",
-    "hiragana": "あね",
-    "english": "(humble) older sister"
+    "word": "姉",
+    "extra": "あね",
+    "meaning": "(humble) older sister"
   },
   {
-    "kanji": "",
-    "hiragana": "あの",
-    "english": "that over there"
+    "word": "",
+    "extra": "あの",
+    "meaning": "that over there"
   },
   {
-    "kanji": "",
-    "hiragana": "あの",
-    "english": "um..."
+    "word": "",
+    "extra": "あの",
+    "meaning": "um..."
   },
   {
-    "kanji": "",
-    "hiragana": "アパート",
-    "english": "apartment"
+    "word": "",
+    "extra": "アパート",
+    "meaning": "apartment"
   },
   {
-    "kanji": "",
-    "hiragana": "あびる",
-    "english": "to bathe, to shower"
+    "word": "",
+    "extra": "あびる",
+    "meaning": "to bathe, to shower"
   },
   {
-    "kanji": "危ない",
-    "hiragana": "あぶない",
-    "english": "dangerous"
+    "word": "危ない",
+    "extra": "あぶない",
+    "meaning": "dangerous"
   },
   {
-    "kanji": "甘い",
-    "hiragana": "あまい",
-    "english": "sweet"
+    "word": "甘い",
+    "extra": "あまい",
+    "meaning": "sweet"
   },
   {
-    "kanji": "",
-    "hiragana": "あまり",
-    "english": "not very"
+    "word": "",
+    "extra": "あまり",
+    "meaning": "not very"
   },
   {
-    "kanji": "雨",
-    "hiragana": "あめ",
-    "english": "rain"
+    "word": "雨",
+    "extra": "あめ",
+    "meaning": "rain"
   },
   {
-    "kanji": "飴",
-    "hiragana": "あめ",
-    "english": "candy"
+    "word": "飴",
+    "extra": "あめ",
+    "meaning": "candy"
   },
   {
-    "kanji": "洗う",
-    "hiragana": "あらう",
-    "english": "to wash"
+    "word": "洗う",
+    "extra": "あらう",
+    "meaning": "to wash"
   },
   {
-    "kanji": "",
-    "hiragana": "ある",
-    "english": "to be, to have; inanim."
+    "word": "",
+    "extra": "ある",
+    "meaning": "to be, to have; inanim."
   },
   {
-    "kanji": "歩く",
-    "hiragana": "あるく",
-    "english": "to walk"
+    "word": "歩く",
+    "extra": "あるく",
+    "meaning": "to walk"
   },
   {
-    "kanji": "",
-    "hiragana": "あれ",
-    "english": "that"
+    "word": "",
+    "extra": "あれ",
+    "meaning": "that"
   },
   {
-    "kanji": "",
-    "hiragana": "いい/よい",
-    "english": "good"
+    "word": "",
+    "extra": "いい/よい",
+    "meaning": "good"
   },
   {
-    "kanji": "",
-    "hiragana": "いいえ",
-    "english": "no"
+    "word": "",
+    "extra": "いいえ",
+    "meaning": "no"
   },
   {
-    "kanji": "言う",
-    "hiragana": "いう",
-    "english": "to say"
+    "word": "言う",
+    "extra": "いう",
+    "meaning": "to say"
   },
   {
-    "kanji": "家",
-    "hiragana": "いえ",
-    "english": "house"
+    "word": "家",
+    "extra": "いえ",
+    "meaning": "house"
   },
   {
-    "kanji": "",
-    "hiragana": "いかが",
-    "english": "how"
+    "word": "",
+    "extra": "いかが",
+    "meaning": "how"
   },
   {
-    "kanji": "行く",
-    "hiragana": "いく",
-    "english": "to go"
+    "word": "行く",
+    "extra": "いく",
+    "meaning": "to go"
   },
   {
-    "kanji": "",
-    "hiragana": "いくつ",
-    "english": "how many?, how old?"
+    "word": "",
+    "extra": "いくつ",
+    "meaning": "how many?, how old?"
   },
   {
-    "kanji": "",
-    "hiragana": "いくら",
-    "english": "how much?"
+    "word": "",
+    "extra": "いくら",
+    "meaning": "how much?"
   },
   {
-    "kanji": "池",
-    "hiragana": "いけ",
-    "english": "pond"
+    "word": "池",
+    "extra": "いけ",
+    "meaning": "pond"
   },
   {
-    "kanji": "医者",
-    "hiragana": "いしゃ",
-    "english": "medical doctor"
+    "word": "医者",
+    "extra": "いしゃ",
+    "meaning": "medical doctor"
   },
   {
-    "kanji": "",
-    "hiragana": "いす",
-    "english": "chair"
+    "word": "",
+    "extra": "いす",
+    "meaning": "chair"
   },
   {
-    "kanji": "忙しい",
-    "hiragana": "いそがしい",
-    "english": "busy, irritated"
+    "word": "忙しい",
+    "extra": "いそがしい",
+    "meaning": "busy, irritated"
   },
   {
-    "kanji": "痛い",
-    "hiragana": "いたい",
-    "english": "painful"
+    "word": "痛い",
+    "extra": "いたい",
+    "meaning": "painful"
   },
   {
-    "kanji": "一",
-    "hiragana": "いち",
-    "english": "one"
+    "word": "一",
+    "extra": "いち",
+    "meaning": "one"
   },
   {
-    "kanji": "一日",
-    "hiragana": "いちにち",
-    "english": "one day, 1st day"
+    "word": "一日",
+    "extra": "いちにち",
+    "meaning": "one day, 1st day"
   },
   {
-    "kanji": "",
-    "hiragana": "いちばん",
-    "english": "best, first"
+    "word": "",
+    "extra": "いちばん",
+    "meaning": "best, first"
   },
   {
-    "kanji": "",
-    "hiragana": "いつ",
-    "english": "when"
+    "word": "",
+    "extra": "いつ",
+    "meaning": "when"
   },
   {
-    "kanji": "五日",
-    "hiragana": "いつか",
-    "english": "five days, 5th day"
+    "word": "五日",
+    "extra": "いつか",
+    "meaning": "five days, 5th day"
   },
   {
-    "kanji": "一緒",
-    "hiragana": "いっしょ",
-    "english": "together"
+    "word": "一緒",
+    "extra": "いっしょ",
+    "meaning": "together"
   },
   {
-    "kanji": "五つ",
-    "hiragana": "いつつ",
-    "english": "five"
+    "word": "五つ",
+    "extra": "いつつ",
+    "meaning": "five"
   },
   {
-    "kanji": "",
-    "hiragana": "いつも",
-    "english": "always"
+    "word": "",
+    "extra": "いつも",
+    "meaning": "always"
   },
   {
-    "kanji": "犬",
-    "hiragana": "いぬ",
-    "english": "dog"
+    "word": "犬",
+    "extra": "いぬ",
+    "meaning": "dog"
   },
   {
-    "kanji": "今",
-    "hiragana": "いま",
-    "english": "now"
+    "word": "今",
+    "extra": "いま",
+    "meaning": "now"
   },
   {
-    "kanji": "意味",
-    "hiragana": "いみ",
-    "english": "meaning"
+    "word": "意味",
+    "extra": "いみ",
+    "meaning": "meaning"
   },
   {
-    "kanji": "妹",
-    "hiragana": "いもうと",
-    "english": "(humble) younger sister"
+    "word": "妹",
+    "extra": "いもうと",
+    "meaning": "(humble) younger sister"
   },
   {
-    "kanji": "嫌",
-    "hiragana": "いや",
-    "english": "unpleasant"
+    "word": "嫌",
+    "extra": "いや",
+    "meaning": "unpleasant"
   },
   {
-    "kanji": "入口",
-    "hiragana": "いりぐち",
-    "english": "entrance"
+    "word": "入口",
+    "extra": "いりぐち",
+    "meaning": "entrance"
   },
   {
-    "kanji": "居る",
-    "hiragana": "いる",
-    "english": "to be, to have; animated"
+    "word": "居る",
+    "extra": "いる",
+    "meaning": "to be, to have; animated"
   },
   {
-    "kanji": "要る",
-    "hiragana": "いる",
-    "english": "to need"
+    "word": "要る",
+    "extra": "いる",
+    "meaning": "to need"
   },
   {
-    "kanji": "入れる",
-    "hiragana": "いれる",
-    "english": "to put in"
+    "word": "入れる",
+    "extra": "いれる",
+    "meaning": "to put in"
   },
   {
-    "kanji": "色",
-    "hiragana": "いろ",
-    "english": "colour"
+    "word": "色",
+    "extra": "いろ",
+    "meaning": "colour"
   },
   {
-    "kanji": "",
-    "hiragana": "いろいろ",
-    "english": "various"
+    "word": "",
+    "extra": "いろいろ",
+    "meaning": "various"
   },
   {
-    "kanji": "上",
-    "hiragana": "うえ",
-    "english": "on top of"
+    "word": "上",
+    "extra": "うえ",
+    "meaning": "on top of"
   },
   {
-    "kanji": "後ろ",
-    "hiragana": "うしろ",
-    "english": "behind"
+    "word": "後ろ",
+    "extra": "うしろ",
+    "meaning": "behind"
   },
   {
-    "kanji": "薄い",
-    "hiragana": "うすい",
-    "english": "thin, weak"
+    "word": "薄い",
+    "extra": "うすい",
+    "meaning": "thin, weak"
   },
   {
-    "kanji": "歌",
-    "hiragana": "うた",
-    "english": "song"
+    "word": "歌",
+    "extra": "うた",
+    "meaning": "song"
   },
   {
-    "kanji": "歌う",
-    "hiragana": "うたう",
-    "english": "to sing"
+    "word": "歌う",
+    "extra": "うたう",
+    "meaning": "to sing"
   },
   {
-    "kanji": "生まれる",
-    "hiragana": "うまれる",
-    "english": "to be born"
+    "word": "生まれる",
+    "extra": "うまれる",
+    "meaning": "to be born"
   },
   {
-    "kanji": "海",
-    "hiragana": "うみ",
-    "english": "sea"
+    "word": "海",
+    "extra": "うみ",
+    "meaning": "sea"
   },
   {
-    "kanji": "売る",
-    "hiragana": "うる",
-    "english": "to sell"
+    "word": "売る",
+    "extra": "うる",
+    "meaning": "to sell"
   },
   {
-    "kanji": "煩い",
-    "hiragana": "うるさい",
-    "english": "noisy, annoying"
+    "word": "煩い",
+    "extra": "うるさい",
+    "meaning": "noisy, annoying"
   },
   {
-    "kanji": "上着",
-    "hiragana": "うわぎ",
-    "english": "jacket"
+    "word": "上着",
+    "extra": "うわぎ",
+    "meaning": "jacket"
   },
   {
-    "kanji": "絵",
-    "hiragana": "え",
-    "english": "picture"
+    "word": "絵",
+    "extra": "え",
+    "meaning": "picture"
   },
   {
-    "kanji": "映画",
-    "hiragana": "えいが",
-    "english": "movie"
+    "word": "映画",
+    "extra": "えいが",
+    "meaning": "movie"
   },
   {
-    "kanji": "映画館",
-    "hiragana": "えいがかん",
-    "english": "cinema"
+    "word": "映画館",
+    "extra": "えいがかん",
+    "meaning": "cinema"
   },
   {
-    "kanji": "英語",
-    "hiragana": "えいご",
-    "english": "English language"
+    "word": "英語",
+    "extra": "えいご",
+    "meaning": "English language"
   },
   {
-    "kanji": "",
-    "hiragana": "ええ",
-    "english": "yes"
+    "word": "",
+    "extra": "ええ",
+    "meaning": "yes"
   },
   {
-    "kanji": "駅",
-    "hiragana": "えき",
-    "english": "station"
+    "word": "駅",
+    "extra": "えき",
+    "meaning": "station"
   },
   {
-    "kanji": "",
-    "hiragana": "エレベーター",
-    "english": "elevator"
+    "word": "",
+    "extra": "エレベーター",
+    "meaning": "elevator"
   },
   {
-    "kanji": "鉛筆",
-    "hiragana": "えんぴつ",
-    "english": "pencil"
+    "word": "鉛筆",
+    "extra": "えんぴつ",
+    "meaning": "pencil"
   },
   {
-    "kanji": "",
-    "hiragana": "おいしい",
-    "english": "delicious"
+    "word": "",
+    "extra": "おいしい",
+    "meaning": "delicious"
   },
   {
-    "kanji": "多い",
-    "hiragana": "おおい",
-    "english": "many"
+    "word": "多い",
+    "extra": "おおい",
+    "meaning": "many"
   },
   {
-    "kanji": "大きい",
-    "hiragana": "おおきい",
-    "english": "big"
+    "word": "大きい",
+    "extra": "おおきい",
+    "meaning": "big"
   },
   {
-    "kanji": "大きな",
-    "hiragana": "おおきな",
-    "english": "big"
+    "word": "大きな",
+    "extra": "おおきな",
+    "meaning": "big"
   },
   {
-    "kanji": "大勢",
-    "hiragana": "おおぜい",
-    "english": "great number of people"
+    "word": "大勢",
+    "extra": "おおぜい",
+    "meaning": "great number of people"
   },
   {
-    "kanji": "お母さん",
-    "hiragana": "おかあさん",
-    "english": "mother"
+    "word": "お母さん",
+    "extra": "おかあさん",
+    "meaning": "mother"
   },
   {
-    "kanji": "お菓子",
-    "hiragana": "おかし",
-    "english": "sweets, candy"
+    "word": "お菓子",
+    "extra": "おかし",
+    "meaning": "sweets, candy"
   },
   {
-    "kanji": "お金",
-    "hiragana": "おかね",
-    "english": "money"
+    "word": "お金",
+    "extra": "おかね",
+    "meaning": "money"
   },
   {
-    "kanji": "起きる",
-    "hiragana": "おきる",
-    "english": "to get up"
+    "word": "起きる",
+    "extra": "おきる",
+    "meaning": "to get up"
   },
   {
-    "kanji": "置く",
-    "hiragana": "おく",
-    "english": "to put"
+    "word": "置く",
+    "extra": "おく",
+    "meaning": "to put"
   },
   {
-    "kanji": "奥さん",
-    "hiragana": "おくさん",
-    "english": "wife"
+    "word": "奥さん",
+    "extra": "おくさん",
+    "meaning": "wife"
   },
   {
-    "kanji": "お酒",
-    "hiragana": "おさけ",
-    "english": "alcohol, rice wine"
+    "word": "お酒",
+    "extra": "おさけ",
+    "meaning": "alcohol, rice wine"
   },
   {
-    "kanji": "お皿",
-    "hiragana": "おさら",
-    "english": "plate, dish"
+    "word": "お皿",
+    "extra": "おさら",
+    "meaning": "plate, dish"
   },
   {
-    "kanji": "伯父/叔父",
-    "hiragana": "おじいさん",
-    "english": "grandfather, senior man"
+    "word": "伯父/叔父",
+    "extra": "おじいさん",
+    "meaning": "grandfather, senior man"
   },
   {
-    "kanji": "教える",
-    "hiragana": "おしえる",
-    "english": "to teach, to tell"
+    "word": "教える",
+    "extra": "おしえる",
+    "meaning": "to teach, to tell"
   },
   {
-    "kanji": "伯父/叔父",
-    "hiragana": "おじさん",
-    "english": "uncle, middle aged man"
+    "word": "伯父/叔父",
+    "extra": "おじさん",
+    "meaning": "uncle, middle aged man"
   },
   {
-    "kanji": "押す",
-    "hiragana": "おす",
-    "english": "to push, to stamp"
+    "word": "押す",
+    "extra": "おす",
+    "meaning": "to push, to stamp"
   },
   {
-    "kanji": "遅い",
-    "hiragana": "おそい",
-    "english": "late, slow"
+    "word": "遅い",
+    "extra": "おそい",
+    "meaning": "late, slow"
   },
   {
-    "kanji": "お茶",
-    "hiragana": "おちゃ",
-    "english": "green tea"
+    "word": "お茶",
+    "extra": "おちゃ",
+    "meaning": "green tea"
   },
   {
-    "kanji": "お手洗い",
-    "hiragana": "おてあらい",
-    "english": "bathroom"
+    "word": "お手洗い",
+    "extra": "おてあらい",
+    "meaning": "bathroom"
   },
   {
-    "kanji": "お父さん",
-    "hiragana": "おとうさん",
-    "english": "father"
+    "word": "お父さん",
+    "extra": "おとうさん",
+    "meaning": "father"
   },
   {
-    "kanji": "弟",
-    "hiragana": "おとうと",
-    "english": "younger brother"
+    "word": "弟",
+    "extra": "おとうと",
+    "meaning": "younger brother"
   },
   {
-    "kanji": "男",
-    "hiragana": "おとこ",
-    "english": "man"
+    "word": "男",
+    "extra": "おとこ",
+    "meaning": "man"
   },
   {
-    "kanji": "男の子",
-    "hiragana": "おとこのこ",
-    "english": "boy"
+    "word": "男の子",
+    "extra": "おとこのこ",
+    "meaning": "boy"
   },
   {
-    "kanji": "一昨日",
-    "hiragana": "おととい",
-    "english": "day before yesterday"
+    "word": "一昨日",
+    "extra": "おととい",
+    "meaning": "day before yesterday"
   },
   {
-    "kanji": "一昨年",
-    "hiragana": "おととし",
-    "english": "year before last"
+    "word": "一昨年",
+    "extra": "おととし",
+    "meaning": "year before last"
   },
   {
-    "kanji": "大人",
-    "hiragana": "おとな",
-    "english": "adult"
+    "word": "大人",
+    "extra": "おとな",
+    "meaning": "adult"
   },
   {
-    "kanji": "",
-    "hiragana": "おなか",
-    "english": "stomach"
+    "word": "",
+    "extra": "おなか",
+    "meaning": "stomach"
   },
   {
-    "kanji": "同じ",
-    "hiragana": "おなじ",
-    "english": "same"
+    "word": "同じ",
+    "extra": "おなじ",
+    "meaning": "same"
   },
   {
-    "kanji": "お兄さん",
-    "hiragana": "おにいさん",
-    "english": "older brother"
+    "word": "お兄さん",
+    "extra": "おにいさん",
+    "meaning": "older brother"
   },
   {
-    "kanji": "お姉さん",
-    "hiragana": "おねえさん",
-    "english": "older sister"
+    "word": "お姉さん",
+    "extra": "おねえさん",
+    "meaning": "older sister"
   },
   {
-    "kanji": "",
-    "hiragana": "おばあさん",
-    "english": "grandmother, senior"
+    "word": "",
+    "extra": "おばあさん",
+    "meaning": "grandmother, senior"
   },
   {
-    "kanji": "伯母さん/叔母さん",
-    "hiragana": "おばさん",
-    "english": "aunt"
+    "word": "伯母さん/叔母さん",
+    "extra": "おばさん",
+    "meaning": "aunt"
   },
   {
-    "kanji": "お風呂",
-    "hiragana": "おふろ",
-    "english": "bath"
+    "word": "お風呂",
+    "extra": "おふろ",
+    "meaning": "bath"
   },
   {
-    "kanji": "お弁当",
-    "hiragana": "おべんとう",
-    "english": "boxed lunch"
+    "word": "お弁当",
+    "extra": "おべんとう",
+    "meaning": "boxed lunch"
   },
   {
-    "kanji": "覚える",
-    "hiragana": "おぼえる",
-    "english": "to remember"
+    "word": "覚える",
+    "extra": "おぼえる",
+    "meaning": "to remember"
   },
   {
-    "kanji": "",
-    "hiragana": "おまわりさん",
-    "english": "policeman (friendly)"
+    "word": "",
+    "extra": "おまわりさん",
+    "meaning": "policeman (friendly)"
   },
   {
-    "kanji": "重い",
-    "hiragana": "おもい",
-    "english": "heavy"
+    "word": "重い",
+    "extra": "おもい",
+    "meaning": "heavy"
   },
   {
-    "kanji": "",
-    "hiragana": "おもしろい",
-    "english": "interesting"
+    "word": "",
+    "extra": "おもしろい",
+    "meaning": "interesting"
   },
   {
-    "kanji": "泳ぐ",
-    "hiragana": "およぐ",
-    "english": "to swim"
+    "word": "泳ぐ",
+    "extra": "およぐ",
+    "meaning": "to swim"
   },
   {
-    "kanji": "降りる",
-    "hiragana": "おりる",
-    "english": "to get off, to descend"
+    "word": "降りる",
+    "extra": "おりる",
+    "meaning": "to get off, to descend"
   },
   {
-    "kanji": "終る",
-    "hiragana": "おわる",
-    "english": "to finish"
+    "word": "終る",
+    "extra": "おわる",
+    "meaning": "to finish"
   },
   {
-    "kanji": "音楽",
-    "hiragana": "おんがく",
-    "english": "music"
+    "word": "音楽",
+    "extra": "おんがく",
+    "meaning": "music"
   },
   {
-    "kanji": "女",
-    "hiragana": "おんな",
-    "english": "woman"
+    "word": "女",
+    "extra": "おんな",
+    "meaning": "woman"
   },
   {
-    "kanji": "女の子",
-    "hiragana": "おんなのこ",
-    "english": "girl"
+    "word": "女の子",
+    "extra": "おんなのこ",
+    "meaning": "girl"
   },
   {
-    "kanji": "外国",
-    "hiragana": "がいこく",
-    "english": "foreign country"
+    "word": "外国",
+    "extra": "がいこく",
+    "meaning": "foreign country"
   },
   {
-    "kanji": "外国人",
-    "hiragana": "がいこくじん",
-    "english": "foreigner"
+    "word": "外国人",
+    "extra": "がいこくじん",
+    "meaning": "foreigner"
   },
   {
-    "kanji": "会社",
-    "hiragana": "かいしゃ",
-    "english": "company"
+    "word": "会社",
+    "extra": "かいしゃ",
+    "meaning": "company"
   },
   {
-    "kanji": "階段",
-    "hiragana": "かいだん",
-    "english": "stairs"
+    "word": "階段",
+    "extra": "かいだん",
+    "meaning": "stairs"
   },
   {
-    "kanji": "買い物",
-    "hiragana": "かいもの",
-    "english": "shopping"
+    "word": "買い物",
+    "extra": "かいもの",
+    "meaning": "shopping"
   },
   {
-    "kanji": "買う",
-    "hiragana": "かう",
-    "english": "to buy"
+    "word": "買う",
+    "extra": "かう",
+    "meaning": "to buy"
   },
   {
-    "kanji": "返す",
-    "hiragana": "かえす",
-    "english": "to return something"
+    "word": "返す",
+    "extra": "かえす",
+    "meaning": "to return something"
   },
   {
-    "kanji": "帰る",
-    "hiragana": "かえる",
-    "english": "to go back"
+    "word": "帰る",
+    "extra": "かえる",
+    "meaning": "to go back"
   },
   {
-    "kanji": "",
-    "hiragana": "かかる",
-    "english": "to take time or money"
+    "word": "",
+    "extra": "かかる",
+    "meaning": "to take time or money"
   },
   {
-    "kanji": "",
-    "hiragana": "かぎ",
-    "english": "key"
+    "word": "",
+    "extra": "かぎ",
+    "meaning": "key"
   },
   {
-    "kanji": "書く",
-    "hiragana": "かく",
-    "english": "to write"
+    "word": "書く",
+    "extra": "かく",
+    "meaning": "to write"
   },
   {
-    "kanji": "学生",
-    "hiragana": "がくせい",
-    "english": "student"
+    "word": "学生",
+    "extra": "がくせい",
+    "meaning": "student"
   },
   {
-    "kanji": "",
-    "hiragana": "かける",
-    "english": "to call by phone"
+    "word": "",
+    "extra": "かける",
+    "meaning": "to call by phone"
   },
   {
-    "kanji": "傘",
-    "hiragana": "かさ",
-    "english": "umbrella"
+    "word": "傘",
+    "extra": "かさ",
+    "meaning": "umbrella"
   },
   {
-    "kanji": "貸す",
-    "hiragana": "かす",
-    "english": "to lend"
+    "word": "貸す",
+    "extra": "かす",
+    "meaning": "to lend"
   },
   {
-    "kanji": "風",
-    "hiragana": "かぜ",
-    "english": "wind"
+    "word": "風",
+    "extra": "かぜ",
+    "meaning": "wind"
   },
   {
-    "kanji": "風邪",
-    "hiragana": "かぜ",
-    "english": "a cold"
+    "word": "風邪",
+    "extra": "かぜ",
+    "meaning": "a cold"
   },
   {
-    "kanji": "家族",
-    "hiragana": "かぞく",
-    "english": "family"
+    "word": "家族",
+    "extra": "かぞく",
+    "meaning": "family"
   },
   {
-    "kanji": "方",
-    "hiragana": "かた",
-    "english": "person, way of doing"
+    "word": "方",
+    "extra": "かた",
+    "meaning": "person, way of doing"
   },
   {
-    "kanji": "学校",
-    "hiragana": "がっこう",
-    "english": "school"
+    "word": "学校",
+    "extra": "がっこう",
+    "meaning": "school"
   },
   {
-    "kanji": "",
-    "hiragana": "カップ",
-    "english": "cup"
+    "word": "",
+    "extra": "カップ",
+    "meaning": "cup"
   },
   {
-    "kanji": "家庭",
-    "hiragana": "かてい",
-    "english": "household"
+    "word": "家庭",
+    "extra": "かてい",
+    "meaning": "household"
   },
   {
-    "kanji": "角",
-    "hiragana": "かど",
-    "english": "a corner"
+    "word": "角",
+    "extra": "かど",
+    "meaning": "a corner"
   },
   {
-    "kanji": "",
-    "hiragana": "かばん",
-    "english": "bag, basket"
+    "word": "",
+    "extra": "かばん",
+    "meaning": "bag, basket"
   },
   {
-    "kanji": "花瓶",
-    "hiragana": "かびん",
-    "english": "a vase"
+    "word": "花瓶",
+    "extra": "かびん",
+    "meaning": "a vase"
   },
   {
-    "kanji": "紙",
-    "hiragana": "かみ",
-    "english": "paper"
+    "word": "紙",
+    "extra": "かみ",
+    "meaning": "paper"
   },
   {
-    "kanji": "",
-    "hiragana": "カメラ",
-    "english": "camera"
+    "word": "",
+    "extra": "カメラ",
+    "meaning": "camera"
   },
   {
-    "kanji": "火曜日",
-    "hiragana": "かようび",
-    "english": "Tuesday"
+    "word": "火曜日",
+    "extra": "かようび",
+    "meaning": "Tuesday"
   },
   {
-    "kanji": "辛い",
-    "hiragana": "からい",
-    "english": "spicy"
+    "word": "辛い",
+    "extra": "からい",
+    "meaning": "spicy"
   },
   {
-    "kanji": "体",
-    "hiragana": "からだ",
-    "english": "body"
+    "word": "体",
+    "extra": "からだ",
+    "meaning": "body"
   },
   {
-    "kanji": "借りる",
-    "hiragana": "かりる",
-    "english": "to borrow"
+    "word": "借りる",
+    "extra": "かりる",
+    "meaning": "to borrow"
   },
   {
-    "kanji": "軽い",
-    "hiragana": "かるい",
-    "english": "light"
+    "word": "軽い",
+    "extra": "かるい",
+    "meaning": "light"
   },
   {
-    "kanji": "",
-    "hiragana": "カレー",
-    "english": "curry"
+    "word": "",
+    "extra": "カレー",
+    "meaning": "curry"
   },
   {
-    "kanji": "",
-    "hiragana": "カレンダー",
-    "english": "calendar"
+    "word": "",
+    "extra": "カレンダー",
+    "meaning": "calendar"
   },
   {
-    "kanji": "川/河",
-    "hiragana": "かわ",
-    "english": "river"
+    "word": "川/河",
+    "extra": "かわ",
+    "meaning": "river"
   },
   {
-    "kanji": "",
-    "hiragana": "かわいい",
-    "english": "cute"
+    "word": "",
+    "extra": "かわいい",
+    "meaning": "cute"
   },
   {
-    "kanji": "漢字",
-    "hiragana": "かんじ",
-    "english": "Chinese character"
+    "word": "漢字",
+    "extra": "かんじ",
+    "meaning": "Chinese character"
   },
   {
-    "kanji": "木",
-    "hiragana": "き",
-    "english": "tree, wood"
+    "word": "木",
+    "extra": "き",
+    "meaning": "tree, wood"
   },
   {
-    "kanji": "黄色",
-    "hiragana": "きいろ",
-    "english": "yellow"
+    "word": "黄色",
+    "extra": "きいろ",
+    "meaning": "yellow"
   },
   {
-    "kanji": "黄色い",
-    "hiragana": "きいろい",
-    "english": "yellow"
+    "word": "黄色い",
+    "extra": "きいろい",
+    "meaning": "yellow"
   },
   {
-    "kanji": "消える",
-    "hiragana": "きえる",
-    "english": "to disappear"
+    "word": "消える",
+    "extra": "きえる",
+    "meaning": "to disappear"
   },
   {
-    "kanji": "聞く",
-    "hiragana": "きく",
-    "english": "to hear, to listen to"
+    "word": "聞く",
+    "extra": "きく",
+    "meaning": "to hear, to listen to"
   },
   {
-    "kanji": "北",
-    "hiragana": "きた",
-    "english": "north"
+    "word": "北",
+    "extra": "きた",
+    "meaning": "north"
   },
   {
-    "kanji": "",
-    "hiragana": "ギター",
-    "english": "guitar"
+    "word": "",
+    "extra": "ギター",
+    "meaning": "guitar"
   },
   {
-    "kanji": "汚い",
-    "hiragana": "きたない",
-    "english": "dirty"
+    "word": "汚い",
+    "extra": "きたない",
+    "meaning": "dirty"
   },
   {
-    "kanji": "喫茶店",
-    "hiragana": "きっさてん",
-    "english": "coffee lounge"
+    "word": "喫茶店",
+    "extra": "きっさてん",
+    "meaning": "coffee lounge"
   },
   {
-    "kanji": "切手",
-    "hiragana": "きって",
-    "english": "postage stamp"
+    "word": "切手",
+    "extra": "きって",
+    "meaning": "postage stamp"
   },
   {
-    "kanji": "切符",
-    "hiragana": "きっぷ",
-    "english": "ticket"
+    "word": "切符",
+    "extra": "きっぷ",
+    "meaning": "ticket"
   },
   {
-    "kanji": "昨日",
-    "hiragana": "きのう",
-    "english": "yesterday"
+    "word": "昨日",
+    "extra": "きのう",
+    "meaning": "yesterday"
   },
   {
-    "kanji": "九",
-    "hiragana": "きゅう / く",
-    "english": "nine"
+    "word": "九",
+    "extra": "きゅう / く",
+    "meaning": "nine"
   },
   {
-    "kanji": "牛肉",
-    "hiragana": "ぎゅうにく",
-    "english": "beef"
+    "word": "牛肉",
+    "extra": "ぎゅうにく",
+    "meaning": "beef"
   },
   {
-    "kanji": "牛乳",
-    "hiragana": "ぎゅうにゅう",
-    "english": "milk"
+    "word": "牛乳",
+    "extra": "ぎゅうにゅう",
+    "meaning": "milk"
   },
   {
-    "kanji": "今日",
-    "hiragana": "きょう",
-    "english": "today"
+    "word": "今日",
+    "extra": "きょう",
+    "meaning": "today"
   },
   {
-    "kanji": "教室",
-    "hiragana": "きょうしつ",
-    "english": "classroom"
+    "word": "教室",
+    "extra": "きょうしつ",
+    "meaning": "classroom"
   },
   {
-    "kanji": "兄弟",
-    "hiragana": "きょうだい",
-    "english": "(humble) siblings"
+    "word": "兄弟",
+    "extra": "きょうだい",
+    "meaning": "(humble) siblings"
   },
   {
-    "kanji": "去年",
-    "hiragana": "きょねん",
-    "english": "last year"
+    "word": "去年",
+    "extra": "きょねん",
+    "meaning": "last year"
   },
   {
-    "kanji": "嫌い",
-    "hiragana": "きらい",
-    "english": "hate"
+    "word": "嫌い",
+    "extra": "きらい",
+    "meaning": "hate"
   },
   {
-    "kanji": "切る",
-    "hiragana": "きる",
-    "english": "to cut"
+    "word": "切る",
+    "extra": "きる",
+    "meaning": "to cut"
   },
   {
-    "kanji": "着る",
-    "hiragana": "きる",
-    "english": "to wear"
+    "word": "着る",
+    "extra": "きる",
+    "meaning": "to wear"
   },
   {
-    "kanji": "",
-    "hiragana": "きれい",
-    "english": "pretty, clean"
+    "word": "",
+    "extra": "きれい",
+    "meaning": "pretty, clean"
   },
   {
-    "kanji": "",
-    "hiragana": "キロ/キログラム",
-    "english": "kilogram"
+    "word": "",
+    "extra": "キロ/キログラム",
+    "meaning": "kilogram"
   },
   {
-    "kanji": "",
-    "hiragana": "キロ/キロメートル",
-    "english": "kilometre"
+    "word": "",
+    "extra": "キロ/キロメートル",
+    "meaning": "kilometre"
   },
   {
-    "kanji": "銀行",
-    "hiragana": "ぎんこう",
-    "english": "bank"
+    "word": "銀行",
+    "extra": "ぎんこう",
+    "meaning": "bank"
   },
   {
-    "kanji": "金曜日",
-    "hiragana": "きんようび",
-    "english": "Friday"
+    "word": "金曜日",
+    "extra": "きんようび",
+    "meaning": "Friday"
   },
   {
-    "kanji": "薬",
-    "hiragana": "くすり",
-    "english": "medicine"
+    "word": "薬",
+    "extra": "くすり",
+    "meaning": "medicine"
   },
   {
-    "kanji": "",
-    "hiragana": "ください",
-    "english": "please"
+    "word": "",
+    "extra": "ください",
+    "meaning": "please"
   },
   {
-    "kanji": "果物",
-    "hiragana": "くだもの",
-    "english": "fruit"
+    "word": "果物",
+    "extra": "くだもの",
+    "meaning": "fruit"
   },
   {
-    "kanji": "口",
-    "hiragana": "くち",
-    "english": "mouth, opening"
+    "word": "口",
+    "extra": "くち",
+    "meaning": "mouth, opening"
   },
   {
-    "kanji": "靴",
-    "hiragana": "くつ",
-    "english": "shoes"
+    "word": "靴",
+    "extra": "くつ",
+    "meaning": "shoes"
   },
   {
-    "kanji": "靴下",
-    "hiragana": "くつした",
-    "english": "socks"
+    "word": "靴下",
+    "extra": "くつした",
+    "meaning": "socks"
   },
   {
-    "kanji": "国",
-    "hiragana": "くに",
-    "english": "country"
+    "word": "国",
+    "extra": "くに",
+    "meaning": "country"
   },
   {
-    "kanji": "曇り",
-    "hiragana": "くもり",
-    "english": "cloudy weather"
+    "word": "曇り",
+    "extra": "くもり",
+    "meaning": "cloudy weather"
   },
   {
-    "kanji": "曇る",
-    "hiragana": "くもる",
-    "english": "to become cloudy"
+    "word": "曇る",
+    "extra": "くもる",
+    "meaning": "to become cloudy"
   },
   {
-    "kanji": "暗い",
-    "hiragana": "くらい",
-    "english": "gloomy"
+    "word": "暗い",
+    "extra": "くらい",
+    "meaning": "gloomy"
   },
   {
-    "kanji": "",
-    "hiragana": "クラス",
-    "english": "class"
+    "word": "",
+    "extra": "クラス",
+    "meaning": "class"
   },
   {
-    "kanji": "",
-    "hiragana": "グラム",
-    "english": "gram"
+    "word": "",
+    "extra": "グラム",
+    "meaning": "gram"
   },
   {
-    "kanji": "来る",
-    "hiragana": "くる",
-    "english": "to come"
+    "word": "来る",
+    "extra": "くる",
+    "meaning": "to come"
   },
   {
-    "kanji": "車",
-    "hiragana": "くるま",
-    "english": "car, vehicle"
+    "word": "車",
+    "extra": "くるま",
+    "meaning": "car, vehicle"
   },
   {
-    "kanji": "黒",
-    "hiragana": "くろ",
-    "english": "black"
+    "word": "黒",
+    "extra": "くろ",
+    "meaning": "black"
   },
   {
-    "kanji": "黒い",
-    "hiragana": "くろい",
-    "english": "black"
+    "word": "黒い",
+    "extra": "くろい",
+    "meaning": "black"
   },
   {
-    "kanji": "警官",
-    "hiragana": "けいかん",
-    "english": "policeman"
+    "word": "警官",
+    "extra": "けいかん",
+    "meaning": "policeman"
   },
   {
-    "kanji": "今朝",
-    "hiragana": "けさ",
-    "english": "this morning"
+    "word": "今朝",
+    "extra": "けさ",
+    "meaning": "this morning"
   },
   {
-    "kanji": "消す",
-    "hiragana": "けす",
-    "english": "to erase, to turn off"
+    "word": "消す",
+    "extra": "けす",
+    "meaning": "to erase, to turn off"
   },
   {
-    "kanji": "結構",
-    "hiragana": "けっこう",
-    "english": "splendid, enough"
+    "word": "結構",
+    "extra": "けっこう",
+    "meaning": "splendid, enough"
   },
   {
-    "kanji": "結婚",
-    "hiragana": "けっこん",
-    "english": "marriage"
+    "word": "結婚",
+    "extra": "けっこん",
+    "meaning": "marriage"
   },
   {
-    "kanji": "月曜日",
-    "hiragana": "げつようび",
-    "english": "Monday"
+    "word": "月曜日",
+    "extra": "げつようび",
+    "meaning": "Monday"
   },
   {
-    "kanji": "玄関",
-    "hiragana": "げんかん",
-    "english": "entry hall"
+    "word": "玄関",
+    "extra": "げんかん",
+    "meaning": "entry hall"
   },
   {
-    "kanji": "元気",
-    "hiragana": "げんき",
-    "english": "health, vitality"
+    "word": "元気",
+    "extra": "げんき",
+    "meaning": "health, vitality"
   },
   {
-    "kanji": "五",
-    "hiragana": "ご",
-    "english": "five"
+    "word": "五",
+    "extra": "ご",
+    "meaning": "five"
   },
   {
-    "kanji": "公園",
-    "hiragana": "こうえん",
-    "english": "park"
+    "word": "公園",
+    "extra": "こうえん",
+    "meaning": "park"
   },
   {
-    "kanji": "交差点",
-    "hiragana": "こうさてん",
-    "english": "intersection"
+    "word": "交差点",
+    "extra": "こうさてん",
+    "meaning": "intersection"
   },
   {
-    "kanji": "紅茶",
-    "hiragana": "こうちゃ",
-    "english": "black tea"
+    "word": "紅茶",
+    "extra": "こうちゃ",
+    "meaning": "black tea"
   },
   {
-    "kanji": "交番",
-    "hiragana": "こうばん",
-    "english": "police box"
+    "word": "交番",
+    "extra": "こうばん",
+    "meaning": "police box"
   },
   {
-    "kanji": "声",
-    "hiragana": "こえ",
-    "english": "voice"
+    "word": "声",
+    "extra": "こえ",
+    "meaning": "voice"
   },
   {
-    "kanji": "",
-    "hiragana": "コート",
-    "english": "coat, tennis court"
+    "word": "",
+    "extra": "コート",
+    "meaning": "coat, tennis court"
   },
   {
-    "kanji": "",
-    "hiragana": "コーヒー",
-    "english": "coffee"
+    "word": "",
+    "extra": "コーヒー",
+    "meaning": "coffee"
   },
   {
-    "kanji": "",
-    "hiragana": "ここ",
-    "english": "here"
+    "word": "",
+    "extra": "ここ",
+    "meaning": "here"
   },
   {
-    "kanji": "午後",
-    "hiragana": "ごご",
-    "english": "afternoon"
+    "word": "午後",
+    "extra": "ごご",
+    "meaning": "afternoon"
   },
   {
-    "kanji": "九日",
-    "hiragana": "ここのか",
-    "english": "nine days, 9th day"
+    "word": "九日",
+    "extra": "ここのか",
+    "meaning": "nine days, 9th day"
   },
   {
-    "kanji": "九つ",
-    "hiragana": "ここのつ",
-    "english": "nine"
+    "word": "九つ",
+    "extra": "ここのつ",
+    "meaning": "nine"
   },
   {
-    "kanji": "午前",
-    "hiragana": "ごぜん",
-    "english": "morning"
+    "word": "午前",
+    "extra": "ごぜん",
+    "meaning": "morning"
   },
   {
-    "kanji": "答える",
-    "hiragana": "こたえる",
-    "english": "to answer"
+    "word": "答える",
+    "extra": "こたえる",
+    "meaning": "to answer"
   },
   {
-    "kanji": "",
-    "hiragana": "こちら",
-    "english": "this person or way"
+    "word": "",
+    "extra": "こちら",
+    "meaning": "this person or way"
   },
   {
-    "kanji": "",
-    "hiragana": "こっち",
-    "english": "this person or way"
+    "word": "",
+    "extra": "こっち",
+    "meaning": "this person or way"
   },
   {
-    "kanji": "",
-    "hiragana": "コップ",
-    "english": "a glass"
+    "word": "",
+    "extra": "コップ",
+    "meaning": "a glass"
   },
   {
-    "kanji": "今年",
-    "hiragana": "ことし",
-    "english": "this year"
+    "word": "今年",
+    "extra": "ことし",
+    "meaning": "this year"
   },
   {
-    "kanji": "言葉",
-    "hiragana": "ことば",
-    "english": "word, language"
+    "word": "言葉",
+    "extra": "ことば",
+    "meaning": "word, language"
   },
   {
-    "kanji": "子供",
-    "hiragana": "こども",
-    "english": "child"
+    "word": "子供",
+    "extra": "こども",
+    "meaning": "child"
   },
   {
-    "kanji": "",
-    "hiragana": "この",
-    "english": "this"
+    "word": "",
+    "extra": "この",
+    "meaning": "this"
   },
   {
-    "kanji": "御飯",
-    "hiragana": "ごはん",
-    "english": "cooked rice, meal"
+    "word": "御飯",
+    "extra": "ごはん",
+    "meaning": "cooked rice, meal"
   },
   {
-    "kanji": "",
-    "hiragana": "コピーする",
-    "english": "to copy"
+    "word": "",
+    "extra": "コピーする",
+    "meaning": "to copy"
   },
   {
-    "kanji": "困る",
-    "hiragana": "こまる",
-    "english": "to be worried"
+    "word": "困る",
+    "extra": "こまる",
+    "meaning": "to be worried"
   },
   {
-    "kanji": "",
-    "hiragana": "これ",
-    "english": "this"
+    "word": "",
+    "extra": "これ",
+    "meaning": "this"
   },
   {
-    "kanji": "今月",
-    "hiragana": "こんげつ",
-    "english": "this month"
+    "word": "今月",
+    "extra": "こんげつ",
+    "meaning": "this month"
   },
   {
-    "kanji": "今週",
-    "hiragana": "こんしゅう",
-    "english": "this week"
+    "word": "今週",
+    "extra": "こんしゅう",
+    "meaning": "this week"
   },
   {
-    "kanji": "",
-    "hiragana": "こんな",
-    "english": "such"
+    "word": "",
+    "extra": "こんな",
+    "meaning": "such"
   },
   {
-    "kanji": "今晩",
-    "hiragana": "こんばん",
-    "english": "this evening"
+    "word": "今晩",
+    "extra": "こんばん",
+    "meaning": "this evening"
   },
   {
-    "kanji": "",
-    "hiragana": "さあ",
-    "english": "well…"
+    "word": "",
+    "extra": "さあ",
+    "meaning": "well…"
   },
   {
-    "kanji": "財布",
-    "hiragana": "さいふ",
-    "english": "wallet"
+    "word": "財布",
+    "extra": "さいふ",
+    "meaning": "wallet"
   },
   {
-    "kanji": "魚",
-    "hiragana": "さかな",
-    "english": "fish"
+    "word": "魚",
+    "extra": "さかな",
+    "meaning": "fish"
   },
   {
-    "kanji": "先",
-    "hiragana": "さき",
-    "english": "the future, previous"
+    "word": "先",
+    "extra": "さき",
+    "meaning": "the future, previous"
   },
   {
-    "kanji": "咲く",
-    "hiragana": "さく",
-    "english": "to bloom"
+    "word": "咲く",
+    "extra": "さく",
+    "meaning": "to bloom"
   },
   {
-    "kanji": "作文",
-    "hiragana": "さくぶん",
-    "english": "composition, writing"
+    "word": "作文",
+    "extra": "さくぶん",
+    "meaning": "composition, writing"
   },
   {
-    "kanji": "差す",
-    "hiragana": "さす",
-    "english": "to stretch out hands"
+    "word": "差す",
+    "extra": "さす",
+    "meaning": "to stretch out hands"
   },
   {
-    "kanji": "雑誌",
-    "hiragana": "ざっし",
-    "english": "magazine"
+    "word": "雑誌",
+    "extra": "ざっし",
+    "meaning": "magazine"
   },
   {
-    "kanji": "砂糖",
-    "hiragana": "さとう",
-    "english": "sugar"
+    "word": "砂糖",
+    "extra": "さとう",
+    "meaning": "sugar"
   },
   {
-    "kanji": "寒い",
-    "hiragana": "さむい",
-    "english": "cold"
+    "word": "寒い",
+    "extra": "さむい",
+    "meaning": "cold"
   },
   {
-    "kanji": "さ来年",
-    "hiragana": "さらいねん",
-    "english": "year after next"
+    "word": "さ来年",
+    "extra": "さらいねん",
+    "meaning": "year after next"
   },
   {
-    "kanji": "三",
-    "hiragana": "さん",
-    "english": "three"
+    "word": "三",
+    "extra": "さん",
+    "meaning": "three"
   },
   {
-    "kanji": "散歩",
-    "hiragana": "さんぽする",
-    "english": "to stroll"
+    "word": "散歩",
+    "extra": "さんぽする",
+    "meaning": "to stroll"
   },
   {
-    "kanji": "四",
-    "hiragana": "し / よん",
-    "english": "four"
+    "word": "四",
+    "extra": "し / よん",
+    "meaning": "four"
   },
   {
-    "kanji": "塩",
-    "hiragana": "しお",
-    "english": "salt"
+    "word": "塩",
+    "extra": "しお",
+    "meaning": "salt"
   },
   {
-    "kanji": "",
-    "hiragana": "しかし",
-    "english": "however"
+    "word": "",
+    "extra": "しかし",
+    "meaning": "however"
   },
   {
-    "kanji": "時間",
-    "hiragana": "じかん",
-    "english": "time"
+    "word": "時間",
+    "extra": "じかん",
+    "meaning": "time"
   },
   {
-    "kanji": "仕事",
-    "hiragana": "しごと",
-    "english": "job"
+    "word": "仕事",
+    "extra": "しごと",
+    "meaning": "job"
   },
   {
-    "kanji": "辞書",
-    "hiragana": "じしょ",
-    "english": "dictionary"
+    "word": "辞書",
+    "extra": "じしょ",
+    "meaning": "dictionary"
   },
   {
-    "kanji": "静か",
-    "hiragana": "しずか",
-    "english": "quiet"
+    "word": "静か",
+    "extra": "しずか",
+    "meaning": "quiet"
   },
   {
-    "kanji": "下",
-    "hiragana": "した",
-    "english": "below"
+    "word": "下",
+    "extra": "した",
+    "meaning": "below"
   },
   {
-    "kanji": "七",
-    "hiragana": "しち / なな",
-    "english": "seven"
+    "word": "七",
+    "extra": "しち / なな",
+    "meaning": "seven"
   },
   {
-    "kanji": "質問",
-    "hiragana": "しつもん",
-    "english": "question"
+    "word": "質問",
+    "extra": "しつもん",
+    "meaning": "question"
   },
   {
-    "kanji": "自転車",
-    "hiragana": "じてんしゃ",
-    "english": "bicycle"
+    "word": "自転車",
+    "extra": "じてんしゃ",
+    "meaning": "bicycle"
   },
   {
-    "kanji": "自動車",
-    "hiragana": "じどうしゃ",
-    "english": "automobile"
+    "word": "自動車",
+    "extra": "じどうしゃ",
+    "meaning": "automobile"
   },
   {
-    "kanji": "死ぬ",
-    "hiragana": "しぬ",
-    "english": "to die"
+    "word": "死ぬ",
+    "extra": "しぬ",
+    "meaning": "to die"
   },
   {
-    "kanji": "字引",
-    "hiragana": "じびき",
-    "english": "dictionary"
+    "word": "字引",
+    "extra": "じびき",
+    "meaning": "dictionary"
   },
   {
-    "kanji": "自分",
-    "hiragana": "じぶん",
-    "english": "oneself"
+    "word": "自分",
+    "extra": "じぶん",
+    "meaning": "oneself"
   },
   {
-    "kanji": "閉まる",
-    "hiragana": "しまる",
-    "english": "to close, to be closed"
+    "word": "閉まる",
+    "extra": "しまる",
+    "meaning": "to close, to be closed"
   },
   {
-    "kanji": "閉める",
-    "hiragana": "しめる",
-    "english": "to close something"
+    "word": "閉める",
+    "extra": "しめる",
+    "meaning": "to close something"
   },
   {
-    "kanji": "締める",
-    "hiragana": "しめる",
-    "english": "to tie"
+    "word": "締める",
+    "extra": "しめる",
+    "meaning": "to tie"
   },
   {
-    "kanji": "",
-    "hiragana": "じゃ/じゃあ",
-    "english": "well then…"
+    "word": "",
+    "extra": "じゃ/じゃあ",
+    "meaning": "well then…"
   },
   {
-    "kanji": "写真",
-    "hiragana": "しゃしん",
-    "english": "photograph"
+    "word": "写真",
+    "extra": "しゃしん",
+    "meaning": "photograph"
   },
   {
-    "kanji": "",
-    "hiragana": "シャツ",
-    "english": "shirt"
+    "word": "",
+    "extra": "シャツ",
+    "meaning": "shirt"
   },
   {
-    "kanji": "",
-    "hiragana": "シャワー",
-    "english": "shower"
+    "word": "",
+    "extra": "シャワー",
+    "meaning": "shower"
   },
   {
-    "kanji": "十",
-    "hiragana": "じゅう  とお",
-    "english": "ten"
+    "word": "十",
+    "extra": "じゅう  とお",
+    "meaning": "ten"
   },
   {
-    "kanji": "授業",
-    "hiragana": "じゅぎょう",
-    "english": "lesson, class work"
+    "word": "授業",
+    "extra": "じゅぎょう",
+    "meaning": "lesson, class work"
   },
   {
-    "kanji": "宿題",
-    "hiragana": "しゅくだい",
-    "english": "homework"
+    "word": "宿題",
+    "extra": "しゅくだい",
+    "meaning": "homework"
   },
   {
-    "kanji": "上手",
-    "hiragana": "じょうず",
-    "english": "skillful"
+    "word": "上手",
+    "extra": "じょうず",
+    "meaning": "skillful"
   },
   {
-    "kanji": "丈夫",
-    "hiragana": "じょうぶ",
-    "english": "strong, durable"
+    "word": "丈夫",
+    "extra": "じょうぶ",
+    "meaning": "strong, durable"
   },
   {
-    "kanji": "",
-    "hiragana": "しょうゆ",
-    "english": "soy sauce"
+    "word": "",
+    "extra": "しょうゆ",
+    "meaning": "soy sauce"
   },
   {
-    "kanji": "食堂",
-    "hiragana": "しょくどう",
-    "english": "dining hall"
+    "word": "食堂",
+    "extra": "しょくどう",
+    "meaning": "dining hall"
   },
   {
-    "kanji": "知る",
-    "hiragana": "しる",
-    "english": "to know"
+    "word": "知る",
+    "extra": "しる",
+    "meaning": "to know"
   },
   {
-    "kanji": "白",
-    "hiragana": "しろ",
-    "english": "white"
+    "word": "白",
+    "extra": "しろ",
+    "meaning": "white"
   },
   {
-    "kanji": "白い",
-    "hiragana": "しろい",
-    "english": "white"
+    "word": "白い",
+    "extra": "しろい",
+    "meaning": "white"
   },
   {
-    "kanji": "新聞",
-    "hiragana": "しんぶん",
-    "english": "newspaper"
+    "word": "新聞",
+    "extra": "しんぶん",
+    "meaning": "newspaper"
   },
   {
-    "kanji": "水曜日",
-    "hiragana": "すいようび",
-    "english": "Wednesday"
+    "word": "水曜日",
+    "extra": "すいようび",
+    "meaning": "Wednesday"
   },
   {
-    "kanji": "吸う",
-    "hiragana": "すう",
-    "english": "to smoke, to suck"
+    "word": "吸う",
+    "extra": "すう",
+    "meaning": "to smoke, to suck"
   },
   {
-    "kanji": "",
-    "hiragana": "スカート",
-    "english": "skirt"
+    "word": "",
+    "extra": "スカート",
+    "meaning": "skirt"
   },
   {
-    "kanji": "好き",
-    "hiragana": "すき",
-    "english": "likeable"
+    "word": "好き",
+    "extra": "すき",
+    "meaning": "likeable"
   },
   {
-    "kanji": "少ない",
-    "hiragana": "すくない",
-    "english": "a few"
+    "word": "少ない",
+    "extra": "すくない",
+    "meaning": "a few"
   },
   {
-    "kanji": "",
-    "hiragana": "すぐに",
-    "english": "instantly"
+    "word": "",
+    "extra": "すぐに",
+    "meaning": "instantly"
   },
   {
-    "kanji": "少し",
-    "hiragana": "すこし",
-    "english": "few"
+    "word": "少し",
+    "extra": "すこし",
+    "meaning": "few"
   },
   {
-    "kanji": "涼しい",
-    "hiragana": "すずしい",
-    "english": "refreshing"
+    "word": "涼しい",
+    "extra": "すずしい",
+    "meaning": "refreshing"
   },
   {
-    "kanji": "",
-    "hiragana": "ストーブ",
-    "english": "heater"
+    "word": "",
+    "extra": "ストーブ",
+    "meaning": "heater"
   },
   {
-    "kanji": "",
-    "hiragana": "スプーン",
-    "english": "spoon"
+    "word": "",
+    "extra": "スプーン",
+    "meaning": "spoon"
   },
   {
-    "kanji": "",
-    "hiragana": "スポーツ",
-    "english": "sport"
+    "word": "",
+    "extra": "スポーツ",
+    "meaning": "sport"
   },
   {
-    "kanji": "",
-    "hiragana": "ズボン",
-    "english": "trousers"
+    "word": "",
+    "extra": "ズボン",
+    "meaning": "trousers"
   },
   {
-    "kanji": "住む",
-    "hiragana": "すむ",
-    "english": "to live in"
+    "word": "住む",
+    "extra": "すむ",
+    "meaning": "to live in"
   },
   {
-    "kanji": "",
-    "hiragana": "スリッパ",
-    "english": "slippers"
+    "word": "",
+    "extra": "スリッパ",
+    "meaning": "slippers"
   },
   {
-    "kanji": "",
-    "hiragana": "する",
-    "english": "to do"
+    "word": "",
+    "extra": "する",
+    "meaning": "to do"
   },
   {
-    "kanji": "座る",
-    "hiragana": "すわる",
-    "english": "to sit"
+    "word": "座る",
+    "extra": "すわる",
+    "meaning": "to sit"
   },
   {
-    "kanji": "背",
-    "hiragana": "せ",
-    "english": "height, stature"
+    "word": "背",
+    "extra": "せ",
+    "meaning": "height, stature"
   },
   {
-    "kanji": "生徒",
-    "hiragana": "せいと",
-    "english": "pupil"
+    "word": "生徒",
+    "extra": "せいと",
+    "meaning": "pupil"
   },
   {
-    "kanji": "",
-    "hiragana": "セーター",
-    "english": "sweater, jumper"
+    "word": "",
+    "extra": "セーター",
+    "meaning": "sweater, jumper"
   },
   {
-    "kanji": "",
-    "hiragana": "せっけん",
-    "english": "soap"
+    "word": "",
+    "extra": "せっけん",
+    "meaning": "soap"
   },
   {
-    "kanji": "背広",
-    "hiragana": "せびろ",
-    "english": "business suit"
+    "word": "背広",
+    "extra": "せびろ",
+    "meaning": "business suit"
   },
   {
-    "kanji": "狭い",
-    "hiragana": "せまい",
-    "english": "narrow"
+    "word": "狭い",
+    "extra": "せまい",
+    "meaning": "narrow"
   },
   {
-    "kanji": "",
-    "hiragana": "ゼロ",
-    "english": "zero"
+    "word": "",
+    "extra": "ゼロ",
+    "meaning": "zero"
   },
   {
-    "kanji": "千",
-    "hiragana": "せん",
-    "english": "thousand"
+    "word": "千",
+    "extra": "せん",
+    "meaning": "thousand"
   },
   {
-    "kanji": "先月",
-    "hiragana": "せんげつ",
-    "english": "last month"
+    "word": "先月",
+    "extra": "せんげつ",
+    "meaning": "last month"
   },
   {
-    "kanji": "先週",
-    "hiragana": "せんしゅう",
-    "english": "last week"
+    "word": "先週",
+    "extra": "せんしゅう",
+    "meaning": "last week"
   },
   {
-    "kanji": "先生",
-    "hiragana": "せんせい",
-    "english": "teacher, doctor"
+    "word": "先生",
+    "extra": "せんせい",
+    "meaning": "teacher, doctor"
   },
   {
-    "kanji": "洗濯",
-    "hiragana": "せんたく",
-    "english": "washing"
+    "word": "洗濯",
+    "extra": "せんたく",
+    "meaning": "washing"
   },
   {
-    "kanji": "全部",
-    "hiragana": "ぜんぶ",
-    "english": "all"
+    "word": "全部",
+    "extra": "ぜんぶ",
+    "meaning": "all"
   },
   {
-    "kanji": "掃除",
-    "hiragana": "そうじする",
-    "english": "to clean, to sweep"
+    "word": "掃除",
+    "extra": "そうじする",
+    "meaning": "to clean, to sweep"
   },
   {
-    "kanji": "",
-    "hiragana": "そうして/そして",
-    "english": "and"
+    "word": "",
+    "extra": "そうして/そして",
+    "meaning": "and"
   },
   {
-    "kanji": "",
-    "hiragana": "そこ",
-    "english": "that place"
+    "word": "",
+    "extra": "そこ",
+    "meaning": "that place"
   },
   {
-    "kanji": "",
-    "hiragana": "そちら",
-    "english": "over there"
+    "word": "",
+    "extra": "そちら",
+    "meaning": "over there"
   },
   {
-    "kanji": "",
-    "hiragana": "そっち",
-    "english": "over there"
+    "word": "",
+    "extra": "そっち",
+    "meaning": "over there"
   },
   {
-    "kanji": "外",
-    "hiragana": "そと",
-    "english": "outside"
+    "word": "外",
+    "extra": "そと",
+    "meaning": "outside"
   },
   {
-    "kanji": "",
-    "hiragana": "その",
-    "english": "that"
+    "word": "",
+    "extra": "その",
+    "meaning": "that"
   },
   {
-    "kanji": "",
-    "hiragana": "そば",
-    "english": "near, beside"
+    "word": "",
+    "extra": "そば",
+    "meaning": "near, beside"
   },
   {
-    "kanji": "空",
-    "hiragana": "そら",
-    "english": "sky"
+    "word": "空",
+    "extra": "そら",
+    "meaning": "sky"
   },
   {
-    "kanji": "",
-    "hiragana": "それ",
-    "english": "that"
+    "word": "",
+    "extra": "それ",
+    "meaning": "that"
   },
   {
-    "kanji": "",
-    "hiragana": "それから",
-    "english": "after that"
+    "word": "",
+    "extra": "それから",
+    "meaning": "after that"
   },
   {
-    "kanji": "",
-    "hiragana": "それでは",
-    "english": "in that situation"
+    "word": "",
+    "extra": "それでは",
+    "meaning": "in that situation"
   },
   {
-    "kanji": "大学",
-    "hiragana": "だいがく",
-    "english": "university"
+    "word": "大学",
+    "extra": "だいがく",
+    "meaning": "university"
   },
   {
-    "kanji": "大使館",
-    "hiragana": "たいしかん",
-    "english": "embassy"
+    "word": "大使館",
+    "extra": "たいしかん",
+    "meaning": "embassy"
   },
   {
-    "kanji": "大丈夫",
-    "hiragana": "だいじょうぶ",
-    "english": "all right"
+    "word": "大丈夫",
+    "extra": "だいじょうぶ",
+    "meaning": "all right"
   },
   {
-    "kanji": "大好き",
-    "hiragana": "だいすき",
-    "english": "to be very likeable"
+    "word": "大好き",
+    "extra": "だいすき",
+    "meaning": "to be very likeable"
   },
   {
-    "kanji": "大切",
-    "hiragana": "たいせつ",
-    "english": "important"
+    "word": "大切",
+    "extra": "たいせつ",
+    "meaning": "important"
   },
   {
-    "kanji": "台所",
-    "hiragana": "だいどころ",
-    "english": "kitchen"
+    "word": "台所",
+    "extra": "だいどころ",
+    "meaning": "kitchen"
   },
   {
-    "kanji": "",
-    "hiragana": "たいへん",
-    "english": "very"
+    "word": "",
+    "extra": "たいへん",
+    "meaning": "very"
   },
   {
-    "kanji": "",
-    "hiragana": "たいへん",
-    "english": "difficult situation"
+    "word": "",
+    "extra": "たいへん",
+    "meaning": "difficult situation"
   },
   {
-    "kanji": "高い",
-    "hiragana": "たかい",
-    "english": "tall, expensive"
+    "word": "高い",
+    "extra": "たかい",
+    "meaning": "tall, expensive"
   },
   {
-    "kanji": "",
-    "hiragana": "たくさん",
-    "english": "many"
+    "word": "",
+    "extra": "たくさん",
+    "meaning": "many"
   },
   {
-    "kanji": "",
-    "hiragana": "タクシー",
-    "english": "taxi"
+    "word": "",
+    "extra": "タクシー",
+    "meaning": "taxi"
   },
   {
-    "kanji": "出す",
-    "hiragana": "だす",
-    "english": "to put out"
+    "word": "出す",
+    "extra": "だす",
+    "meaning": "to put out"
   },
   {
-    "kanji": "立つ",
-    "hiragana": "たつ",
-    "english": "to stand"
+    "word": "立つ",
+    "extra": "たつ",
+    "meaning": "to stand"
   },
   {
-    "kanji": "",
-    "hiragana": "たて",
-    "english": "length, height"
+    "word": "",
+    "extra": "たて",
+    "meaning": "length, height"
   },
   {
-    "kanji": "建物",
-    "hiragana": "たてもの",
-    "english": "building"
+    "word": "建物",
+    "extra": "たてもの",
+    "meaning": "building"
   },
   {
-    "kanji": "楽しい",
-    "hiragana": "たのしい",
-    "english": "enjoyable"
+    "word": "楽しい",
+    "extra": "たのしい",
+    "meaning": "enjoyable"
   },
   {
-    "kanji": "頼む",
-    "hiragana": "たのむ",
-    "english": "to ask"
+    "word": "頼む",
+    "extra": "たのむ",
+    "meaning": "to ask"
   },
   {
-    "kanji": "",
-    "hiragana": "たばこ",
-    "english": "tobacco, cigarettes"
+    "word": "",
+    "extra": "たばこ",
+    "meaning": "tobacco, cigarettes"
   },
   {
-    "kanji": "",
-    "hiragana": "たぶん",
-    "english": "probably"
+    "word": "",
+    "extra": "たぶん",
+    "meaning": "probably"
   },
   {
-    "kanji": "食べ物",
-    "hiragana": "たべもの",
-    "english": "food"
+    "word": "食べ物",
+    "extra": "たべもの",
+    "meaning": "food"
   },
   {
-    "kanji": "食べる",
-    "hiragana": "たべる",
-    "english": "to eat"
+    "word": "食べる",
+    "extra": "たべる",
+    "meaning": "to eat"
   },
   {
-    "kanji": "卵",
-    "hiragana": "たまご",
-    "english": "egg"
+    "word": "卵",
+    "extra": "たまご",
+    "meaning": "egg"
   },
   {
-    "kanji": "誰",
-    "hiragana": "だれ",
-    "english": "who"
+    "word": "誰",
+    "extra": "だれ",
+    "meaning": "who"
   },
   {
-    "kanji": "誰",
-    "hiragana": "だれか",
-    "english": "somebody"
+    "word": "誰",
+    "extra": "だれか",
+    "meaning": "somebody"
   },
   {
-    "kanji": "誕生日",
-    "hiragana": "たんじょうび",
-    "english": "birthday"
+    "word": "誕生日",
+    "extra": "たんじょうび",
+    "meaning": "birthday"
   },
   {
-    "kanji": "",
-    "hiragana": "だんだん",
-    "english": "gradually"
+    "word": "",
+    "extra": "だんだん",
+    "meaning": "gradually"
   },
   {
-    "kanji": "小さい",
-    "hiragana": "ちいさい",
-    "english": "little"
+    "word": "小さい",
+    "extra": "ちいさい",
+    "meaning": "little"
   },
   {
-    "kanji": "小さな",
-    "hiragana": "ちいさな",
-    "english": "little"
+    "word": "小さな",
+    "extra": "ちいさな",
+    "meaning": "little"
   },
   {
-    "kanji": "近い",
-    "hiragana": "ちかい",
-    "english": "near"
+    "word": "近い",
+    "extra": "ちかい",
+    "meaning": "near"
   },
   {
-    "kanji": "違う",
-    "hiragana": "ちがう",
-    "english": "to differ"
+    "word": "違う",
+    "extra": "ちがう",
+    "meaning": "to differ"
   },
   {
-    "kanji": "近く",
-    "hiragana": "ちかく",
-    "english": "near"
+    "word": "近く",
+    "extra": "ちかく",
+    "meaning": "near"
   },
   {
-    "kanji": "地下鉄",
-    "hiragana": "ちかてつ",
-    "english": "underground train"
+    "word": "地下鉄",
+    "extra": "ちかてつ",
+    "meaning": "underground train"
   },
   {
-    "kanji": "地図",
-    "hiragana": "ちず",
-    "english": "map"
+    "word": "地図",
+    "extra": "ちず",
+    "meaning": "map"
   },
   {
-    "kanji": "茶色",
-    "hiragana": "ちゃいろ",
-    "english": "brown"
+    "word": "茶色",
+    "extra": "ちゃいろ",
+    "meaning": "brown"
   },
   {
-    "kanji": "",
-    "hiragana": "ちゃわん",
-    "english": "rice bowl"
+    "word": "",
+    "extra": "ちゃわん",
+    "meaning": "rice bowl"
   },
   {
-    "kanji": "",
-    "hiragana": "ちょうど",
-    "english": "exactly"
+    "word": "",
+    "extra": "ちょうど",
+    "meaning": "exactly"
   },
   {
-    "kanji": "",
-    "hiragana": "ちょっと",
-    "english": "somewhat"
+    "word": "",
+    "extra": "ちょっと",
+    "meaning": "somewhat"
   },
   {
-    "kanji": "一日",
-    "hiragana": "ついたち",
-    "english": "first of month"
+    "word": "一日",
+    "extra": "ついたち",
+    "meaning": "first of month"
   },
   {
-    "kanji": "使う",
-    "hiragana": "つかう",
-    "english": "to use"
+    "word": "使う",
+    "extra": "つかう",
+    "meaning": "to use"
   },
   {
-    "kanji": "疲れる",
-    "hiragana": "つかれる",
-    "english": "to get tired"
+    "word": "疲れる",
+    "extra": "つかれる",
+    "meaning": "to get tired"
   },
   {
-    "kanji": "次",
-    "hiragana": "つぎ",
-    "english": "next"
+    "word": "次",
+    "extra": "つぎ",
+    "meaning": "next"
   },
   {
-    "kanji": "着く",
-    "hiragana": "つく",
-    "english": "to arrive at"
+    "word": "着く",
+    "extra": "つく",
+    "meaning": "to arrive at"
   },
   {
-    "kanji": "机",
-    "hiragana": "つくえ",
-    "english": "desk"
+    "word": "机",
+    "extra": "つくえ",
+    "meaning": "desk"
   },
   {
-    "kanji": "作る",
-    "hiragana": "つくる",
-    "english": "to make"
+    "word": "作る",
+    "extra": "つくる",
+    "meaning": "to make"
   },
   {
-    "kanji": "",
-    "hiragana": "つける",
-    "english": "to turn on"
+    "word": "",
+    "extra": "つける",
+    "meaning": "to turn on"
   },
   {
-    "kanji": "勤める",
-    "hiragana": "つとめる",
-    "english": "to work for someone"
+    "word": "勤める",
+    "extra": "つとめる",
+    "meaning": "to work for someone"
   },
   {
-    "kanji": "",
-    "hiragana": "つまらない",
-    "english": "boring"
+    "word": "",
+    "extra": "つまらない",
+    "meaning": "boring"
   },
   {
-    "kanji": "冷たい",
-    "hiragana": "つめたい",
-    "english": "cold to the touch"
+    "word": "冷たい",
+    "extra": "つめたい",
+    "meaning": "cold to the touch"
   },
   {
-    "kanji": "強い",
-    "hiragana": "つよい",
-    "english": "powerful"
+    "word": "強い",
+    "extra": "つよい",
+    "meaning": "powerful"
   },
   {
-    "kanji": "手",
-    "hiragana": "て",
-    "english": "hand"
+    "word": "手",
+    "extra": "て",
+    "meaning": "hand"
   },
   {
-    "kanji": "",
-    "hiragana": "テープ",
-    "english": "tape"
+    "word": "",
+    "extra": "テープ",
+    "meaning": "tape"
   },
   {
-    "kanji": "",
-    "hiragana": "テーブル",
-    "english": "table"
+    "word": "",
+    "extra": "テーブル",
+    "meaning": "table"
   },
   {
-    "kanji": "",
-    "hiragana": "テープレコーダー",
-    "english": "tape recorder"
+    "word": "",
+    "extra": "テープレコーダー",
+    "meaning": "tape recorder"
   },
   {
-    "kanji": "出かける",
-    "hiragana": "でかける",
-    "english": "to go out"
+    "word": "出かける",
+    "extra": "でかける",
+    "meaning": "to go out"
   },
   {
-    "kanji": "手紙",
-    "hiragana": "てがみ",
-    "english": "letter"
+    "word": "手紙",
+    "extra": "てがみ",
+    "meaning": "letter"
   },
   {
-    "kanji": "",
-    "hiragana": "できる",
-    "english": "to be able to"
+    "word": "",
+    "extra": "できる",
+    "meaning": "to be able to"
   },
   {
-    "kanji": "出口",
-    "hiragana": "でぐち",
-    "english": "exit"
+    "word": "出口",
+    "extra": "でぐち",
+    "meaning": "exit"
   },
   {
-    "kanji": "",
-    "hiragana": "テスト",
-    "english": "test"
+    "word": "",
+    "extra": "テスト",
+    "meaning": "test"
   },
   {
-    "kanji": "",
-    "hiragana": "では",
-    "english": "with that..."
+    "word": "",
+    "extra": "では",
+    "meaning": "with that..."
   },
   {
-    "kanji": "",
-    "hiragana": "デパート",
-    "english": "department store"
+    "word": "",
+    "extra": "デパート",
+    "meaning": "department store"
   },
   {
-    "kanji": "",
-    "hiragana": "でも",
-    "english": "but"
+    "word": "",
+    "extra": "でも",
+    "meaning": "but"
   },
   {
-    "kanji": "出る",
-    "hiragana": "でる",
-    "english": "to appear, to leave"
+    "word": "出る",
+    "extra": "でる",
+    "meaning": "to appear, to leave"
   },
   {
-    "kanji": "",
-    "hiragana": "テレビ",
-    "english": "television"
+    "word": "",
+    "extra": "テレビ",
+    "meaning": "television"
   },
   {
-    "kanji": "天気",
-    "hiragana": "てんき",
-    "english": "weather"
+    "word": "天気",
+    "extra": "てんき",
+    "meaning": "weather"
   },
   {
-    "kanji": "電気",
-    "hiragana": "でんき",
-    "english": "electricity, light"
+    "word": "電気",
+    "extra": "でんき",
+    "meaning": "electricity, light"
   },
   {
-    "kanji": "電車",
-    "hiragana": "でんしゃ",
-    "english": "electric train"
+    "word": "電車",
+    "extra": "でんしゃ",
+    "meaning": "electric train"
   },
   {
-    "kanji": "電話",
-    "hiragana": "でんわ",
-    "english": "telephone"
+    "word": "電話",
+    "extra": "でんわ",
+    "meaning": "telephone"
   },
   {
-    "kanji": "戸",
-    "hiragana": "と",
-    "english": "Japanese style door"
+    "word": "戸",
+    "extra": "と",
+    "meaning": "Japanese style door"
   },
   {
-    "kanji": "",
-    "hiragana": "ドア",
-    "english": "Western style door"
+    "word": "",
+    "extra": "ドア",
+    "meaning": "Western style door"
   },
   {
-    "kanji": "",
-    "hiragana": "トイレ",
-    "english": "toilet"
+    "word": "",
+    "extra": "トイレ",
+    "meaning": "toilet"
   },
   {
-    "kanji": "",
-    "hiragana": "どう",
-    "english": "how, in what way"
+    "word": "",
+    "extra": "どう",
+    "meaning": "how, in what way"
   },
   {
-    "kanji": "",
-    "hiragana": "どうして",
-    "english": "for what reason"
+    "word": "",
+    "extra": "どうして",
+    "meaning": "for what reason"
   },
   {
-    "kanji": "",
-    "hiragana": "どうぞ",
-    "english": "please"
+    "word": "",
+    "extra": "どうぞ",
+    "meaning": "please"
   },
   {
-    "kanji": "動物",
-    "hiragana": "どうぶつ",
-    "english": "animal"
+    "word": "動物",
+    "extra": "どうぶつ",
+    "meaning": "animal"
   },
   {
-    "kanji": "",
-    "hiragana": "どうも",
-    "english": "thanks"
+    "word": "",
+    "extra": "どうも",
+    "meaning": "thanks"
   },
   {
-    "kanji": "遠い",
-    "hiragana": "とおい",
-    "english": "far"
+    "word": "遠い",
+    "extra": "とおい",
+    "meaning": "far"
   },
   {
-    "kanji": "十日",
-    "hiragana": "とおか",
-    "english": "ten days, 10th day"
+    "word": "十日",
+    "extra": "とおか",
+    "meaning": "ten days, 10th day"
   },
   {
-    "kanji": "時々",
-    "hiragana": "ときどき",
-    "english": "sometimes"
+    "word": "時々",
+    "extra": "ときどき",
+    "meaning": "sometimes"
   },
   {
-    "kanji": "時計",
-    "hiragana": "とけい",
-    "english": "watch, clock"
+    "word": "時計",
+    "extra": "とけい",
+    "meaning": "watch, clock"
   },
   {
-    "kanji": "",
-    "hiragana": "どこ",
-    "english": "where"
+    "word": "",
+    "extra": "どこ",
+    "meaning": "where"
   },
   {
-    "kanji": "所",
-    "hiragana": "ところ",
-    "english": "place"
+    "word": "所",
+    "extra": "ところ",
+    "meaning": "place"
   },
   {
-    "kanji": "年",
-    "hiragana": "とし",
-    "english": "year"
+    "word": "年",
+    "extra": "とし",
+    "meaning": "year"
   },
   {
-    "kanji": "図書館",
-    "hiragana": "としょかん",
-    "english": "library"
+    "word": "図書館",
+    "extra": "としょかん",
+    "meaning": "library"
   },
   {
-    "kanji": "",
-    "hiragana": "どちら",
-    "english": "which of two"
+    "word": "",
+    "extra": "どちら",
+    "meaning": "which of two"
   },
   {
-    "kanji": "",
-    "hiragana": "どっち",
-    "english": "which"
+    "word": "",
+    "extra": "どっち",
+    "meaning": "which"
   },
   {
-    "kanji": "",
-    "hiragana": "とても",
-    "english": "very"
+    "word": "",
+    "extra": "とても",
+    "meaning": "very"
   },
   {
-    "kanji": "",
-    "hiragana": "どなた",
-    "english": "who"
+    "word": "",
+    "extra": "どなた",
+    "meaning": "who"
   },
   {
-    "kanji": "隣",
-    "hiragana": "となり",
-    "english": "next door to"
+    "word": "隣",
+    "extra": "となり",
+    "meaning": "next door to"
   },
   {
-    "kanji": "",
-    "hiragana": "どの",
-    "english": "which"
+    "word": "",
+    "extra": "どの",
+    "meaning": "which"
   },
   {
-    "kanji": "飛ぶ",
-    "hiragana": "とぶ",
-    "english": "to fly, to hop"
+    "word": "飛ぶ",
+    "extra": "とぶ",
+    "meaning": "to fly, to hop"
   },
   {
-    "kanji": "止まる",
-    "hiragana": "とまる",
-    "english": "to come to a halt"
+    "word": "止まる",
+    "extra": "とまる",
+    "meaning": "to come to a halt"
   },
   {
-    "kanji": "友達",
-    "hiragana": "ともだち",
-    "english": "friend"
+    "word": "友達",
+    "extra": "ともだち",
+    "meaning": "friend"
   },
   {
-    "kanji": "土曜日",
-    "hiragana": "どようび",
-    "english": "Saturday"
+    "word": "土曜日",
+    "extra": "どようび",
+    "meaning": "Saturday"
   },
   {
-    "kanji": "鳥",
-    "hiragana": "とり",
-    "english": "bird"
+    "word": "鳥",
+    "extra": "とり",
+    "meaning": "bird"
   },
   {
-    "kanji": "とり肉",
-    "hiragana": "とりにく",
-    "english": "chicken meat"
+    "word": "とり肉",
+    "extra": "とりにく",
+    "meaning": "chicken meat"
   },
   {
-    "kanji": "取る",
-    "hiragana": "とる",
-    "english": "to take something"
+    "word": "取る",
+    "extra": "とる",
+    "meaning": "to take something"
   },
   {
-    "kanji": "撮る",
-    "hiragana": "とる",
-    "english": "to take a photo"
+    "word": "撮る",
+    "extra": "とる",
+    "meaning": "to take a photo"
   },
   {
-    "kanji": "",
-    "hiragana": "どれ",
-    "english": "which (of three or more)"
+    "word": "",
+    "extra": "どれ",
+    "meaning": "which (of three or more)"
   },
   {
-    "kanji": "",
-    "hiragana": "ナイフ",
-    "english": "knife"
+    "word": "",
+    "extra": "ナイフ",
+    "meaning": "knife"
   },
   {
-    "kanji": "中",
-    "hiragana": "なか",
-    "english": "middle"
+    "word": "中",
+    "extra": "なか",
+    "meaning": "middle"
   },
   {
-    "kanji": "長い",
-    "hiragana": "ながい",
-    "english": "long"
+    "word": "長い",
+    "extra": "ながい",
+    "meaning": "long"
   },
   {
-    "kanji": "鳴く",
-    "hiragana": "なく",
-    "english": "animal noise. to chirp"
+    "word": "鳴く",
+    "extra": "なく",
+    "meaning": "animal noise. to chirp"
   },
   {
-    "kanji": "無くす",
-    "hiragana": "なくす",
-    "english": "to lose something"
+    "word": "無くす",
+    "extra": "なくす",
+    "meaning": "to lose something"
   },
   {
-    "kanji": "",
-    "hiragana": "なぜ",
-    "english": "why"
+    "word": "",
+    "extra": "なぜ",
+    "meaning": "why"
   },
   {
-    "kanji": "夏",
-    "hiragana": "なつ",
-    "english": "summer"
+    "word": "夏",
+    "extra": "なつ",
+    "meaning": "summer"
   },
   {
-    "kanji": "夏休み",
-    "hiragana": "なつやすみ",
-    "english": "summer holiday"
+    "word": "夏休み",
+    "extra": "なつやすみ",
+    "meaning": "summer holiday"
   },
   {
-    "kanji": "",
-    "hiragana": "など",
-    "english": "et cetera"
+    "word": "",
+    "extra": "など",
+    "meaning": "et cetera"
   },
   {
-    "kanji": "七つ",
-    "hiragana": "ななつ",
-    "english": "seven"
+    "word": "七つ",
+    "extra": "ななつ",
+    "meaning": "seven"
   },
   {
-    "kanji": "七日",
-    "hiragana": "なのか",
-    "english": "seven days, 7th day"
+    "word": "七日",
+    "extra": "なのか",
+    "meaning": "seven days, 7th day"
   },
   {
-    "kanji": "名前",
-    "hiragana": "なまえ",
-    "english": "name"
+    "word": "名前",
+    "extra": "なまえ",
+    "meaning": "name"
   },
   {
-    "kanji": "習う",
-    "hiragana": "ならう",
-    "english": "to learn"
+    "word": "習う",
+    "extra": "ならう",
+    "meaning": "to learn"
   },
   {
-    "kanji": "並ぶ",
-    "hiragana": "ならぶ",
-    "english": "to line up"
+    "word": "並ぶ",
+    "extra": "ならぶ",
+    "meaning": "to line up"
   },
   {
-    "kanji": "並べる",
-    "hiragana": "ならべる",
-    "english": "to line up, to set up"
+    "word": "並べる",
+    "extra": "ならべる",
+    "meaning": "to line up, to set up"
   },
   {
-    "kanji": "",
-    "hiragana": "なる",
-    "english": "to become"
+    "word": "",
+    "extra": "なる",
+    "meaning": "to become"
   },
   {
-    "kanji": "何",
-    "hiragana": "なん/なに",
-    "english": "what"
+    "word": "何",
+    "extra": "なん/なに",
+    "meaning": "what"
   },
   {
-    "kanji": "二",
-    "hiragana": "に",
-    "english": "two"
+    "word": "二",
+    "extra": "に",
+    "meaning": "two"
   },
   {
-    "kanji": "賑やか",
-    "hiragana": "にぎやか",
-    "english": "bustling, busy"
+    "word": "賑やか",
+    "extra": "にぎやか",
+    "meaning": "bustling, busy"
   },
   {
-    "kanji": "肉",
-    "hiragana": "にく",
-    "english": "meat"
+    "word": "肉",
+    "extra": "にく",
+    "meaning": "meat"
   },
   {
-    "kanji": "西",
-    "hiragana": "にし",
-    "english": "west"
+    "word": "西",
+    "extra": "にし",
+    "meaning": "west"
   },
   {
-    "kanji": "日曜日",
-    "hiragana": "にちようび",
-    "english": "Sunday"
+    "word": "日曜日",
+    "extra": "にちようび",
+    "meaning": "Sunday"
   },
   {
-    "kanji": "荷物",
-    "hiragana": "にもつ",
-    "english": "luggage"
+    "word": "荷物",
+    "extra": "にもつ",
+    "meaning": "luggage"
   },
   {
-    "kanji": "",
-    "hiragana": "ニュース",
-    "english": "news"
+    "word": "",
+    "extra": "ニュース",
+    "meaning": "news"
   },
   {
-    "kanji": "庭",
-    "hiragana": "にわ",
-    "english": "garden"
+    "word": "庭",
+    "extra": "にわ",
+    "meaning": "garden"
   },
   {
-    "kanji": "脱ぐ",
-    "hiragana": "ぬぐ",
-    "english": "to take off clothes"
+    "word": "脱ぐ",
+    "extra": "ぬぐ",
+    "meaning": "to take off clothes"
   },
   {
-    "kanji": "温い",
-    "hiragana": "ぬるい",
-    "english": "luke warm"
+    "word": "温い",
+    "extra": "ぬるい",
+    "meaning": "luke warm"
   },
   {
-    "kanji": "",
-    "hiragana": "ネクタイ",
-    "english": "tie, necktie"
+    "word": "",
+    "extra": "ネクタイ",
+    "meaning": "tie, necktie"
   },
   {
-    "kanji": "猫",
-    "hiragana": "ねこ",
-    "english": "cat"
+    "word": "猫",
+    "extra": "ねこ",
+    "meaning": "cat"
   },
   {
-    "kanji": "寝る",
-    "hiragana": "ねる",
-    "english": "to go to bed, to sleep"
+    "word": "寝る",
+    "extra": "ねる",
+    "meaning": "to go to bed, to sleep"
   },
   {
-    "kanji": "",
-    "hiragana": "ノート",
-    "english": "notebook, exercise book"
+    "word": "",
+    "extra": "ノート",
+    "meaning": "notebook, exercise book"
   },
   {
-    "kanji": "登る",
-    "hiragana": "のぼる",
-    "english": "to climb"
+    "word": "登る",
+    "extra": "のぼる",
+    "meaning": "to climb"
   },
   {
-    "kanji": "飲み物",
-    "hiragana": "のみもの",
-    "english": "a drink"
+    "word": "飲み物",
+    "extra": "のみもの",
+    "meaning": "a drink"
   },
   {
-    "kanji": "飲む",
-    "hiragana": "のむ",
-    "english": "to drink"
+    "word": "飲む",
+    "extra": "のむ",
+    "meaning": "to drink"
   },
   {
-    "kanji": "乗る",
-    "hiragana": "のる",
-    "english": "to get on, to ride"
+    "word": "乗る",
+    "extra": "のる",
+    "meaning": "to get on, to ride"
   },
   {
-    "kanji": "歯",
-    "hiragana": "は",
-    "english": "tooth"
+    "word": "歯",
+    "extra": "は",
+    "meaning": "tooth"
   },
   {
-    "kanji": "",
-    "hiragana": "パーティー",
-    "english": "party"
+    "word": "",
+    "extra": "パーティー",
+    "meaning": "party"
   },
   {
-    "kanji": "",
-    "hiragana": "はい",
-    "english": "yes"
+    "word": "",
+    "extra": "はい",
+    "meaning": "yes"
   },
   {
-    "kanji": "灰皿",
-    "hiragana": "はいざら",
-    "english": "ashtray"
+    "word": "灰皿",
+    "extra": "はいざら",
+    "meaning": "ashtray"
   },
   {
-    "kanji": "入る",
-    "hiragana": "はいる",
-    "english": "to enter, to contain"
+    "word": "入る",
+    "extra": "はいる",
+    "meaning": "to enter, to contain"
   },
   {
-    "kanji": "葉書",
-    "hiragana": "はがき",
-    "english": "postcard"
+    "word": "葉書",
+    "extra": "はがき",
+    "meaning": "postcard"
   },
   {
-    "kanji": "",
-    "hiragana": "はく",
-    "english": "to wear (legs)"
+    "word": "",
+    "extra": "はく",
+    "meaning": "to wear (legs)"
   },
   {
-    "kanji": "箱",
-    "hiragana": "はこ",
-    "english": "box"
+    "word": "箱",
+    "extra": "はこ",
+    "meaning": "box"
   },
   {
-    "kanji": "橋",
-    "hiragana": "はし",
-    "english": "bridge"
+    "word": "橋",
+    "extra": "はし",
+    "meaning": "bridge"
   },
   {
-    "kanji": "",
-    "hiragana": "はし",
-    "english": "chopsticks"
+    "word": "",
+    "extra": "はし",
+    "meaning": "chopsticks"
   },
   {
-    "kanji": "始まる",
-    "hiragana": "はじまる",
-    "english": "to begin"
+    "word": "始まる",
+    "extra": "はじまる",
+    "meaning": "to begin"
   },
   {
-    "kanji": "初め/始め",
-    "hiragana": "はじめ",
-    "english": "beginning"
+    "word": "初め/始め",
+    "extra": "はじめ",
+    "meaning": "beginning"
   },
   {
-    "kanji": "初めて",
-    "hiragana": "はじめて",
-    "english": "for the first time"
+    "word": "初めて",
+    "extra": "はじめて",
+    "meaning": "for the first time"
   },
   {
-    "kanji": "走る",
-    "hiragana": "はしる",
-    "english": "to run"
+    "word": "走る",
+    "extra": "はしる",
+    "meaning": "to run"
   },
   {
-    "kanji": "",
-    "hiragana": "バス",
-    "english": "bus"
+    "word": "",
+    "extra": "バス",
+    "meaning": "bus"
   },
   {
-    "kanji": "",
-    "hiragana": "バター",
-    "english": "butter"
+    "word": "",
+    "extra": "バター",
+    "meaning": "butter"
   },
   {
-    "kanji": "二十歳",
-    "hiragana": "はたち",
-    "english": "20 years old, 20th year"
+    "word": "二十歳",
+    "extra": "はたち",
+    "meaning": "20 years old, 20th year"
   },
   {
-    "kanji": "働く",
-    "hiragana": "はたらく",
-    "english": "to work"
+    "word": "働く",
+    "extra": "はたらく",
+    "meaning": "to work"
   },
   {
-    "kanji": "八",
-    "hiragana": "はち",
-    "english": "eight"
+    "word": "八",
+    "extra": "はち",
+    "meaning": "eight"
   },
   {
-    "kanji": "二十日",
-    "hiragana": "はつか",
-    "english": "twenty days, 20th day"
+    "word": "二十日",
+    "extra": "はつか",
+    "meaning": "twenty days, 20th day"
   },
   {
-    "kanji": "花",
-    "hiragana": "はな",
-    "english": "flower"
+    "word": "花",
+    "extra": "はな",
+    "meaning": "flower"
   },
   {
-    "kanji": "鼻",
-    "hiragana": "はな",
-    "english": "nose"
+    "word": "鼻",
+    "extra": "はな",
+    "meaning": "nose"
   },
   {
-    "kanji": "話",
-    "hiragana": "はなし",
-    "english": "talk, story"
+    "word": "話",
+    "extra": "はなし",
+    "meaning": "talk, story"
   },
   {
-    "kanji": "話す",
-    "hiragana": "はなす",
-    "english": "to speak"
+    "word": "話す",
+    "extra": "はなす",
+    "meaning": "to speak"
   },
   {
-    "kanji": "早い",
-    "hiragana": "はやい",
-    "english": "early"
+    "word": "早い",
+    "extra": "はやい",
+    "meaning": "early"
   },
   {
-    "kanji": "速い",
-    "hiragana": "はやい",
-    "english": "quick"
+    "word": "速い",
+    "extra": "はやい",
+    "meaning": "quick"
   },
   {
-    "kanji": "春",
-    "hiragana": "はる",
-    "english": "spring"
+    "word": "春",
+    "extra": "はる",
+    "meaning": "spring"
   },
   {
-    "kanji": "貼る",
-    "hiragana": "はる",
-    "english": "to stick"
+    "word": "貼る",
+    "extra": "はる",
+    "meaning": "to stick"
   },
   {
-    "kanji": "晴れ",
-    "hiragana": "はれ",
-    "english": "clear weather"
+    "word": "晴れ",
+    "extra": "はれ",
+    "meaning": "clear weather"
   },
   {
-    "kanji": "晴れる",
-    "hiragana": "はれる",
-    "english": "to be sunny"
+    "word": "晴れる",
+    "extra": "はれる",
+    "meaning": "to be sunny"
   },
   {
-    "kanji": "半",
-    "hiragana": "はん",
-    "english": "half"
+    "word": "半",
+    "extra": "はん",
+    "meaning": "half"
   },
   {
-    "kanji": "晩",
-    "hiragana": "ばん",
-    "english": "evening"
+    "word": "晩",
+    "extra": "ばん",
+    "meaning": "evening"
   },
   {
-    "kanji": "",
-    "hiragana": "パン",
-    "english": "bread"
+    "word": "",
+    "extra": "パン",
+    "meaning": "bread"
   },
   {
-    "kanji": "",
-    "hiragana": "ハンカチ",
-    "english": "handkerchief"
+    "word": "",
+    "extra": "ハンカチ",
+    "meaning": "handkerchief"
   },
   {
-    "kanji": "番号",
-    "hiragana": "ばんごう",
-    "english": "number"
+    "word": "番号",
+    "extra": "ばんごう",
+    "meaning": "number"
   },
   {
-    "kanji": "晩御飯",
-    "hiragana": "ばんごはん",
-    "english": "evening meal"
+    "word": "晩御飯",
+    "extra": "ばんごはん",
+    "meaning": "evening meal"
   },
   {
-    "kanji": "半分",
-    "hiragana": "はんぶん",
-    "english": "half minute"
+    "word": "半分",
+    "extra": "はんぶん",
+    "meaning": "half minute"
   },
   {
-    "kanji": "東",
-    "hiragana": "ひがし",
-    "english": "east"
+    "word": "東",
+    "extra": "ひがし",
+    "meaning": "east"
   },
   {
-    "kanji": "引く",
-    "hiragana": "ひく",
-    "english": "to pull"
+    "word": "引く",
+    "extra": "ひく",
+    "meaning": "to pull"
   },
   {
-    "kanji": "弾く",
-    "hiragana": "ひく",
-    "english": "to play a string instrument"
+    "word": "弾く",
+    "extra": "ひく",
+    "meaning": "to play a string instrument"
   },
   {
-    "kanji": "低い",
-    "hiragana": "ひくい",
-    "english": "short, low"
+    "word": "低い",
+    "extra": "ひくい",
+    "meaning": "short, low"
   },
   {
-    "kanji": "飛行機",
-    "hiragana": "ひこうき",
-    "english": "aeroplane"
+    "word": "飛行機",
+    "extra": "ひこうき",
+    "meaning": "aeroplane"
   },
   {
-    "kanji": "左",
-    "hiragana": "ひだり",
-    "english": "left hand side"
+    "word": "左",
+    "extra": "ひだり",
+    "meaning": "left hand side"
   },
   {
-    "kanji": "人",
-    "hiragana": "ひと",
-    "english": "person"
+    "word": "人",
+    "extra": "ひと",
+    "meaning": "person"
   },
   {
-    "kanji": "一つ",
-    "hiragana": "ひとつ",
-    "english": "one"
+    "word": "一つ",
+    "extra": "ひとつ",
+    "meaning": "one"
   },
   {
-    "kanji": "一月",
-    "hiragana": "ひとつき",
-    "english": "one month"
+    "word": "一月",
+    "extra": "ひとつき",
+    "meaning": "one month"
   },
   {
-    "kanji": "一人",
-    "hiragana": "ひとり",
-    "english": "one person"
+    "word": "一人",
+    "extra": "ひとり",
+    "meaning": "one person"
   },
   {
-    "kanji": "暇",
-    "hiragana": "ひま",
-    "english": "free time"
+    "word": "暇",
+    "extra": "ひま",
+    "meaning": "free time"
   },
   {
-    "kanji": "百",
-    "hiragana": "ひゃく",
-    "english": "hundred"
+    "word": "百",
+    "extra": "ひゃく",
+    "meaning": "hundred"
   },
   {
-    "kanji": "病院",
-    "hiragana": "びょういん",
-    "english": "hospital"
+    "word": "病院",
+    "extra": "びょういん",
+    "meaning": "hospital"
   },
   {
-    "kanji": "病気",
-    "hiragana": "びょうき",
-    "english": "illness"
+    "word": "病気",
+    "extra": "びょうき",
+    "meaning": "illness"
   },
   {
-    "kanji": "昼",
-    "hiragana": "ひる",
-    "english": "noon, daytime"
+    "word": "昼",
+    "extra": "ひる",
+    "meaning": "noon, daytime"
   },
   {
-    "kanji": "昼御飯",
-    "hiragana": "ひるごはん",
-    "english": "midday meal"
+    "word": "昼御飯",
+    "extra": "ひるごはん",
+    "meaning": "midday meal"
   },
   {
-    "kanji": "広い",
-    "hiragana": "ひろい",
-    "english": "spacious, wide"
+    "word": "広い",
+    "extra": "ひろい",
+    "meaning": "spacious, wide"
   },
   {
-    "kanji": "",
-    "hiragana": "フィルム",
-    "english": "roll of film"
+    "word": "",
+    "extra": "フィルム",
+    "meaning": "roll of film"
   },
   {
-    "kanji": "封筒",
-    "hiragana": "ふうとう",
-    "english": "envelope"
+    "word": "封筒",
+    "extra": "ふうとう",
+    "meaning": "envelope"
   },
   {
-    "kanji": "",
-    "hiragana": "プール",
-    "english": "swimming pool"
+    "word": "",
+    "extra": "プール",
+    "meaning": "swimming pool"
   },
   {
-    "kanji": "",
-    "hiragana": "フォーク",
-    "english": "fork"
+    "word": "",
+    "extra": "フォーク",
+    "meaning": "fork"
   },
   {
-    "kanji": "吹く",
-    "hiragana": "ふく",
-    "english": "to blow"
+    "word": "吹く",
+    "extra": "ふく",
+    "meaning": "to blow"
   },
   {
-    "kanji": "服",
-    "hiragana": "ふく",
-    "english": "clothes"
+    "word": "服",
+    "extra": "ふく",
+    "meaning": "clothes"
   },
   {
-    "kanji": "二つ",
-    "hiragana": "ふたつ",
-    "english": "two"
+    "word": "二つ",
+    "extra": "ふたつ",
+    "meaning": "two"
   },
   {
-    "kanji": "豚肉",
-    "hiragana": "ぶたにく",
-    "english": "pork"
+    "word": "豚肉",
+    "extra": "ぶたにく",
+    "meaning": "pork"
   },
   {
-    "kanji": "二人",
-    "hiragana": "ふたり",
-    "english": "two people"
+    "word": "二人",
+    "extra": "ふたり",
+    "meaning": "two people"
   },
   {
-    "kanji": "二日",
-    "hiragana": "ふつか",
-    "english": "two days, 2nd day"
+    "word": "二日",
+    "extra": "ふつか",
+    "meaning": "two days, 2nd day"
   },
   {
-    "kanji": "太い",
-    "hiragana": "ふとい",
-    "english": "fat"
+    "word": "太い",
+    "extra": "ふとい",
+    "meaning": "fat"
   },
   {
-    "kanji": "冬",
-    "hiragana": "ふゆ",
-    "english": "winter"
+    "word": "冬",
+    "extra": "ふゆ",
+    "meaning": "winter"
   },
   {
-    "kanji": "降る",
-    "hiragana": "ふる",
-    "english": "to fall, (rain)"
+    "word": "降る",
+    "extra": "ふる",
+    "meaning": "to fall, (rain)"
   },
   {
-    "kanji": "古い",
-    "hiragana": "ふるい",
-    "english": "old (inanimated)"
+    "word": "古い",
+    "extra": "ふるい",
+    "meaning": "old (inanimated)"
   },
   {
-    "kanji": "",
-    "hiragana": "ふろ",
-    "english": "bath"
+    "word": "",
+    "extra": "ふろ",
+    "meaning": "bath"
   },
   {
-    "kanji": "文章",
-    "hiragana": "ぶんしょう",
-    "english": "sentence, text"
+    "word": "文章",
+    "extra": "ぶんしょう",
+    "meaning": "sentence, text"
   },
   {
-    "kanji": "",
-    "hiragana": "ページ",
-    "english": "page"
+    "word": "",
+    "extra": "ページ",
+    "meaning": "page"
   },
   {
-    "kanji": "下手",
-    "hiragana": "へた",
-    "english": "unskillful"
+    "word": "下手",
+    "extra": "へた",
+    "meaning": "unskillful"
   },
   {
-    "kanji": "",
-    "hiragana": "ベッド",
-    "english": "bed"
+    "word": "",
+    "extra": "ベッド",
+    "meaning": "bed"
   },
   {
-    "kanji": "",
-    "hiragana": "ペット",
-    "english": "pet"
+    "word": "",
+    "extra": "ペット",
+    "meaning": "pet"
   },
   {
-    "kanji": "部屋",
-    "hiragana": "へや",
-    "english": "room"
+    "word": "部屋",
+    "extra": "へや",
+    "meaning": "room"
   },
   {
-    "kanji": "辺",
-    "hiragana": "へん",
-    "english": "area"
+    "word": "辺",
+    "extra": "へん",
+    "meaning": "area"
   },
   {
-    "kanji": "",
-    "hiragana": "ペン",
-    "english": "pen"
+    "word": "",
+    "extra": "ペン",
+    "meaning": "pen"
   },
   {
-    "kanji": "勉強",
-    "hiragana": "べんきょうする",
-    "english": "to study"
+    "word": "勉強",
+    "extra": "べんきょうする",
+    "meaning": "to study"
   },
   {
-    "kanji": "便利",
-    "hiragana": "べんり",
-    "english": "useful, convenient"
+    "word": "便利",
+    "extra": "べんり",
+    "meaning": "useful, convenient"
   },
   {
-    "kanji": "帽子",
-    "hiragana": "ぼうし",
-    "english": "hat"
+    "word": "帽子",
+    "extra": "ぼうし",
+    "meaning": "hat"
   },
   {
-    "kanji": "",
-    "hiragana": "ボールペン",
-    "english": "ball-point pen"
+    "word": "",
+    "extra": "ボールペン",
+    "meaning": "ball-point pen"
   },
   {
-    "kanji": "",
-    "hiragana": "ほか",
-    "english": "other, the rest"
+    "word": "",
+    "extra": "ほか",
+    "meaning": "other, the rest"
   },
   {
-    "kanji": "",
-    "hiragana": "ポケット",
-    "english": "pocket"
+    "word": "",
+    "extra": "ポケット",
+    "meaning": "pocket"
   },
   {
-    "kanji": "欲しい",
-    "hiragana": "ほしい",
-    "english": "want"
+    "word": "欲しい",
+    "extra": "ほしい",
+    "meaning": "want"
   },
   {
-    "kanji": "",
-    "hiragana": "ポスト",
-    "english": "post"
+    "word": "",
+    "extra": "ポスト",
+    "meaning": "post"
   },
   {
-    "kanji": "細い",
-    "hiragana": "ほそい",
-    "english": "thin"
+    "word": "細い",
+    "extra": "ほそい",
+    "meaning": "thin"
   },
   {
-    "kanji": "",
-    "hiragana": "ボタン",
-    "english": "button"
+    "word": "",
+    "extra": "ボタン",
+    "meaning": "button"
   },
   {
-    "kanji": "",
-    "hiragana": "ホテル",
-    "english": "hotel"
+    "word": "",
+    "extra": "ホテル",
+    "meaning": "hotel"
   },
   {
-    "kanji": "本",
-    "hiragana": "ほん",
-    "english": "book"
+    "word": "本",
+    "extra": "ほん",
+    "meaning": "book"
   },
   {
-    "kanji": "本棚",
-    "hiragana": "ほんだな",
-    "english": "bookshelves"
+    "word": "本棚",
+    "extra": "ほんだな",
+    "meaning": "bookshelves"
   },
   {
-    "kanji": "",
-    "hiragana": "ほんとう",
-    "english": "truth"
+    "word": "",
+    "extra": "ほんとう",
+    "meaning": "truth"
   },
   {
-    "kanji": "毎朝",
-    "hiragana": "まいあさ",
-    "english": "every morning"
+    "word": "毎朝",
+    "extra": "まいあさ",
+    "meaning": "every morning"
   },
   {
-    "kanji": "毎月",
-    "hiragana": "まいげつ/まいつき",
-    "english": "every month"
+    "word": "毎月",
+    "extra": "まいげつ/まいつき",
+    "meaning": "every month"
   },
   {
-    "kanji": "毎週",
-    "hiragana": "まいしゅう",
-    "english": "every week"
+    "word": "毎週",
+    "extra": "まいしゅう",
+    "meaning": "every week"
   },
   {
-    "kanji": "毎日",
-    "hiragana": "まいにち",
-    "english": "every day"
+    "word": "毎日",
+    "extra": "まいにち",
+    "meaning": "every day"
   },
   {
-    "kanji": "毎年",
-    "hiragana": "まいねん/まいとし",
-    "english": "every year"
+    "word": "毎年",
+    "extra": "まいねん/まいとし",
+    "meaning": "every year"
   },
   {
-    "kanji": "毎晩",
-    "hiragana": "まいばん",
-    "english": "every night"
+    "word": "毎晩",
+    "extra": "まいばん",
+    "meaning": "every night"
   },
   {
-    "kanji": "前",
-    "hiragana": "まえ",
-    "english": "before"
+    "word": "前",
+    "extra": "まえ",
+    "meaning": "before"
   },
   {
-    "kanji": "曲る",
-    "hiragana": "まがる",
-    "english": "to turn, to bend"
+    "word": "曲る",
+    "extra": "まがる",
+    "meaning": "to turn, to bend"
   },
   {
-    "kanji": "",
-    "hiragana": "まずい",
-    "english": "unpleasant"
+    "word": "",
+    "extra": "まずい",
+    "meaning": "unpleasant"
   },
   {
-    "kanji": "",
-    "hiragana": "また",
-    "english": "again, and"
+    "word": "",
+    "extra": "また",
+    "meaning": "again, and"
   },
   {
-    "kanji": "",
-    "hiragana": "まだ",
-    "english": "yet, still"
+    "word": "",
+    "extra": "まだ",
+    "meaning": "yet, still"
   },
   {
-    "kanji": "町",
-    "hiragana": "まち",
-    "english": "town, city"
+    "word": "町",
+    "extra": "まち",
+    "meaning": "town, city"
   },
   {
-    "kanji": "待つ",
-    "hiragana": "まつ",
-    "english": "to wait"
+    "word": "待つ",
+    "extra": "まつ",
+    "meaning": "to wait"
   },
   {
-    "kanji": "",
-    "hiragana": "まっすぐ",
-    "english": "straight ahead, direct"
+    "word": "",
+    "extra": "まっすぐ",
+    "meaning": "straight ahead, direct"
   },
   {
-    "kanji": "",
-    "hiragana": "マッチ",
-    "english": "match"
+    "word": "",
+    "extra": "マッチ",
+    "meaning": "match"
   },
   {
-    "kanji": "窓",
-    "hiragana": "まど",
-    "english": "window"
+    "word": "窓",
+    "extra": "まど",
+    "meaning": "window"
   },
   {
-    "kanji": "丸い/円い",
-    "hiragana": "まるい",
-    "english": "round, circular"
+    "word": "丸い/円い",
+    "extra": "まるい",
+    "meaning": "round, circular"
   },
   {
-    "kanji": "万",
-    "hiragana": "まん",
-    "english": "ten thousand"
+    "word": "万",
+    "extra": "まん",
+    "meaning": "ten thousand"
   },
   {
-    "kanji": "万年筆",
-    "hiragana": "まんねんひつ",
-    "english": "fountain pen"
+    "word": "万年筆",
+    "extra": "まんねんひつ",
+    "meaning": "fountain pen"
   },
   {
-    "kanji": "磨く",
-    "hiragana": "みがく",
-    "english": "to brush teeth, to polish"
+    "word": "磨く",
+    "extra": "みがく",
+    "meaning": "to brush teeth, to polish"
   },
   {
-    "kanji": "右",
-    "hiragana": "みぎ",
-    "english": "right side"
+    "word": "右",
+    "extra": "みぎ",
+    "meaning": "right side"
   },
   {
-    "kanji": "短い",
-    "hiragana": "みじかい",
-    "english": "short"
+    "word": "短い",
+    "extra": "みじかい",
+    "meaning": "short"
   },
   {
-    "kanji": "水",
-    "hiragana": "みず",
-    "english": "water"
+    "word": "水",
+    "extra": "みず",
+    "meaning": "water"
   },
   {
-    "kanji": "店",
-    "hiragana": "みせ",
-    "english": "shop"
+    "word": "店",
+    "extra": "みせ",
+    "meaning": "shop"
   },
   {
-    "kanji": "見せる",
-    "hiragana": "みせる",
-    "english": "to show"
+    "word": "見せる",
+    "extra": "みせる",
+    "meaning": "to show"
   },
   {
-    "kanji": "道",
-    "hiragana": "みち",
-    "english": "street"
+    "word": "道",
+    "extra": "みち",
+    "meaning": "street"
   },
   {
-    "kanji": "三日",
-    "hiragana": "みっか",
-    "english": "three days, 3rd day"
+    "word": "三日",
+    "extra": "みっか",
+    "meaning": "three days, 3rd day"
   },
   {
-    "kanji": "三つ",
-    "hiragana": "みっつ",
-    "english": "three"
+    "word": "三つ",
+    "extra": "みっつ",
+    "meaning": "three"
   },
   {
-    "kanji": "緑",
-    "hiragana": "みどり",
-    "english": "green"
+    "word": "緑",
+    "extra": "みどり",
+    "meaning": "green"
   },
   {
-    "kanji": "皆さん",
-    "hiragana": "みなさん",
-    "english": "everyone"
+    "word": "皆さん",
+    "extra": "みなさん",
+    "meaning": "everyone"
   },
   {
-    "kanji": "南",
-    "hiragana": "みなみ",
-    "english": "south"
+    "word": "南",
+    "extra": "みなみ",
+    "meaning": "south"
   },
   {
-    "kanji": "耳",
-    "hiragana": "みみ",
-    "english": "ear"
+    "word": "耳",
+    "extra": "みみ",
+    "meaning": "ear"
   },
   {
-    "kanji": "見る  観る",
-    "hiragana": "みる",
-    "english": "to see, to watch"
+    "word": "見る  観る",
+    "extra": "みる",
+    "meaning": "to see, to watch"
   },
   {
-    "kanji": "",
-    "hiragana": "みんな",
-    "english": "everyone"
+    "word": "",
+    "extra": "みんな",
+    "meaning": "everyone"
   },
   {
-    "kanji": "六日",
-    "hiragana": "むいか",
-    "english": "six days, 6th day"
+    "word": "六日",
+    "extra": "むいか",
+    "meaning": "six days, 6th day"
   },
   {
-    "kanji": "向こう",
-    "hiragana": "むこう",
-    "english": "over there"
+    "word": "向こう",
+    "extra": "むこう",
+    "meaning": "over there"
   },
   {
-    "kanji": "難しい",
-    "hiragana": "むずかしい",
-    "english": "difficult"
+    "word": "難しい",
+    "extra": "むずかしい",
+    "meaning": "difficult"
   },
   {
-    "kanji": "六つ",
-    "hiragana": "むっつ",
-    "english": "six"
+    "word": "六つ",
+    "extra": "むっつ",
+    "meaning": "six"
   },
   {
-    "kanji": "村",
-    "hiragana": "むら",
-    "english": "village"
+    "word": "村",
+    "extra": "むら",
+    "meaning": "village"
   },
   {
-    "kanji": "目",
-    "hiragana": "め",
-    "english": "eye"
+    "word": "目",
+    "extra": "め",
+    "meaning": "eye"
   },
   {
-    "kanji": "",
-    "hiragana": "メートル",
-    "english": "metre"
+    "word": "",
+    "extra": "メートル",
+    "meaning": "metre"
   },
   {
-    "kanji": "眼鏡",
-    "hiragana": "めがね",
-    "english": "glasses"
+    "word": "眼鏡",
+    "extra": "めがね",
+    "meaning": "glasses"
   },
   {
-    "kanji": "",
-    "hiragana": "もう",
-    "english": "already"
+    "word": "",
+    "extra": "もう",
+    "meaning": "already"
   },
   {
-    "kanji": "もう一度",
-    "hiragana": "もういちど",
-    "english": "again"
+    "word": "もう一度",
+    "extra": "もういちど",
+    "meaning": "again"
   },
   {
-    "kanji": "木曜日",
-    "hiragana": "もくようび",
-    "english": "Thursday"
+    "word": "木曜日",
+    "extra": "もくようび",
+    "meaning": "Thursday"
   },
   {
-    "kanji": "持つ",
-    "hiragana": "もつ",
-    "english": "to hold"
+    "word": "持つ",
+    "extra": "もつ",
+    "meaning": "to hold"
   },
   {
-    "kanji": "",
-    "hiragana": "もっと",
-    "english": "more"
+    "word": "",
+    "extra": "もっと",
+    "meaning": "more"
   },
   {
-    "kanji": "物",
-    "hiragana": "もの",
-    "english": "thing"
+    "word": "物",
+    "extra": "もの",
+    "meaning": "thing"
   },
   {
-    "kanji": "門",
-    "hiragana": "もん",
-    "english": "gate"
+    "word": "門",
+    "extra": "もん",
+    "meaning": "gate"
   },
   {
-    "kanji": "問題",
-    "hiragana": "もんだい",
-    "english": "problem"
+    "word": "問題",
+    "extra": "もんだい",
+    "meaning": "problem"
   },
   {
-    "kanji": "八百屋",
-    "hiragana": "やおや",
-    "english": "greengrocer"
+    "word": "八百屋",
+    "extra": "やおや",
+    "meaning": "greengrocer"
   },
   {
-    "kanji": "野菜",
-    "hiragana": "やさい",
-    "english": "vegetable"
+    "word": "野菜",
+    "extra": "やさい",
+    "meaning": "vegetable"
   },
   {
-    "kanji": "易しい",
-    "hiragana": "やさしい",
-    "english": "easy, simple"
+    "word": "易しい",
+    "extra": "やさしい",
+    "meaning": "easy, simple"
   },
   {
-    "kanji": "安い",
-    "hiragana": "やすい",
-    "english": "cheap"
+    "word": "安い",
+    "extra": "やすい",
+    "meaning": "cheap"
   },
   {
-    "kanji": "休み",
-    "hiragana": "やすみ",
-    "english": "rest, holiday"
+    "word": "休み",
+    "extra": "やすみ",
+    "meaning": "rest, holiday"
   },
   {
-    "kanji": "休む",
-    "hiragana": "やすむ",
-    "english": "to rest"
+    "word": "休む",
+    "extra": "やすむ",
+    "meaning": "to rest"
   },
   {
-    "kanji": "八つ",
-    "hiragana": "やっつ",
-    "english": "eight"
+    "word": "八つ",
+    "extra": "やっつ",
+    "meaning": "eight"
   },
   {
-    "kanji": "山",
-    "hiragana": "やま",
-    "english": "mountain"
+    "word": "山",
+    "extra": "やま",
+    "meaning": "mountain"
   },
   {
-    "kanji": "",
-    "hiragana": "やる",
-    "english": "to do"
+    "word": "",
+    "extra": "やる",
+    "meaning": "to do"
   },
   {
-    "kanji": "夕方",
-    "hiragana": "ゆうがた",
-    "english": "evening"
+    "word": "夕方",
+    "extra": "ゆうがた",
+    "meaning": "evening"
   },
   {
-    "kanji": "夕飯",
-    "hiragana": "ゆうはん",
-    "english": "dinner"
+    "word": "夕飯",
+    "extra": "ゆうはん",
+    "meaning": "dinner"
   },
   {
-    "kanji": "郵便局",
-    "hiragana": "ゆうびんきょく",
-    "english": "post office"
+    "word": "郵便局",
+    "extra": "ゆうびんきょく",
+    "meaning": "post office"
   },
   {
-    "kanji": "昨夜",
-    "hiragana": "ゆうべ",
-    "english": "last night"
+    "word": "昨夜",
+    "extra": "ゆうべ",
+    "meaning": "last night"
   },
   {
-    "kanji": "有名",
-    "hiragana": "ゆうめい",
-    "english": "famous"
+    "word": "有名",
+    "extra": "ゆうめい",
+    "meaning": "famous"
   },
   {
-    "kanji": "雪",
-    "hiragana": "ゆき",
-    "english": "snow"
+    "word": "雪",
+    "extra": "ゆき",
+    "meaning": "snow"
   },
   {
-    "kanji": "行く",
-    "hiragana": "ゆく",
-    "english": "to go"
+    "word": "行く",
+    "extra": "ゆく",
+    "meaning": "to go"
   },
   {
-    "kanji": "",
-    "hiragana": "ゆっくりと",
-    "english": "slowly"
+    "word": "",
+    "extra": "ゆっくりと",
+    "meaning": "slowly"
   },
   {
-    "kanji": "八日",
-    "hiragana": "ようか",
-    "english": "eight days, 8th day"
+    "word": "八日",
+    "extra": "ようか",
+    "meaning": "eight days, 8th day"
   },
   {
-    "kanji": "洋服",
-    "hiragana": "ようふく",
-    "english": "western-style clothes"
+    "word": "洋服",
+    "extra": "ようふく",
+    "meaning": "western-style clothes"
   },
   {
-    "kanji": "",
-    "hiragana": "よく",
-    "english": "often, well"
+    "word": "",
+    "extra": "よく",
+    "meaning": "often, well"
   },
   {
-    "kanji": "横",
-    "hiragana": "よこ",
-    "english": "beside, side, width"
+    "word": "横",
+    "extra": "よこ",
+    "meaning": "beside, side, width"
   },
   {
-    "kanji": "四日",
-    "hiragana": "よっか",
-    "english": "four days, 4th day"
+    "word": "四日",
+    "extra": "よっか",
+    "meaning": "four days, 4th day"
   },
   {
-    "kanji": "四つ",
-    "hiragana": "よっつ",
-    "english": "four"
+    "word": "四つ",
+    "extra": "よっつ",
+    "meaning": "four"
   },
   {
-    "kanji": "呼ぶ",
-    "hiragana": "よぶ",
-    "english": "to call out, to invite"
+    "word": "呼ぶ",
+    "extra": "よぶ",
+    "meaning": "to call out, to invite"
   },
   {
-    "kanji": "読む",
-    "hiragana": "よむ",
-    "english": "to read"
+    "word": "読む",
+    "extra": "よむ",
+    "meaning": "to read"
   },
   {
-    "kanji": "夜",
-    "hiragana": "よる",
-    "english": "evening, night"
+    "word": "夜",
+    "extra": "よる",
+    "meaning": "evening, night"
   },
   {
-    "kanji": "弱い",
-    "hiragana": "よわい",
-    "english": "weak"
+    "word": "弱い",
+    "extra": "よわい",
+    "meaning": "weak"
   },
   {
-    "kanji": "来月",
-    "hiragana": "らいげつ",
-    "english": "next month"
+    "word": "来月",
+    "extra": "らいげつ",
+    "meaning": "next month"
   },
   {
-    "kanji": "来週",
-    "hiragana": "らいしゅう",
-    "english": "next week"
+    "word": "来週",
+    "extra": "らいしゅう",
+    "meaning": "next week"
   },
   {
-    "kanji": "来年",
-    "hiragana": "らいねん",
-    "english": "next year"
+    "word": "来年",
+    "extra": "らいねん",
+    "meaning": "next year"
   },
   {
-    "kanji": "",
-    "hiragana": "ラジオ",
-    "english": "radio"
+    "word": "",
+    "extra": "ラジオ",
+    "meaning": "radio"
   },
   {
-    "kanji": "",
-    "hiragana": "ラジカセ / ラジオカセット",
-    "english": "radio cassette player"
+    "word": "",
+    "extra": "ラジカセ / ラジオカセット",
+    "meaning": "radio cassette player"
   },
   {
-    "kanji": "",
-    "hiragana": "りっぱ",
-    "english": "splendid"
+    "word": "",
+    "extra": "りっぱ",
+    "meaning": "splendid"
   },
   {
-    "kanji": "留学生",
-    "hiragana": "りゅうがくせい",
-    "english": "overseas student"
+    "word": "留学生",
+    "extra": "りゅうがくせい",
+    "meaning": "overseas student"
   },
   {
-    "kanji": "両親",
-    "hiragana": "りょうしん",
-    "english": "both parents"
+    "word": "両親",
+    "extra": "りょうしん",
+    "meaning": "both parents"
   },
   {
-    "kanji": "料理",
-    "hiragana": "りょうり",
-    "english": "cuisine"
+    "word": "料理",
+    "extra": "りょうり",
+    "meaning": "cuisine"
   },
   {
-    "kanji": "旅行",
-    "hiragana": "りょこう",
-    "english": "travel"
+    "word": "旅行",
+    "extra": "りょこう",
+    "meaning": "travel"
   },
   {
-    "kanji": "零",
-    "hiragana": "れい",
-    "english": "zero"
+    "word": "零",
+    "extra": "れい",
+    "meaning": "zero"
   },
   {
-    "kanji": "冷蔵庫",
-    "hiragana": "れいぞうこ",
-    "english": "refrigerator"
+    "word": "冷蔵庫",
+    "extra": "れいぞうこ",
+    "meaning": "refrigerator"
   },
   {
-    "kanji": "",
-    "hiragana": "レコード",
-    "english": "record"
+    "word": "",
+    "extra": "レコード",
+    "meaning": "record"
   },
   {
-    "kanji": "",
-    "hiragana": "レストラン",
-    "english": "restaurant"
+    "word": "",
+    "extra": "レストラン",
+    "meaning": "restaurant"
   },
   {
-    "kanji": "練習",
-    "hiragana": "れんしゅうする",
-    "english": "to practice"
+    "word": "練習",
+    "extra": "れんしゅうする",
+    "meaning": "to practice"
   },
   {
-    "kanji": "廊下",
-    "hiragana": "ろうか",
-    "english": "corridor"
+    "word": "廊下",
+    "extra": "ろうか",
+    "meaning": "corridor"
   },
   {
-    "kanji": "六",
-    "hiragana": "ろく",
-    "english": "six"
+    "word": "六",
+    "extra": "ろく",
+    "meaning": "six"
   },
   {
-    "kanji": "",
-    "hiragana": "ワイシャツ",
-    "english": "business shirt"
+    "word": "",
+    "extra": "ワイシャツ",
+    "meaning": "business shirt"
   },
   {
-    "kanji": "若い",
-    "hiragana": "わかい",
-    "english": "young"
+    "word": "若い",
+    "extra": "わかい",
+    "meaning": "young"
   },
   {
-    "kanji": "分かる",
-    "hiragana": "わかる",
-    "english": "to be understood"
+    "word": "分かる",
+    "extra": "わかる",
+    "meaning": "to be understood"
   },
   {
-    "kanji": "忘れる",
-    "hiragana": "わすれる",
-    "english": "to forget"
+    "word": "忘れる",
+    "extra": "わすれる",
+    "meaning": "to forget"
   },
   {
-    "kanji": "私",
-    "hiragana": "わたくし",
-    "english": "(humble) I, myself"
+    "word": "私",
+    "extra": "わたくし",
+    "meaning": "(humble) I, myself"
   },
   {
-    "kanji": "私",
-    "hiragana": "わたし",
-    "english": "I, myself"
+    "word": "私",
+    "extra": "わたし",
+    "meaning": "I, myself"
   },
   {
-    "kanji": "渡す",
-    "hiragana": "わたす",
-    "english": "to hand over"
+    "word": "渡す",
+    "extra": "わたす",
+    "meaning": "to hand over"
   },
   {
-    "kanji": "渡る",
-    "hiragana": "わたる",
-    "english": "to go across"
+    "word": "渡る",
+    "extra": "わたる",
+    "meaning": "to go across"
   },
   {
-    "kanji": "悪い",
-    "hiragana": "わるい",
-    "english": "bad"
+    "word": "悪い",
+    "extra": "わるい",
+    "meaning": "bad"
   },
   {
-    "kanji": "",
-    "hiragana": "より、ほう",
-    "english": "Used for comparison."
+    "word": "",
+    "extra": "より、ほう",
+    "meaning": "Used for comparison."
   }
 ]
