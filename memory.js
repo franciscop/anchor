@@ -11,9 +11,9 @@ var memory = {
   store: (data, name = memory.name) => new Promise((resolve, reject) => {
     data = data instanceof Array ? data : [data];
     var stored = store.getAll();
-    data = data.map((word, i) => Object.assign(word, {
-      id: word.id || name + ':' + i
-    })).map(word => Object.assign(word, {
+    data = data.map((word, i) => Object.assign({}, word, {
+      id: word.id || name + ':' + word.index
+    })).map(word => Object.assign({}, word, {
       tries: (word.tries || (stored[word.id] ? stored[word.id].tries || [] : [])).map(tried => {
         tried.time = tried.time instanceof Date ? Math.round(tried.time.getTime()/1000) : tried.time;
         return tried;
@@ -46,9 +46,11 @@ var memory = {
 
     if (!set || !set.sheet) return reject();
 
-    var parse = raw => raw.feed.entry.map(row => {
+    memory.set = set;
 
-      var entry = {};
+    var parse = raw => raw.feed.entry.map((row, i) => {
+
+      var entry = { index: i };
 
       // Loop through all of the fields (only some are valid)
       for (var field in row) {
@@ -82,6 +84,7 @@ var memory = {
     memory.dataset(data).then(resolve);
   }),
 
+  // Initialize it so we don't need to generate random numbers each time; speeds it up a lot
   randomTable: [],
   randomIndex: 0,
   random: () => {
@@ -116,7 +119,7 @@ var memory = {
         value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
       })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
 
-      console.log(chances.reduce((all, one) => all * one, 1).toFixed(2), word.kanji, chances);
+      console.log(chances.reduce((all, one) => all * one, 1).toFixed(2), word.word, chances);
 
       // Multiply all of the coefficients
       return chances.reduce((all, one) => all * one, 1);
@@ -142,7 +145,8 @@ var memory = {
 
     // Make it slightly random
     function index(word, i, all) {
-      return 0.2 * (i / all.length) + 0.9;
+      console.log(word.word, word.index, 1.2 - 0.4 * (i / all.length));
+      return 1.2 - 0.4 * (word.index / all.length);
     },
 
     // Make it slightly random
@@ -153,9 +157,10 @@ var memory = {
 
 
   chance: (word, i, all) => {
+    // console.log(word.id );
     var j = parseInt(word.id.split(':')[1]);
     var chance = memory.factors.reduce((chance, cb) => chance * cb(word, i, all), 0.5);
-    console.log("Chances:", word.word, chance);
+    // console.log("Total:", word.word, i, chance);
     if (chance < 0) return 0;
     if (chance > 1) return 1;
     return chance;

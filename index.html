@@ -45,8 +45,12 @@
               <input type="url" name="author" placeholder="https://authorname.com/">
             </label>
             <label class="full">
-              Google Sheets url:
-              <input type="url" name="sheet" placeholder="https://authorname.com/">
+              Google Sheets url (<a href="http://github.com/franciscop/anchor">Info</a>):
+              <input type="url" name="sheet" placeholder="https://docs.google.com/spreadsheets/d/1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk/edit">
+            </label>
+            <label class="full">
+              Reason for creating this:
+              <textarea placeholder="I am studying for the test X"></textarea>
             </label>
             <label class="full">
               <input type="checkbox" name="tos"><span class="checkable"></span>
@@ -71,7 +75,7 @@
       <input id="bmenub" type="checkbox" class="show">
       <label for="bmenub" class="burger pseudo button">datasets</label>
       <div class="menu">
-        <label for="datasets" class="button">Vocabulary N5 ▼</label>
+        <label for="datasets" class="button">Datasets ▼</label>
       </div>
     </nav>
 
@@ -111,18 +115,11 @@
         }, 100);
       }
 
-      function hiragana(word){
-        if (word.hiragana) return word.hiragana;
-        var onyomi = word.onyomi.split(/\s+/).filter(n => n).slice(0, 2);
-        var kunyomi = word.kunyomi.split(/\s+/).filter(n => n).slice(0, 2);
-        return onyomi.concat(kunyomi).join(' 、 ');
-      }
-
       function process(word){
         return {
           id: word.id,
           titletopleft: 'Number of the card being displayed',
-          topleft: '#' + word.id.split(':')[1],
+          topleft: '#' + word.index,
           titletopright: 'Current score for this word, ~' +
             Math.floor(100 - 100 * word.chance) + '%',
           topright: '★'.repeat(5 - Math.floor(5 * word.chance)) || '☹',
@@ -204,12 +201,27 @@
         active: false
       }];
 
-      memory.sheet(datasets[0]).then(display);
-      u('title').html('⚓ ' + datasets[0].title);
+      function setDataset (set) {
+
+        // Handle the right datasheet in the memory
+        memory.sheet(set).then(display);
+
+        var card = u(`.modal .card[data-id="${set.sheet}"]`);
+        u('title').html('⚓ ' + set.title);
+        u('nav .menu .button').html(set.title + ' ▼');
+        u('.modal.datasets .card').removeClass('active');
+        card.addClass('active');
+
+        // Page meta
+        u('title').html('⚓ ' + set.title);
+        u('#datasets').first().checked = false;
+      }
+
+      setDataset(datasets[0]);
 
 
       u('.modal.datasets .content').html('').append((set, i) => `
-        <div class="card ${set.active ? 'active' : ''}">
+        <div data-id="${set.sheet}" class="card ${set.active ? 'active' : ''}">
           <header>
             <h3>${set.title}</h3>
           </header>
@@ -226,21 +238,8 @@
 
       u('.set').on('click', e => {
         e.preventDefault();
-        var card = u(e.currentTarget).closest('.card');
-        var title = card.find('h3').text();
-
-        u('title').html('⚓ ' + title);
-        u('nav .menu .button').html(title + ' ▼');
-        u('.modal.datasets .card').removeClass('active');
-        card.addClass('active');
-
         var sheet = u(e.currentTarget).attr('data-sheet');
-        var set = datasets.find(data => data.sheet === sheet);
-        memory.sheet(set).then(display);
-        // memory.load(u(e.currentTarget).attr('href')).then(display);
-
-        // Hide modal
-        u('#datasets').first().checked = false;
+        setDataset(datasets.find(data => data.sheet === sheet));
       });
     </script>
   </body>
