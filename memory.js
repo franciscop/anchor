@@ -141,6 +141,11 @@ var memory = {
     // },
 
     // Make it slightly random
+    function index(word, i, all) {
+      return 0.2 * (i / all.length) + 0.9;
+    },
+
+    // Make it slightly random
     function randomfactor(word) {
       return 0.2 * memory.random() + 0.9;
     }
@@ -149,9 +154,8 @@ var memory = {
 
   chance: (word, i, all) => {
     var j = parseInt(word.id.split(':')[1]);
-    if (!word.tries.length) return 0.6 - 0.2 * j / (all.length || 1);
-    var chance = memory.factors.reduce((chance, cb) => chance * cb(word), 0.5);
-    console.log("Chances:", word.kanji, chance);
+    var chance = memory.factors.reduce((chance, cb) => chance * cb(word, i, all), 0.5);
+    console.log("Chances:", word.word, chance);
     if (chance < 0) return 0;
     if (chance > 1) return 1;
     return chance;
