@@ -148,6 +148,7 @@
           var table = document.querySelector('table');
           table.innerHTML = `
             <tr>
+              <th>#</th>
               <th>Word</th>
               <th>Meaning</th>
               <th>Help</th>
@@ -156,6 +157,7 @@
             </tr>
             ${data.map(word => process(word)).sort(sortA).sort(sortB).map(w => `
               <tr class="${w.id === word.id ? 'important' : ''}">
+                <td data-name="#">${w.index}</td>
                 <td data-name="Word">${w.middle}</td>
                 <td data-name="Meaning">${w.bottom}</td>
                 <td data-name="Help">${w.top}</td>
