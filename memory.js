@@ -144,11 +144,6 @@ var memory = {
     function randomfactor(word) {
       return 0.2 * memory.random() + 0.9;
     }
-
-    // Make it slightly random
-    function randomfactor(word) {
-      return 0.2 * memory.random() + 0.9;
-    }
   ],
 
 
