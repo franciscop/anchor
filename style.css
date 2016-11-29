@@ -65,6 +65,43 @@ body {
   margin-bottom: 0;
 }
 
+.modal .loading::before,
+.modal .loading::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+}
+
+.modal .loading::before {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, .5);
+}
+
+.modal .loading::after {
+  width: 30px;
+  height: 30px;
+  left: 50%;
+  top: 50%;
+  border: 10px solid #0074d9;
+  border-color: #0074d9 transparent #0074d9 transparent;
+  border-radius: 50%;
+  animation: spin 1s ease 0s infinite;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
 
 .list {
   position: relative;

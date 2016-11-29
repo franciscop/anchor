@@ -257,12 +257,17 @@
       });
 
       u('.modal.create').ajax(res => {
+        u('.modal.create .content').removeClass('loading');
+        var message = 'Thank you, we will ';
         if (u('.modal.create [name="email"]').first().value) {
-          u('.modal.create .content').html('Thank you, we will contact you soon');
+          message += 'contact you soon';
         } else {
-          u('.modal.create .content').html('Thank you, we will review it and upload it');
+          message += 'review it and upload it';
         }
+        u('.modal.create .content').html(message);
         u('.modal.create footer a, .modal.create footer input').remove();
+      }, () => {
+        u('.modal.create .content').addClass('loading');
       });
     </script>
   </body>
