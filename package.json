@@ -1,0 +1,26 @@
+{
+  "name": "anchor",
+  "version": "1.0.0",
+  "description": "Learn with spaced repetition. Algorithm improved constantly. Use a simple Google Spreadsheet to launch and store your vocabulary.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscop/anchor.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/franciscop/anchor/issues"
+  },
+  "homepage": "https://github.com/franciscop/anchor#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bytesize": "^0.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-semistandard": "^1.0.6"
+  }
+}
