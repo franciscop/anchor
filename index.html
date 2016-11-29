@@ -10,6 +10,8 @@
   <body>
 
 
+
+
     <div class="modal datasets">
       <input id="datasets" type="checkbox" />
       <label for="datasets" class="overlay"></label>
@@ -26,7 +28,7 @@
       </article>
     </div>
 
-    <div class="modal create">
+    <form class="modal create" action="https://formspree.io/public@francisco.io" method="POST">
       <input id="create" type="checkbox" />
       <label for="create" class="overlay"></label>
       <article>
@@ -45,12 +47,12 @@
               <input type="url" name="author" placeholder="https://authorname.com/">
             </label>
             <label class="full">
-              Google Sheet url (<a href="http://github.com/franciscop/anchor">+ info</a>):
+              Google Sheet url (<a href="http://github.com/franciscop/anchor" target="_blank">+ info</a>):
               <input type="url" name="sheet" placeholder="https://docs.google.com/spreadsheets/d/1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk/edit">
             </label>
             <label class="full">
               Reason for creating this:
-              <textarea placeholder="I am studying for the test X"></textarea>
+              <textarea name="Reason" placeholder="I am studying for the test X"></textarea>
             </label>
             <label class="full">
               <input type="checkbox" name="tos"><span class="checkable"></span>
@@ -59,12 +61,12 @@
           </div>
         </section>
         <footer>
-          <input type="submit" class="button" value="Add dataset">
+          <input type="submit" value="Add dataset">
           <a class="pseudo button" href="https://github.com/franciscop/anchor" target="_blank">Instructions</a>
           <label for="create" class="button dangerous">Cancel</label>
         </footer>
       </article>
-    </div>
+    </form>
 
 
     <nav>
@@ -245,6 +247,8 @@
         var sheet = u(e.currentTarget).attr('data-sheet');
         setDataset(datasets.find(data => data.sheet === sheet));
       });
+
+      u('.modal.create').ajax();
     </script>
   </body>
 </html>

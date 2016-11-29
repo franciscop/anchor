@@ -87,6 +87,12 @@ var FlashCard = function(selector, opts){
 
   document.addEventListener('keydown', e => {
     var available = { 27: 'escape', 32: 'space', 37: 'left', 38: 'up', 39: 'right', 40: 'down' };
+
+    // If a modal is active don't show it
+    if ([...document.querySelectorAll('.modal > input')].filter(check => check.checked).length) {
+      return;
+    }
+
     if (!(e.keyCode in available) || this.transition) return;
     e.preventDefault();
 
