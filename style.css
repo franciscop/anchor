@@ -19,6 +19,13 @@ body {
   overflow-y: scroll;
 }
 
+nav .button.change {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .hero {
   padding: 70px 10px;
   position: relative;
@@ -310,6 +317,10 @@ td.actions {
 
 
 @media all and (min-width: 600px) {
+  nav .button.change {
+    max-width: none;
+  }
+
   .hero {
     padding: 90px 30px 0;
   }
