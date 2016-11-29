@@ -40,22 +40,30 @@
           <div class="flex one two-600">
             <label>
               Title:
-              <input name="title" placeholder="Japanese Kanji N5">
+              <input name="title" placeholder="Japanese Kanji N5" required>
             </label>
             <label>
-              Author url:
-              <input type="url" name="author" placeholder="https://authorname.com/">
+              Author email (optional):
+              <input type="email" name="email" placeholder="me@johndoe.com">
+            </label>
+            <label>
+              Author name (optional):
+              <input name="author" placeholder="John Doe">
+            </label>
+            <label>
+              Author url (optional):
+              <input type="url" name="authorurl" placeholder="https://johndoe.com/">
             </label>
             <label class="full">
               Google Sheet url (<a href="http://github.com/franciscop/anchor" target="_blank">+ info</a>):
-              <input type="url" name="sheet" placeholder="https://docs.google.com/spreadsheets/d/1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk/edit">
+              <input type="url" name="sheet" placeholder="https://docs.google.com/spreadsheets/d/1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk/edit" required>
             </label>
             <label class="full">
-              Reason for creating this:
+              Reason for creating this (optional):
               <textarea name="Reason" placeholder="I am studying for the test X"></textarea>
             </label>
             <label class="full">
-              <input type="checkbox" name="tos"><span class="checkable"></span>
+              <input type="checkbox" name="tos" required><span class="checkable"></span>
               I agree with the <a href="/tos" target="_blank">Terms of Service</a>
             </label>
           </div>
@@ -248,7 +256,14 @@
         setDataset(datasets.find(data => data.sheet === sheet));
       });
 
-      u('.modal.create').ajax();
+      u('.modal.create').ajax(res => {
+        if (u('.modal.create [name="email"]').first().value) {
+          u('.modal.create .content').html('Thank you, we will contact you soon');
+        } else {
+          u('.modal.create .content').html('Thank you, we will review it and upload it');
+        }
+        u('.modal.create footer a, .modal.create footer input').remove();
+      });
     </script>
   </body>
 </html>
