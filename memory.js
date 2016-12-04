@@ -119,8 +119,6 @@ var memory = {
         value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
       })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
 
-      console.log(chances.reduce((all, one) => all * one, 1).toFixed(2), word.word, chances);
-
       // Multiply all of the coefficients
       return chances.reduce((all, one) => all * one, 1);
     },
@@ -145,7 +143,6 @@ var memory = {
 
     // Make it slightly random
     function index(word, i, all) {
-      console.log(word.word, word.index, 1.2 - 0.4 * (i / all.length));
       return 1.2 - 0.4 * (word.index / all.length);
     },
 
