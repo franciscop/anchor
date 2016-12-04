@@ -16,7 +16,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 nav .button.change {
@@ -29,10 +29,8 @@ nav .button.change {
 .hero {
   padding: 70px 10px;
   position: relative;
-  overflow-x: hidden;
 
   height: 100%;
-  overflow: hidden;
 }
 
 .modal .card {
@@ -232,6 +230,43 @@ td.actions {
   }
 }
 
+.hero article {
+  width: auto;
+  margin: 0 auto 50vh;
+  width: 100%;
+  max-width: 900px;
+  min-height: 300px;
+
+  box-shadow: .1em .1em .2em rgba(17,17,17,0.2);
+
+  background: #fff;
+  padding: 3vw 5vw;
+  text-align: left;
+  border-radius: 8px;
+  transition: all .3s ease;
+}
+
+.hero article h1 {
+  padding: 0;
+}
+
+.hero article tr:nth-child(2n),
+.hero article td,
+.hero article th,
+.hero article tr {
+  background: none;
+  color: #333;
+  border: 1px solid #aaa;
+}
+
+.common-mark {
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.common-mark.parsed {
+  opacity: 1;
+}
 
 
 .slide {

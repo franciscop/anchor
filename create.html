@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Japanese</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="picnic.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <nav>
+      <div class="brand">
+        <a class="pseudo button" href="/">⚓ Anchor</a>
+      </div>
+
+      <div class="menu">
+        <a href="https://github.com/franciscop/anchor" class="pseudo button" target="_blank">About</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <article class="common-mark">
+        # Create a dataset
+
+        To create a dataset please follow these steps:
+
+        - Create a new [Blank Google Sheet](https://docs.google.com/spreadsheets/u/0/)
+
+        - Add two or three columns like this (the *extra* column is optional):
+
+        | **word**   | **meaning**   | **extra**   |
+        |------------|---------------|-------------|
+        | hola       | hello         |             |
+        | adiós      | bye           |             |
+
+        The first word will be the one shown by default and the second one the one displayed below (and the one to guess). The third one is the pronuntiation or an extra note you wanna write.
+
+        - **Important**: publish it. File > Publish to the web... > **Publish**
+
+        - Copy the url and paste it in the "Sheet url"
+
+
+      </article>
+    </div>
+
+    <script src="https://unpkg.com/marked@0"></script>
+    <script>
+      [...document.querySelectorAll('common-mark, .common-mark')].forEach(el => {
+        let lines = el.innerHTML.split('\n');
+        let min = parseInt(el.getAttribute('spaces'));
+        min = min || Math.min.apply(Math, lines  // Minimum of array
+          .filter(n => !n.match(/^\s*$/))  // Only filled lines
+          .map(line => line.match(/^\s*/)) // Get each space str
+          .map(n => n[0].length)           // Count spaces
+        );
+        // Set the html as the parsed from markdown
+        el.innerHTML = marked(lines.map(l => l.slice(min)).join('\n'));
+        el.classList.add('parsed');
+      });
+    </script>
+  </body>
+</html>
