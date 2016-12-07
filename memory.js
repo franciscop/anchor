@@ -112,9 +112,9 @@ var memory = {
         timediff: (new Date() - tried.time) / 1000
       })).map(tried => Object.assign({}, tried, {
         // Get the coefficient of importance depending on the time
-        // Adjust the "0.001" for the X axis, now in 200s you get 0.5 (0.0003 = 1h)
-        // Wolfram Alpha: LogLinearPlot 1 / (0.001 * x + 1) from 0 to 10000000
-        coeff: 1 / (0.0001 * tried.timediff + 1)
+        // Adjust the "0.0001" for the X axis, now in 10000s (~3h) you get 0.5
+        // Wolfram Alpha: LogLinearPlot 1 / (0.0001 * x + 1) from 0 to 10000000
+        coeff: 1 / (0.00001 * tried.timediff + 1)
       })).map(tried => Object.assign({}, tried, {
         value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
       })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
