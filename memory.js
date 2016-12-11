@@ -105,41 +105,41 @@ var memory = {
     // Map each try to a number (0.5, 0.8 or 2) and make them approach to 1
     // the further away in time that they are. This way, recent tries get more
     // value than older values
-    function error (word) {
-      if (!word || !word.tries || !word.tries.length) return 1;
+    // function error (word) {
+    //   if (!word || !word.tries || !word.tries.length) return 1;
+    //
+    //   var chances = word.tries.map(tried => Object.assign({}, tried, {
+    //     timediff: (new Date() - tried.time) / 1000
+    //   })).map(tried => Object.assign({}, tried, {
+    //     // Get the coefficient of importance depending on the time
+    //     // Adjust the "0.0001" for the X axis
+    //     // Wolfram Alpha: LogLinearPlot 1 / (0.0001 * x + 1) from 0 to 10000000
+    //     coeff: 1 / (0.0001 * tried.timediff + 1)
+    //   })).map(tried => Object.assign({}, tried, {
+    //     value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
+    //   })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
+    //
+    //   // Multiply all of the coefficients
+    //   return chances.reduce((all, one) => all * one, 1);
+    // },
 
-      var chances = word.tries.map(tried => Object.assign({}, tried, {
-        timediff: (new Date() - tried.time) / 1000
-      })).map(tried => Object.assign({}, tried, {
-        // Get the coefficient of importance depending on the time
-        // Adjust the "0.0001" for the X axis, now in 10000s (~3h) you get 0.5
-        // Wolfram Alpha: LogLinearPlot 1 / (0.0001 * x + 1) from 0 to 10000000
-        coeff: 1 / (0.00001 * tried.timediff + 1)
-      })).map(tried => Object.assign({}, tried, {
-        value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
-      })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
-
-      // Multiply all of the coefficients
-      return chances.reduce((all, one) => all * one, 1);
+    // Time factor; the longer the time, the more you don't know
+    function forget (word) {
+      var last = word.tries[word.tries.length - 1];
+      if (!last) return 1;
+      // Wolfram Alpha: ln(x) / 8 from 0 to 10000
+      return Math.max(0, Math.log((new Date() - last.time) / 1000) / 8);
     },
 
-    // // Time factor; the longer the time, the more you don't know
-    // function forget (word) {
-    //   var last = word.tries[word.tries.length - 1];
-    //   if (!last) return 1;
-    //   // Wolfram Alpha: ln(x) / 8 from 0 to 10000
-    //   return Math.max(0, Math.log((new Date() - last.time) / 1000) / 8);
-    // },
-    //
-    // // Accuracy factor; the more errors you make, the less that you know
-    // function accuracyfactor(word) {
-    //   if (!word.tries.length) return 1;
-    //
-    //   var good = word.tries.filter(n => n.type === 'good').length + 1;
-    //   var bad = word.tries.filter(n => n.type === 'bad').length + 1;
-    //   var skip = word.tries.filter(n => n.type === 'skip').length;
-    //   return (bad + (skip * 0.2)) / good;
-    // },
+    // Accuracy factor; the more errors you make, the less that you know
+    function accuracyfactor(word) {
+      if (!word.tries.length) return 1;
+
+      var good = word.tries.filter(n => n.type === 'good').length + 1;
+      var bad = word.tries.filter(n => n.type === 'bad').length + 1;
+      var skip = word.tries.filter(n => n.type === 'skip').length;
+      return (bad + (skip * 0.2)) / good;
+    },
 
     // Make it slightly random
     function index(word, i, all) {
