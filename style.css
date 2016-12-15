@@ -155,8 +155,8 @@ body > footer a.correct:focus {
   background: #cfc;
 }
 
-body > footer a.wrong:hover,
-body > footer a.wrong:focus {
+body > footer a.mistake:hover,
+body > footer a.mistake:focus {
   background: #fcc;
 }
 
@@ -170,7 +170,7 @@ body > footer a.correct:active {
   background: #3c3;
 }
 
-body > footer a.wrong:active {
+body > footer a.mistake:active {
   color: #fff;
   background: #f33;
 }

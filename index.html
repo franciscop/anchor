@@ -94,7 +94,7 @@
     <footer>
       <div class="flex three">
         <div>
-          <a class="wrong" href="#">✘</a>
+          <a class="mistake" href="#">✘</a>
         </div>
         <div>
           <a class="flip" href="#">↻</a>
@@ -139,7 +139,7 @@
         }, 100);
       }
 
-      u('footer a.wrong').handle('click', e => {
+      u('footer a.mistake').handle('click', e => {
         u('.slide').addClass('left');
         card.left();
       });
