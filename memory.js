@@ -132,6 +132,28 @@ var memory = {
     },
 
     // Accuracy factor; the more errors you make, the less that you know
+    function accuracyfactordecay(word) {
+      if (!word.tries.length) return 1;
+
+      // Forget 50% in e ^ (-A * t)
+      let coeffs = {
+        hour: 0.0002,  // 1h
+        day: 0.000008  // 24h
+      };
+      let size = (all, one) => {
+        let timediff = (new Date() - one.time) / 1000;
+        let remember = Math.pow(Math.E, (-coeffs.day * timediff));
+        console.log("Time:", timediff, remember);
+        // Math.max(0, Math.log((new Date() - last.time) / 1000) / 8);
+      };
+
+      var good = word.tries.filter(n => n.type === 'good').reduce(size, 1) + 1;
+      var bad = word.tries.filter(n => n.type === 'bad').reduce(size, 1) + 1;
+      var skip = word.tries.filter(n => n.type === 'skip').reduce(size, 1);
+      // return (bad + (skip * 0.2)) / good;
+      return 1;
+    },
+
     function accuracyfactor(word) {
       if (!word.tries.length) return 1;
 
