@@ -236,7 +236,7 @@
         title: 'Japanese Vocabulary N5',
         sheet: '1z7cU-Sp6RG2HtnCy_GmANrxSGKvBUxk2Z0seLE29lew',
         author: 'http://www.tanos.co.uk/',
-        active: true
+        active: false
       },{
         title: 'Japanese Kanji N5',
         sheet: '1HidFAQeHKZ5d_d3MRkNY-zGdn0jh6ZWX7Sdmz3Gnerk',
@@ -262,8 +262,13 @@
         u('#datasets').first().checked = false;
       }
 
-      console.log(cookies('dataset'));
       setDataset(cookies('dataset') || datasets[0]);
+      let active = cookies('dataset').sheet;
+      datasets.forEach((set, i) => {
+        if (set.sheet === active) {
+          datasets[i].active = true;
+        }
+      });
 
 
       u('.modal.datasets .content').html('').append((set, i) => `
