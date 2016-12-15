@@ -26,6 +26,10 @@ nav .button.change {
   white-space: nowrap;
 }
 
+nav .about {
+  display: none;
+}
+
 .hero {
   padding: 70px 10px;
   position: relative;
@@ -176,6 +180,9 @@ body > footer a.mistake:active {
 }
 
 @media all and (min-width: 600px) {
+  nav .about {
+    display: inline-block;
+  }
   body > footer {
     border-radius: 8px 8px 0 0;
   }
