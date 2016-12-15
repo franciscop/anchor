@@ -143,25 +143,25 @@ var memory = {
       let size = (all, one) => {
         let timediff = (new Date() - one.time) / 1000;
         let remember = Math.pow(Math.E, (-coeffs.day * timediff));
-        console.log("Time:", timediff, remember);
-        // Math.max(0, Math.log((new Date() - last.time) / 1000) / 8);
+        // Force each try to always influence even if it's just a bit
+        remember = Math.max(remember, 0.1);
+        return all + remember;
       };
 
-      var good = word.tries.filter(n => n.type === 'good').reduce(size, 1) + 1;
-      var bad = word.tries.filter(n => n.type === 'bad').reduce(size, 1) + 1;
-      var skip = word.tries.filter(n => n.type === 'skip').reduce(size, 1);
-      // return (bad + (skip * 0.2)) / good;
-      return 1;
-    },
-
-    function accuracyfactor(word) {
-      if (!word.tries.length) return 1;
-
-      var good = word.tries.filter(n => n.type === 'good').length + 1;
-      var bad = word.tries.filter(n => n.type === 'bad').length + 1;
-      var skip = word.tries.filter(n => n.type === 'skip').length;
+      var good = word.tries.filter(n => n.type === 'good').reduce(size, 1);
+      var bad = word.tries.filter(n => n.type === 'bad').reduce(size, 1);
+      var skip = word.tries.filter(n => n.type === 'skip').reduce(size, 0);
       return (bad + (skip * 0.2)) / good;
     },
+
+    // function accuracyfactor(word) {
+    //   if (!word.tries.length) return 1;
+    //
+    //   var good = word.tries.filter(n => n.type === 'good').length + 1;
+    //   var bad = word.tries.filter(n => n.type === 'bad').length + 1;
+    //   var skip = word.tries.filter(n => n.type === 'skip').length;
+    //   return (bad + (skip * 0.2)) / good;
+    // },
 
     // Make it slightly random
     function index(word, i, all) {
