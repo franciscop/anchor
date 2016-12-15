@@ -91,14 +91,28 @@
 
     <div class="hero"><div class="slide"></div></div>
 
-    <div class="list">
+    <footer>
+      <div class="flex three">
+        <div>
+          <a class="wrong" href="#">✘</a>
+        </div>
+        <div>
+          <a class="flip" href="#">↻</a>
+        </div>
+        <div>
+          <a class="correct" href="#">✔</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="list">
       <div onclick="this.parentNode.classList.toggle('active')" class="context">
         <div class="show">Show dataset</div>
         <div class="hide">Hide dataset</div>
         <div class="keyboard">▲ ▼ ◄ ► [esc]</div>
       </div>
       <table></table>
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/umbrella/2.6.7/umbrella.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
@@ -124,6 +138,20 @@
           window.location.href = window.location;
         }, 100);
       }
+
+      u('footer a.wrong').handle('click', e => {
+        u('.slide').addClass('left');
+        card.left();
+      });
+
+      u('footer a.flip').handle('click', e => {
+        card.flip();
+      });
+
+      u('footer a.correct').handle('click', e => {
+        u('.slide').addClass('right');
+        card.right();
+      });
 
       function process(word){
         return {
@@ -157,6 +185,7 @@
 
         memory.retrieve().then(data => {
           var table = document.querySelector('table');
+          if (!table) return;
           table.innerHTML = `
             <tr>
               <th>#</th>

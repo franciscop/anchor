@@ -108,6 +108,8 @@ nav .button.change {
 
 
 
+
+body > footer,
 .list {
   position: relative;
   display: block;
@@ -123,6 +125,74 @@ nav .button.change {
   box-shadow: 0 0 .2em rgba(17,17,17,0.2);
   transition: all .6s ease .3s;
 }
+
+body > footer {
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+  border-radius: 0;
+}
+
+body > footer a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  white-space: nowrap;
+  transition: background .3s ease;
+  outline: 0;
+}
+
+body > footer a.flip:hover,
+body > footer a.flip:focus {
+  background: #ddd;
+}
+
+body > footer a.correct:hover,
+body > footer a.correct:focus {
+  background: #cfc;
+}
+
+body > footer a.wrong:hover,
+body > footer a.wrong:focus {
+  background: #fcc;
+}
+
+body > footer a.flip:active {
+  color: #fff;
+  background: #333;
+}
+
+body > footer a.correct:active {
+  color: #fff;
+  background: #3c3;
+}
+
+body > footer a.wrong:active {
+  color: #fff;
+  background: #f33;
+}
+
+@media all and (min-width: 600px) {
+  body > footer {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+@media all and (min-width: 900px) {
+  body > footer {
+    margin: -80px auto 0;
+    max-height: 80px;
+  }
+
+  body > footer a {
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
 
 .list .context {
   height: 60px;
@@ -350,6 +420,19 @@ td.actions {
 }
 
 
+@media all and (max-width: 500px) {
+  nav {
+    padding: 0;
+  }
+
+  nav .brand {
+    padding: 0 0 0 .5em;
+  }
+
+  nav .menu > * {
+    margin-right: .5em;
+  }
+}
 
 @media all and (min-width: 600px) {
   nav .button.change {
