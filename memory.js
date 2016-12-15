@@ -144,7 +144,7 @@ var memory = {
         let timediff = (new Date() - one.time) / 1000;
         let remember = Math.pow(Math.E, (-coeffs.day * timediff));
         // Force each try to always influence even if it's just a bit
-        remember = Math.max(remember, 0.1);
+        remember = Math.max(remember, 0.5);
         return all + remember;
       };
 
