@@ -16,7 +16,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 nav .button.change {
@@ -360,7 +360,7 @@ td.actions {
 
   background: #fff;
   padding: 50px 30px;
-  font-size: 2em;
+  font-size: 1.3em;
   text-align: center;
   border-radius: 8px;
   opacity: 1;
@@ -391,10 +391,6 @@ td.actions {
 .slide.right {
   background: #3c3;
   transform: translateX(200px) rotateZ(8deg) scale(.6);
-}
-
-.slide.up {
-  background: #333;
 }
 
 .circle {
@@ -451,6 +447,7 @@ td.actions {
     padding: 2em 3em;
     min-width: 360px;
     min-height: 360px;
+    font-size: 2em;
   }
 }
 

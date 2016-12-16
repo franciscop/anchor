@@ -130,7 +130,7 @@
       // card.open = () => display();
       card.open = () => display();
       card.down = card.flip;
-      card.up = () => card.close().then(memory.skip).then(card.open);
+      card.up = card.flip;
       card.left = () => card.close().then(memory.mistake).then(card.open);
       card.right = () => card.close().then(memory.correct).then(card.open);
       card.reset = () => {
