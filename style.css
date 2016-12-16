@@ -133,16 +133,17 @@ body > footer,
 body > footer {
   width: 100%;
   text-align: center;
-  max-width: 600px;
   border-radius: 0;
+  margin: -80px auto 0;
+  max-height: 80px;
 }
 
 body > footer a {
   display: inline-block;
   width: 100%;
   color: #333;
-  height: 60px;
-  line-height: 60px;
+  height: 80px;
+  line-height: 80px;
   font-size: 30px;
   white-space: nowrap;
   transition: background .3s ease;
@@ -185,18 +186,13 @@ body > footer a.mistake:active {
   }
   body > footer {
     border-radius: 8px 8px 0 0;
+    width: calc(100% - 60px);
   }
 }
 
 @media all and (min-width: 900px) {
   body > footer {
-    margin: -80px auto 0;
-    max-height: 80px;
-  }
-
-  body > footer a {
-    height: 80px;
-    line-height: 80px;
+    max-width: 600px;
   }
 }
 
@@ -351,7 +347,7 @@ td.actions {
   margin: 0;
   min-width: 300px;
   min-height: 300px;
-  height: calc(100vh - 145px);
+  height: calc(100vh - 165px);
   position: relative;
   left: 0;
   top: 0;
@@ -451,7 +447,7 @@ td.actions {
   }
 
   .slide {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 200px);
     padding: 2em 3em;
     min-width: 360px;
     min-height: 360px;
