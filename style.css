@@ -31,7 +31,7 @@ nav .about {
 }
 
 .hero {
-  padding: 70px 10px 90px;
+  padding: 3.5em 0.5em calc(80px + .5em);
   position: relative;
 
   height: 100%;
