@@ -129,6 +129,9 @@ var FlashCard = function(selector, opts){
       this.element.classList.add('down');
       if (this.down) this.down();
     }
+    if (Math.abs(diff.y) < 100 && Math.abs(diff.x) < 100) {
+      this.tap();
+    }
   });
 
   return this;
