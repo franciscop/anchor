@@ -347,8 +347,7 @@ td.actions {
   margin: 0;
   min-width: 300px;
   min-height: 300px;
-  height: calc(100% - 165px);
-  /*height: calc(100vh - 165px);*/
+  height: 100%;
   position: relative;
   left: 0;
   top: 0;
