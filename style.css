@@ -138,7 +138,7 @@ body > footer {
   border-radius: 0;
   margin: -80px auto 0;
   max-height: 80px;
-  
+
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -193,7 +193,7 @@ body > footer a.mistake:active {
   }
   body > footer {
     border-radius: 8px 8px 0 0;
-    width: calc(100% - 60px);
+    width: calc(100% - 2em);
   }
 }
 
@@ -446,7 +446,7 @@ td.actions {
   }
 
   .hero {
-    padding: 3.5em 30px calc(80px + .5em)
+    padding: 4.5em 1em calc(80px + 1.5em)
   }
 
   .slide {
