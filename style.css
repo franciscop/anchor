@@ -531,3 +531,19 @@ td.actions {
   background: #0074d9;
   color: #fff;
 }
+
+
+
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body > footer {
+  position: absolute;
+  bottom: 0;
+}
