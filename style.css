@@ -438,6 +438,10 @@ td.actions {
     max-width: none;
   }
 
+  .hero {
+    padding: 3.5em 30px calc(80px + .5em)
+  }
+
   .slide {
     height: 100%;
     padding: 2em 3em;
