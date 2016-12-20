@@ -81,8 +81,6 @@ var FlashCard = function(selector, opts){
     if (!this.flipped) {
       return this.flip();
     }
-    this.element.classList.add('out');
-    return this.up();
   }
 
   document.addEventListener('keydown', e => {
