@@ -32,9 +32,11 @@ nav .about {
 
 .hero {
   padding: 3.5em 0.5em calc(80px + .5em);
-  position: relative;
-
-  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .modal .card {
@@ -136,6 +138,11 @@ body > footer {
   border-radius: 0;
   margin: -80px auto 0;
   max-height: 80px;
+  
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 body > footer a {
@@ -529,22 +536,4 @@ td.actions {
 .button.active {
   background: #0074d9;
   color: #fff;
-}
-
-
-
-
-.hero {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-body > footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
