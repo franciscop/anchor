@@ -348,7 +348,7 @@ td.actions {
   min-width: 300px;
   min-height: 300px;
   height: calc(100% - 165px);
-  height: calc(100vh - 165px);
+  /*height: calc(100vh - 165px);*/
   position: relative;
   left: 0;
   top: 0;
@@ -444,7 +444,8 @@ td.actions {
   }
 
   .slide {
-    height: calc(100vh - 200px);
+    /*height: calc(100vh - 200px);*/
+    height: calc(100% - 200px);
     padding: 2em 3em;
     min-width: 360px;
     min-height: 360px;
