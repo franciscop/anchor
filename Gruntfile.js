@@ -2,53 +2,35 @@
 module.exports = function (grunt) {
   // Configuration
   grunt.initConfig({
-    uglify: {
-      options: {
-        banner: '/* superdom.js ' + grunt.file.readJSON('package.json').version + ' https://github.com/franciscop/superdom.js */\n'
-      },
-      my_target: {
-        files: {
-          'superdom.min.js': 'superdom.js'
-        }
-      }
-    },
-
-    copy: {
+    concat: {
       main: {
-        src: 'superdom.js',
-        dest: 'superdom.min.js',
         options: {
-          process: function (content, srcpath) {
-            return content
-              .replace(/\/\/[^\n]+/g, '')
-              .replace(/\/\*[^*]+\*\/\s+/, '')
-              .replace(/\n[^\S]*/g, ' ')
-              .replace(/\s?\=\>\s?/g, '=>')
-              .replace(/\s?\{\s?/g, '{')
-              .replace(/\s?\}\s?/g, '}')
-              .replace(/\s?\(\s?/g, '(')
-              .replace(/\s?\)\s?/g, ')')
-              .replace(/\s?\=\s?/g, '=')
-              .replace(/\s?\:\s?/g, ':')
-              .replace(/\s?\+\s?/g, '+')
-              .replace(/\s?\,\s?/g, ',')
-              .replace(/\s?\;\s?/g, ';')
-              // .replace(/(\(\w*(:?\,\w+)*\)|\w*(:?\,\w+)*)=>/g, function (matched) {
-              //   matched = matched.replace(/\)?\=\>$/, '').replace(/^\(/, '').split(',');
-              //   console.log(matched);
-              // })
-              .replace(/;}/g, '}')
-              ;
-          }
+          process: content => content
+            // .replace(/\/\/[^\n]+/g, '')
+            // .replace(/\n[^\S]*/g, ' ')
+            // .replace(/\s?\;\s?/g, ';')
+            // .replace(/\s?\)\s?/g, ')')
+            .replace(/\/\*[^*]+\*\/\s+/, '')
+            .replace(/\s?\=\>\s?/g, '=>')
+            .replace(/\s?\{\s?/g, '{')
+            .replace(/\s?\}\s?/g, '}')
+            .replace(/\s?\(\s?/g, '(')
+            .replace(/\s?\=\s?/g, '=')
+            .replace(/\s?\:\s?/g, ':')
+            .replace(/\s?\+\s?/g, '+')
+            .replace(/\s?\,\s?/g, ',')
+            .replace(/;}/g, '}')
+        },
+        files: {
+          'javascript.min.js': [
+            'src/touch.js',
+            'src/store.js',
+            'src/analyze.js',
+            'src/memory.js',
+            'src/flash.js',
+            'src/javascript.js'
+          ]
         }
-      }
-    },
-
-    semistandard: {
-      app: {
-        src: [
-          'superdom.js'
-        ]
       }
     },
 
@@ -58,6 +40,7 @@ module.exports = function (grunt) {
           'package.js', // To bump versions
           'Gruntfile.js',
           'superdom.js',
+          'src/**.*',
           'test/**/*'
         ],
         tasks: ['default'],
@@ -80,9 +63,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-semistandard');
   // grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-bytesize');
 
-  // grunt.registerTask('build', ['copy', 'bytesize']);
-  grunt.registerTask('test', ['semistandard']);
-  grunt.registerTask('default', ['test', 'bytesize']);
+  grunt.registerTask('default', ['concat', 'bytesize']);
 };
