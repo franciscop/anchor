@@ -11,13 +11,24 @@ function touch(cb){
       y: e.touches[0].clientY
     };
   });
-  document.addEventListener('touchend', function(e){
+  document.addEventListener('touchmove', function(e){
     if (!e.changedTouches.length) return;
     var end = {
       x: e.changedTouches[0].clientX,
       y: e.changedTouches[0].clientY
     };
     var diff = { x: end.x - start.x, y: end.y - start.y };
+    touch.callbacks.forEach(function(cb){
+      cb(diff, start, end);
+    });
+  });
+  document.addEventListener('touchend', function(e){
+    if (!e.changedTouches.length) return;
+    var end = {
+      x: e.changedTouches[0].clientX,
+      y: e.changedTouches[0].clientY
+    };
+    var diff = { x: end.x - start.x, y: end.y - start.y, final: true };
     touch.callbacks.forEach(function(cb){
       cb(diff, start, end);
     });

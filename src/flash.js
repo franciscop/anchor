@@ -111,25 +111,49 @@ var FlashCard = function(selector, opts){
   });
 
   touch(diff => {
+    if (diff.final) {
+      for (let i = 0; i <= 9; i++) {
+        this.element.classList.remove('p-' + i);
+      }
+      this.element.classList.remove('move', 'left', 'right');
+      this.element.classList.add('final');
+      this.element.style.left = '0px';
+      this.element.style.top = '0px';
+    } else {
+      for (let i = 0; i <= 9; i++) {
+        this.element.classList.remove('p-' + i);
+      }
+      this.element.classList.remove('final', 'left', 'right');
+      this.element.classList.add('move');
+      this.element.style.top = diff.y + 'px';
+      this.element.style.left = diff.x + 'px';
+      if (diff.x < 0) {
+        this.element.classList.add('left');
+      } else {
+        this.element.classList.add('right');
+      }
+      if (Math.abs(diff.x) < 100)
+        this.element.classList.add('p-' + parseInt(Math.abs(diff.x / 10)));
+    }
+
     if (diff.x < -100 && diff.y < 100 && diff.y > -100) {
       this.element.classList.add('left');
-      if (this.left) this.left();
+      if (this.left && diff.final) this.left();
     }
     if (diff.x > 100 && diff.y < 100 && diff.y > -100) {
       this.element.classList.add('right');
-      if (this.right) this.right();
+      if (this.right && diff.final) this.right();
     }
     if (diff.y < -100 && diff.x < 100 && diff.x > -100) {
       this.element.classList.add('up');
-      if (this.up) this.up();
+      if (this.up && diff.final) this.up();
     }
     if (diff.y > 100 && diff.x < 100 && diff.x > -100) {
       this.element.classList.add('down');
-      if (this.down) this.down();
+      if (this.down && diff.final) this.down();
     }
-    console.log(Math.abs(diff.y) < 100, Math.abs(diff.x) < 100);
     if (Math.abs(diff.y) < 100 && Math.abs(diff.x) < 100) {
-      this.tap();
+      // if (diff.final) this.tap();
     }
   });
 

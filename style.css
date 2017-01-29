@@ -374,6 +374,10 @@ td.actions {
   transition: all .3s ease;
 }
 
+.slide.move {
+  transition: all 0s;
+}
+
 .slide.clickable {
   cursor: pointer;
 }
@@ -390,15 +394,37 @@ td.actions {
 }
 
 
-.slide.left {
-  background: #f33;
+.slide.left     { background: #f33; }
+.slide.left.p-0 { background: #fff; }
+.slide.left.p-1 { background: #fdd; }
+.slide.left.p-2 { background: #fbb; }
+.slide.left.p-3 { background: #f99; }
+.slide.left.p-4 { background: #f77; }
+.slide.left.p-5 { background: #f55; }
+.slide.left.p-9 { background: #f33; }
+
+.slide.right     { background: #3c3; }
+.slide.right.p-0 { background: #fff; }
+.slide.right.p-1 { background: #dfd; }
+.slide.right.p-2 { background: #beb; }
+.slide.right.p-3 { background: #9e9; }
+.slide.right.p-4 { background: #7d7; }
+.slide.right.p-5 { background: #5d5; }
+.slide.right.p-9 { background: #3c3; }
+
+.slide.final {
+  transition: all .3s ease;
+}
+
+.slide.final.left {
   transform: translateX(-200px) rotateZ(-8deg) scale(.6);
 }
 
-.slide.right {
-  background: #3c3;
+.slide.final.right {
   transform: translateX(200px) rotateZ(8deg) scale(.6);
 }
+
+
 
 .circle {
   display: inline-block;
