@@ -153,7 +153,7 @@ var FlashCard = function(selector, opts){
       if (this.down && diff.final) this.down();
     }
     if (Math.abs(diff.y) < 100 && Math.abs(diff.x) < 100) {
-      // if (diff.final) this.tap();
+      if (diff.final) this.tap();
     }
   });
 

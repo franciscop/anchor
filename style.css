@@ -375,7 +375,7 @@ td.actions {
 }
 
 .slide.move {
-  transition: all 0s;
+  transition: background .3s linear;
 }
 
 .slide.clickable {
