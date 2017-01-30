@@ -125,8 +125,8 @@ var FlashCard = function(selector, opts){
       }
       this.element.classList.remove('final', 'left', 'right');
       this.element.classList.add('move');
-      this.element.style.top = diff.y + 'px';
-      this.element.style.left = diff.x + 'px';
+      this.element.style.top = (diff.y / 3) + 'px';
+      this.element.style.left = (diff.x / 2) + 'px';
       if (diff.x < 0) {
         this.element.classList.add('left');
       } else {
