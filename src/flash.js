@@ -136,19 +136,19 @@ var FlashCard = function(selector, opts){
         this.element.classList.add('p-' + parseInt(Math.abs(diff.x / 10)));
     }
 
-    if (diff.x < -100 && diff.y < 100 && diff.y > -100) {
+    if (diff.x < -100 && Math.abs(diff.x / diff.y) > 1) {
       this.element.classList.add('left');
       if (this.left && diff.final) this.left();
     }
-    if (diff.x > 100 && diff.y < 100 && diff.y > -100) {
+    if (diff.x > 100 && Math.abs(diff.x / diff.y) > 1) {
       this.element.classList.add('right');
       if (this.right && diff.final) this.right();
     }
-    if (diff.y < -100 && diff.x < 100 && diff.x > -100) {
+    if (diff.y < -100 && Math.abs(diff.x / diff.y) > 1) {
       this.element.classList.add('up');
       if (this.up && diff.final) this.up();
     }
-    if (diff.y > 100 && diff.x < 100 && diff.x > -100) {
+    if (diff.y > 100 && Math.abs(diff.x / diff.y) > 1) {
       this.element.classList.add('down');
       if (this.down && diff.final) this.down();
     }
