@@ -447,6 +447,18 @@ td.actions {
   margin: 3px 0;
 }
 
+.circle:nth-child(4) {
+  width: 8px;
+  height: 8px;
+  margin: 6px 0;
+}
+
+.circle:nth-child(5) {
+  width: 6px;
+  height: 6px;
+  margin: 7px 0;
+}
+
 .circle.good {
   background: #3c3;
 }
