@@ -6,7 +6,7 @@ module.exports = function (grunt) {
       main: {
         options: {
           process: content => content
-            // .replace(/\/\/[^\n]+/g, '')
+            .replace(/^\ *\/\/[^\n]+/gm, '')
             // .replace(/\n[^\S]*/g, ' ')
             // .replace(/\s?\;\s?/g, ';')
             // .replace(/\s?\)\s?/g, ')')

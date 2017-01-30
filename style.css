@@ -430,9 +430,15 @@ td.actions {
   display: inline-block;
   width: 10px;
   height: 10px;
-  border-radius: 10px;
+  border-radius: 50%;
   background: #ccc;
-  margin: 0 5px;
+  margin: 5px 0;
+}
+
+.circle:first-child {
+  width: 20px;
+  height: 20px;
+  margin: 0;
 }
 
 .circle.good {
@@ -518,7 +524,7 @@ td.actions {
 
 .corner {
   position: absolute;
-  font-size: .75em;
+  font-size: .7em;
   margin: 10px 15px;
   opacity: 0.4;
   transition: all .3s ease;

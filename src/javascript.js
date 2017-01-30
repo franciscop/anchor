@@ -31,17 +31,20 @@ function process(word){
   return {
     id: word.id,
     index: word.index,
-    titletopleft: 'Number of the card being displayed',
-    topleft: '#' + word.index,
-    titletopright: 'Current score for this word, ~' +
-      Math.floor(100 - 100 * word.chance) + '%',
-    topright: '★'.repeat(5 - Math.floor(5 * word.chance)) || '☹',
-    bottomright: word.tries.slice(-5).map(tried => `<span title="${
-      tried.type
-    } answer ${moment(tried.time).fromNow()}" class="circle ${tried.type}"></span>`).join(''),
-    titlebottomleft: 'Time from the last try at this card',
-    bottomleft: word.tries.slice(-1).map(tried => moment ?
+    // titletopleft: 'Number of the card being displayed',
+    // topleft: '#' + word.index,
+    // titletopright: 'Current score for this word, ~' +
+    //   Math.floor(100 - 100 * word.chance) + '%',
+    // topright: '★'.repeat(5 - Math.floor(5 * word.chance)) || '☹',
+    bottomleft: word.tries.slice(-5).map(tried => `
+      <span
+        title="${tried.type} answer ${moment(tried.time).fromNow()}"
+        class="circle ${tried.type}"></span>
+    `).join(''),
+    titlebottomright: 'Time from the last try at this card',
+    bottomright: word.tries.slice(-1).map(tried => moment ?
       moment(tried.time).fromNow() : '').join(''),
+
     top: word.extra || '',
     middle: word.word,
     bottom: word.meaning
