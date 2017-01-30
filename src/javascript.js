@@ -60,6 +60,12 @@ var display = (initial) => memory.pick().then(word => {
   memory.word = word;
   card.load(process(word));
 
+  console.log(word);
+  if (word.tries && word.tries.length === 0) {
+    console.log("Flipping");
+    card.flip();
+  }
+
   memory.retrieve().then(data => {
     var table = document.querySelector('table');
     if (!table) return;
