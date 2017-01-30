@@ -446,7 +446,7 @@ td.actions {
 .circle:nth-child(2) {
   width: 16px;
   height: 15px;
-  margin: 2px;
+  margin: 2px 0;
 }
 
 .circle.good {
@@ -532,7 +532,7 @@ td.actions {
 
 .corner {
   position: absolute;
-  font-size: .7em;
+  font-size: .75em;
   margin: 10px 15px;
   opacity: 0.4;
   transition: all .3s ease;
