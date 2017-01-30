@@ -127,6 +127,11 @@ var datasets = [{
   sheet: '1x0Bq4W9SEBnN4TXKZh47FY0a0Mg0z-BiSRHOw02dN0c',
   author: 'me',
   active: false
+}, {
+  title: 'Hiragana',
+  sheet: '1Sue3deRy2f6KrNrZ1RQ00EIwBc5jBYdVF-2ha5pozlA',
+  author: 'Francisco',
+  active: false
 }];
 
 function setDataset (set) {
