@@ -110,13 +110,13 @@ The total time the students spends with a particular concept should influence on
 
 Facebook. Instagram. Snapchat. All have in common something I read on [Hooked: How to Build Habit-Forming Products](https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788): they get randomized interval notifications. Make them too often and they are annoying, make them to sparsely and the user doesn't engage. But I digress, how to apply this to learning?
 
-The main idea is to make it random enough so that it's interesting, but not too much as to skip concepts. So there's a small random factor to add some variation.
+There's a small random factor to add some variation. This is not noticeable in 99% of the situations, but it avoids deadlocks in some cases where you are fighting 2 concepts with a string of negatives so they are not the only ones appearing.
 
 
 
 ## Closing thoughts
 
-This is just the beginning; by doing this we are optimizing learning each concept, but there is still a lot to do. We don't want to optimize for *one item*, but for *learning concepts or subjects*, so there should be a wrapping library that wraps this one and acts as the general guide. Ideas:
+This is just the beginning; by doing this we are optimizing learning each item, but there is still a lot to do. We don't want to optimize for *one item*, but for *learning concepts or subjects*, so there should be a wrapping library that wraps this one and acts as the general guide. Ideas:
 
 - Is the ratio of right/wrong related to user disengagement? If so, could we tweak it to keep the ratio balanced to optimize for longer study time?
 - Does the time of the day or other habits influence on the method of study?
