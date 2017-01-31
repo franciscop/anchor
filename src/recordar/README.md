@@ -73,7 +73,7 @@ The concept is easy, the memory retention depends on how long ago you studied th
 
 The main idea is that, when some time passes and just at the right time before you start to forget the concept but not too early (or it'd be repetitive), the concept pops up and you are reminded about it:
 
-![Forgetting kick](forgetting-kick.jpg)
+![Forgetting kick](img/forgetting-kick.jpg)
 
 By using [this equation `1 - ln(x) / (2 * ln(HALFLIFE))`](https://www.wolframalpha.com/input/?i=1+-+ln%5Bx%5D+%2F+%5B2+*+ln%5B3600%5D%5D+from+0+to+5000) we can also regulate the decay speed; the harder the content of each individual test, the shorter the retention rate (shorter half-life).
 
