@@ -23,6 +23,7 @@ module.exports = function (grunt) {
         },
         files: {
           'javascript.min.js': [
+            'src/recordar/index.js',
             'src/touch.js',
             'src/store.js',
             'src/analyze.js',
@@ -40,7 +41,7 @@ module.exports = function (grunt) {
           'package.js', // To bump versions
           'Gruntfile.js',
           'superdom.js',
-          'src/**.*',
+          'src/**/*',
           'test/**/*'
         ],
         tasks: ['default'],

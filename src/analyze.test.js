@@ -1,4 +1,5 @@
-let analyze = require('../src/analyze');
+// let memoriza = require('./index.js');
+let analyze = require('./analyze');
 
 let timeago = (time) => {
   if (typeof time === 'number') time = { seconds: time };
