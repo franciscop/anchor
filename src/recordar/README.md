@@ -12,7 +12,7 @@ const answers = [
 const options = {};
 
 recordar(answers, options).then(score => {
-  console.log(score);
+  console.log(score);  // 0.600824682559511
 });
 ```
 

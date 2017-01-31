@@ -15,8 +15,6 @@ const timeago = time => {
 const good = ago => ({ type: 'good', time: timeago(ago) });
 const bad = ago => ({ type: 'bad', time: timeago(ago) });
 
-
-
 describe('constructor', () => {
   it('can build with nothing', () => {
     return recordar().then(score => expect(score).toBe(0.5));
