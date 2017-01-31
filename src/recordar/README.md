@@ -116,9 +116,9 @@ There's a small random factor to add some variation. This is not noticeable in 9
 
 ## Closing thoughts
 
-This is just the beginning; by doing this we are optimizing learning each item, but there is still a lot to do. We don't want to optimize for *one item*, but for *learning concepts or subjects*, so there should be a wrapping library that wraps this one and acts as the general guide. Ideas:
+This is just the beginning; by doing this we are optimizing learning each item, but there is still a lot to do. We don't want to optimize for *one item*, but for *learning concepts or subjects*, so there should be a wrapping library for this one that acts as the general guide. Ideas:
 
-- Is the ratio of right/wrong related to user disengagement? If so, could we tweak it to keep the ratio balanced to optimize for longer study time?
+- Is the ratio of right/wrong related to user engagement? If so, could we tweak it to keep the ratio balanced to optimize for longer study time?
 - Does the time of the day or other habits influence on the method of study?
 - For me there is a quick-review (swiping on the train) and an in-depth review (with paper and pen). This should be accounted somehow, but not sure if it can be done at this level or it should be done at the level above.
 - Machine learning! I'm pretty sure this is the perfect situation for machine learning. I have already few thousands evaluations from my own, but I'd love to be able to get them from other people.
