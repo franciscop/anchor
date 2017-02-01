@@ -1,8 +1,3 @@
-let memoriza;
-if (typeof module !== 'undefined') {
-  memoriza = require('./memory/index.js');
-}
-
 let analyze = function(set){
   if (!set || !set.length) return;
 
@@ -11,7 +6,7 @@ let analyze = function(set){
     one.tries = one.tries || [];
     var parts = one.id.split(':');
     one.index = parts ? parseInt(parts.pop()) : 0;
-    return memoriza()(one.tries);
+    return recordar(one.tries);
   };
 
   var chance = cb => (word, i, all) => Object.assign({}, word, {

@@ -1,14 +1,13 @@
-var memory = {
-  dataset: data => new Promise((resolve, reject) => {
+const store = require('./store.js');
+const recordar = require('recordar');
 
-    if (data) {
-      return memory.store(data).then(resolve);
-    }
+const memory = {
+  dataset: data => {
+    if (data) return memory.store(data);
+    return memory.retrieve();
+  },
 
-    memory.retrieve().then(resolve);
-  }),
-
-  store: (data, name = memory.name) => new Promise((resolve, reject) => {
+  store: (data, name = memory.name) => {
     data = data instanceof Array ? data : [data];
     var stored = store.getAll();
     data = data.map((word, i) => Object.assign({}, word, {
@@ -21,8 +20,8 @@ var memory = {
     }));
 
     data.forEach(word => store.set(word.id, word));
-    resolve(memory.retrieve());
-  }),
+    return memory.retrieve();
+  },
 
   retrieve: (name = memory.name) => new Promise((resolve, reject) => {
     var data = store.getAll();
@@ -35,10 +34,10 @@ var memory = {
     resolve(Object.keys(data).map(key => data[key]).filter(sameset).map(settime));
   }),
 
-  load: (url, name) => new Promise((resolve, reject) => {
+  load: (url, name) => {
     memory.name = name || (url.split('/').pop() || '').replace(/\.json$/, '');
-    fetch(url).then(res => res.json()).then(data => memory.dataset(data, name)).then(resolve);
-  }),
+    return fetch(url).then(res => res.json()).then(memory.dataset);
+  },
 
   // From here: https://developers.google.com/gdata/samples/spreadsheet_sample
   // and here: https://github.com/franciscop/drive-db
@@ -84,113 +83,19 @@ var memory = {
     memory.dataset(data).then(resolve);
   }),
 
-  // Initialize it so we don't need to generate random numbers each time; speeds it up a lot
-  randomTable: [],
-  randomIndex: 0,
-  random: () => {
-    if (!memory.randomTable.length) {
-      for (var i=1e6; i--;) {
-        memory.randomTable.push(Math.random());
-      }
-    }
-
-    memory.randomIndex++;
-    if (memory.randomIndex >= memory.randomTable.length) memory.randomIndex = 0;
-    return memory.randomTable[memory.randomIndex];
-  },
-
-  // Every one of the factors should tend to 1
-  factors: [
-
-    // Map each try to a number (0.5, 0.8 or 2) and make them approach to 1
-    // the further away in time that they are. This way, recent tries get more
-    // value than older values
-    // function error (word) {
-    //   if (!word || !word.tries || !word.tries.length) return 1;
-    //
-    //   var chances = word.tries.map(tried => Object.assign({}, tried, {
-    //     timediff: (new Date() - tried.time) / 1000
-    //   })).map(tried => Object.assign({}, tried, {
-    //     // Get the coefficient of importance depending on the time
-    //     // Adjust the "0.0001" for the X axis
-    //     // Wolfram Alpha: LogLinearPlot 1 / (0.0001 * x + 1) from 0 to 10000000
-    //     coeff: 1 / (0.0001 * tried.timediff + 1)
-    //   })).map(tried => Object.assign({}, tried, {
-    //     value: { good: 0.5, bad: 2, skip: 1.5 }[tried.type] || 1
-    //   })).map(tried => tried.coeff * tried.value + (1 - tried.coeff));
-    //
-    //   // Multiply all of the coefficients
-    //   return chances.reduce((all, one) => all * one, 1);
-    // },
-
-    // Time factor; the longer the time, the more you don't know
-    function forget (word) {
-      var last = word.tries[word.tries.length - 1];
-      if (!last) return 1;
-      // Wolfram Alpha: ln(x) / 8 from 0 to 10000
-      return Math.max(0, Math.log((new Date() - last.time) / 1000) / 8);
-    },
-
-    // Accuracy factor; the more errors you make, the less that you know
-    function accuracyfactordecay(word) {
-      if (!word.tries.length) return 1;
-
-      // Forget 50% in e ^ (-A * t)
-      let coeffs = {
-        hour: 0.0002,  // 1h
-        day: 0.000008  // 24h
-      };
-      let size = (all, one) => {
-        let timediff = (new Date() - one.time) / 1000;
-        let remember = Math.pow(Math.E, (-coeffs.day * timediff));
-        // Force each try to always influence even if it's just a bit
-        remember = Math.max(remember, 0.5);
-        return all + remember;
-      };
-
-      var good = word.tries.filter(n => n.type === 'good').reduce(size, 1);
-      var bad = word.tries.filter(n => n.type === 'bad').reduce(size, 1);
-      var skip = word.tries.filter(n => n.type === 'skip').reduce(size, 0);
-      return (bad + (skip * 0.2)) / good;
-    },
-
-    // function accuracyfactor(word) {
-    //   if (!word.tries.length) return 1;
-    //
-    //   var good = word.tries.filter(n => n.type === 'good').length + 1;
-    //   var bad = word.tries.filter(n => n.type === 'bad').length + 1;
-    //   var skip = word.tries.filter(n => n.type === 'skip').length;
-    //   return (bad + (skip * 0.2)) / good;
-    // },
-
-    // Make it slightly random
-    function index(word, i, all) {
-      return 1.2 - 0.4 * (word.index / all.length);
-    },
-
-    // Make it slightly random
-    function randomfactor(word) {
-      return 0.2 * memory.random() + 0.9;
-    }
-  ],
-
-
-  chance: (word, i, all) => {
-    // console.log(word.id );
-    var j = parseInt(word.id.split(':')[1]);
-    var chance = memory.factors.reduce((chance, cb) => chance * cb(word, i, all), 0.5);
-    // console.log("Total:", word.word, i, chance);
-    if (chance < 0) return 0;
-    if (chance > 1) return 1;
-    return chance;
-  },
-
   pick: () => new Promise((resolve, reject) => {
+    let time = new Date();
     memory.dataset().then((data) => {
       var chance = cb => (word, i, all) => Object.assign({}, word, { chance: cb(word, i, all) });
-      var sorted = data.map(chance(memory.chance)).sort((a, b) => b.chance - a.chance);
-      memory.word = sorted[0];
-      resolve(sorted[0]);
+      Promise.all(data.map(one => recordar(one.tries))).then(all => {
+        all.map((score, i) => {
+          data[i].score = score;
+        });
+        let sorted = data.sort((a, b) => a.score - b.score);
+        memory.word = sorted[0];
+        console.log(sorted);
+        resolve(sorted[0]);
+      });
     })
   }),
 
@@ -204,5 +109,4 @@ var memory = {
   skip: word => memory.solve(word, 'skip')
 };
 
-// Initialize it
-memory.random();
+module.exports = memory;

@@ -18,10 +18,15 @@
   "homepage": "https://github.com/franciscop/anchor#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
     "grunt-bytesize": "^0.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-semistandard": "^1.0.6"
+  },
+  "dependencies": {
+    "cookiesjs": "^1.4.2",
+    "recordar": "^1.1.1"
   }
 }

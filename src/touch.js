@@ -34,3 +34,8 @@ function touch(cb){
     });
   });
 }
+
+
+if (typeof module !== 'undefined') {
+  module.exports = touch;
+}

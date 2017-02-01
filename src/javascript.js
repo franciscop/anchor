@@ -1,3 +1,9 @@
+const FlashCard = require('./flash.js');
+const memory = require('./memory.js');
+const cookies = require('cookiesjs');
+console.log(cookies);
+
+
 var card = new FlashCard('.hero', { out: 300, confirm: 'Clear all data?' });
 
 // card.open = () => display();
@@ -35,8 +41,8 @@ function process(word){
     // topleft: '#' + word.index,
     // titletopright: 'Current score for this word, ~' +
     //   Math.floor(100 - 100 * word.chance) + '%',
-    // topright: '★'.repeat(5 - Math.floor(5 * word.chance)) || '☹',
-    bottomleft: word.tries.slice(-5).map(tried => `
+    topleft: '★'.repeat(Math.ceil(5 * word.score)) + '☆'.repeat(5 - Math.ceil(5 * word.score)),
+    bottomleft: word.tries.slice(-5).reverse().map(tried => `
       <span
         title="${tried.type} answer ${moment(tried.time).fromNow()}"
         class="circle ${tried.type}"></span>
@@ -59,10 +65,6 @@ var display = (initial) => memory.pick().then(word => {
   word = initial && initial.id ? initial : word;
   memory.word = word;
   card.load(process(word));
-
-  if (word.tries && word.tries.length === 0) {
-    card.flip();
-  }
 
   memory.retrieve().then(data => {
     var table = document.querySelector('table');

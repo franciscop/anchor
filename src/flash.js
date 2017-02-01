@@ -1,3 +1,5 @@
+const touch = require('./touch');
+
 var FlashCard = function(selector, opts){
   if (!(this instanceof FlashCard)) {
     return new FlashCard(selector, opts);
@@ -158,4 +160,10 @@ var FlashCard = function(selector, opts){
   });
 
   return this;
+}
+
+
+
+if (typeof module !== 'undefined') {
+  module.exports = FlashCard;
 }
