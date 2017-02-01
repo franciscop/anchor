@@ -1,8 +1,6 @@
 const FlashCard = require('./flash.js');
 const memory = require('./memory.js');
 const cookies = require('cookiesjs');
-console.log(cookies);
-
 
 var card = new FlashCard('.hero', { out: 300, confirm: 'Clear all data?' });
 
@@ -34,14 +32,15 @@ u('footer a.correct').handle('click', e => {
 });
 
 function process(word){
+  let score = Math.ceil(5 * word.score);
   return {
     id: word.id,
     index: word.index,
     // titletopleft: 'Number of the card being displayed',
     // topleft: '#' + word.index,
     // titletopright: 'Current score for this word, ~' +
-    //   Math.floor(100 - 100 * word.chance) + '%',
-    topleft: '★'.repeat(Math.ceil(5 * word.score)) + '☆'.repeat(5 - Math.ceil(5 * word.score)),
+    //   Math.ceil(100 - 100 * word.chance) + '%',
+    topleft: word.tries.length ? '★'.repeat(score) + '☆'.repeat(5 - score) : '',
     bottomleft: word.tries.slice(-5).reverse().map(tried => `
       <span
         title="${tried.type} answer ${moment(tried.time).fromNow()}"
