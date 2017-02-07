@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "cookiesjs": "^1.4.2",
-    "recordar": "^1.1.1"
+    "recordar": "^1.2.0"
   }
 }

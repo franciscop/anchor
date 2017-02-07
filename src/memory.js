@@ -1,6 +1,12 @@
 const store = require('./store.js');
 const recordar = require('recordar');
 
+// If there is a noticeable difference
+// 0.49999 ~ 0.5; 0.50001 ~ 0.5; 0.6 > 0.5
+const equal = (accuracy => (a, b) => {
+  return Math.abs(a - b) < accuracy;
+})(0.01);
+
 const memory = {
   dataset: data => {
     if (data) return memory.store(data);
@@ -87,11 +93,16 @@ const memory = {
     let time = new Date();
     memory.dataset().then((data) => {
       var chance = cb => (word, i, all) => Object.assign({}, word, { chance: cb(word, i, all) });
-      Promise.all(data.map(one => recordar(one.tries))).then(all => {
+      Promise.all(data.map(one => recordar(one.tries, { word: one.word }))).then(all => {
         all.map((score, i) => {
           data[i].score = score;
         });
-        let sorted = data.sort((a, b) => a.score - b.score);
+        // Sort by index and then by score
+        let sorted = data.sort((a, b) => a.index - b.index).sort((a, b) => {
+          if (!equal(a.score, b.score)) {
+            return a.score - b.score;
+          }
+        });
         memory.word = sorted[0];
         console.log(sorted);
         resolve(sorted[0]);

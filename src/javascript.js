@@ -1,6 +1,7 @@
 const FlashCard = require('./flash.js');
 const memory = require('./memory.js');
 const cookies = require('cookiesjs');
+const store = require('./store.js');
 
 var card = new FlashCard('.hero', { out: 300, confirm: 'Clear all data?' });
 
