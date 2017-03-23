@@ -93,7 +93,7 @@ const memory = {
     let time = new Date();
     memory.dataset().then((data) => {
       var chance = cb => (word, i, all) => Object.assign({}, word, { chance: cb(word, i, all) });
-      Promise.all(data.map(one => recordar(one.tries, { word: one.word }))).then(all => {
+      Promise.all(data.map(one => recordar(one.tries, { word: one.word, halflife: 3600, minimum: 0.1 }))).then(all => {
         all.map((score, i) => {
           data[i].score = score;
         });
